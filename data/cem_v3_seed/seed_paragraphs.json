@@ -1,0 +1,1789 @@
+[
+ {
+  "pid": "s000",
+  "techs": [
+   "Flag_Waving",
+   "Slogans"
+  ],
+  "known_spans": [
+   [
+    "Slogans",
+    "Trump’s America"
+   ]
+  ],
+  "units": [
+   "We are in the early stages of a cultural civil war in which the left sees itself losing.",
+   "This is what led me to write my new New York Times best-selling book, “Trump’s America: The Truth About Our Nation’s Great Comeback.”",
+   "With each passing month the radical-extremist wing of the Democratic Party dominates the progressive wing more and more."
+  ],
+  "text": "We are in the early stages of a cultural civil war in which the left sees itself losing. This is what led me to write my new New York Times best-selling book, “Trump’s America: The Truth About Our Nation’s Great Comeback.” With each passing month the radical-extremist wing of the Democratic Party dominates the progressive wing more and more."
+ },
+ {
+  "pid": "s001",
+  "techs": [
+   "Slogans"
+  ],
+  "known_spans": [],
+  "units": [
+   "We have taught that homosexuality is an abomination, and how it is a felony in every state in our union (Leviticus 18:22; 20:13; Jude 1:7)."
+  ],
+  "text": "We have taught that homosexuality is an abomination, and how it is a felony in every state in our union (Leviticus 18:22; 20:13; Jude 1:7)."
+ },
+ {
+  "pid": "s002",
+  "techs": [],
+  "known_spans": [],
+  "units": [
+   "According to the Hungarian Government's website, posted about the ultimatum that was given over the weekend."
+  ],
+  "text": "According to the Hungarian Government's website, posted about the ultimatum that was given over the weekend."
+ },
+ {
+  "pid": "s003",
+  "techs": [
+   "Conversation_Killer"
+  ],
+  "known_spans": [
+   [
+    "Conversation_Killer",
+    "T at’s y conc"
+   ]
+  ],
+  "units": [
+   "“We don’t want to put them on a ship back unless someone has had chance to look at if there’s a really bad situation for them,”",
+   "Saris said.",
+   "“That’s my concern.”"
+  ],
+  "text": "“We don’t want to put them on a ship back unless someone has had chance to look at if there’s a really bad situation for them,” Saris said. “That’s my concern.”"
+ },
+ {
+  "pid": "s004",
+  "techs": [
+   "False_Dilemma-No_Choice",
+   "Slogans"
+  ],
+  "known_spans": [],
+  "units": [
+   "“Now, ‘Islam’ means ‘Submission’.",
+   "You either submit, or you resist.",
+   "Are you going to submit?” he asked the crowds.",
+   "“Are you going to resist?”"
+  ],
+  "text": "“Now, ‘Islam’ means ‘Submission’. You either submit, or you resist. Are you going to submit?” he asked the crowds. “Are you going to resist?”"
+ },
+ {
+  "pid": "s005",
+  "techs": [
+   "Exaggeration-Minimisation"
+  ],
+  "known_spans": [
+   [
+    "Exaggeration-Minimisation",
+    "Dina Powell is everything that was wrong with the Bush administration"
+   ]
+  ],
+  "units": [
+   "Dina Powell is everything that was wrong with the Bush administration."
+  ],
+  "text": "Dina Powell is everything that was wrong with the Bush administration."
+ },
+ {
+  "pid": "s006",
+  "techs": [
+   "Exaggeration-Minimisation",
+   "Name_Calling-Labeling"
+  ],
+  "known_spans": [],
+  "units": [
+   "Please, don’t start calling me Nostradamus.",
+   "A blind man could see what was happening.",
+   "Donald “Art of the Deal”",
+   "Trump was obviously negotiating all week with the CIA, and he was obviously pushing to get what he wanted all the way up to the very last day.",
+   "On Thursday, the deadline established by law for releasing the records, the CIA undoubtedly blinked and Trump presumably got what he wanted in return for granting the CIA request for continued secrecy."
+  ],
+  "text": "Please, don’t start calling me Nostradamus. A blind man could see what was happening. Donald “Art of the Deal” Trump was obviously negotiating all week with the CIA, and he was obviously pushing to get what he wanted all the way up to the very last day. On Thursday, the deadline established by law for releasing the records, the CIA undoubtedly blinked and Trump presumably got what he wanted in return for granting the CIA request for continued secrecy."
+ },
+ {
+  "pid": "s007",
+  "techs": [
+   "Doubt"
+  ],
+  "known_spans": [],
+  "units": [
+   "The Jewish groups said this anti-Semitic rhetoric “was used to encourage students to vote specifically against Noah Lew.",
+   "It is under this context that the (general assembly) occurred, and the report fundamentally misunderstands this, which alters the entire findings of the report.”"
+  ],
+  "text": "The Jewish groups said this anti-Semitic rhetoric “was used to encourage students to vote specifically against Noah Lew. It is under this context that the (general assembly) occurred, and the report fundamentally misunderstands this, which alters the entire findings of the report.”"
+ },
+ {
+  "pid": "s008",
+  "techs": [
+   "Appeal_to_Fear-Prejudice",
+   "Flag_Waving",
+   "Loaded_Language"
+  ],
+  "known_spans": [],
+  "units": [
+   "The Iranians also operate a global network of jihad terror organizations, one of which, Hizballah, is quite active in Mexico now, with the obvious ultimate intention of crossing the border and committing jihad massacres of Americans.",
+   "Obama has given a tremendous boost to these initiatives, as well as to Iran’s nuclear program, with his nuclear deal that has given the Iranians hundreds of billions of dollars and essentially a green light to manufacture nuclear weapons, in exchange for absolutely nothing."
+  ],
+  "text": "The Iranians also operate a global network of jihad terror organizations, one of which, Hizballah, is quite active in Mexico now, with the obvious ultimate intention of crossing the border and committing jihad massacres of Americans. Obama has given a tremendous boost to these initiatives, as well as to Iran’s nuclear program, with his nuclear deal that has given the Iranians hundreds of billions of dollars and essentially a green light to manufacture nuclear weapons, in exchange for absolutely nothing."
+ },
+ {
+  "pid": "s009",
+  "techs": [
+   "Exaggeration-Minimisation",
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "known_spans": [
+   [
+    "Exaggeration-Minimisation",
+    "You have to whip them up into a frenzy in order for them to vote"
+   ]
+  ],
+  "units": [
+   "Election Strategy: “You whip ’em up.",
+   "The poor, the middle income.",
+   "You have to whip them up into a frenzy in order for them to vote.”"
+  ],
+  "text": "Election Strategy: “You whip ’em up. The poor, the middle income. You have to whip them up into a frenzy in order for them to vote.”"
+ },
+ {
+  "pid": "s010",
+  "techs": [
+   "Appeal_to_Fear-Prejudice",
+   "Exaggeration-Minimisation",
+   "False_Dilemma-No_Choice",
+   "Name_Calling-Labeling"
+  ],
+  "known_spans": [],
+  "units": [
+   "Even worse, the bannings of Sellner, Pettibone, Southern, and Bachmann were just part of a long pattern.",
+   "Pamela Geller and I were banned from entering Britain in 2013, apparently for life, also for the crime of telling the truth about Islam and jihad.",
+   "Meanwhile, Britain has a steadily lengthening record of admitting jihad preachers without a moment of hesitation.",
+   "Syed Muzaffar Shah Qadri’s preaching of hatred and jihad violence was so hardline that he was banned from preaching in Pakistan, but the UK Home Office welcomed him into Britain."
+  ],
+  "text": "Even worse, the bannings of Sellner, Pettibone, Southern, and Bachmann were just part of a long pattern. Pamela Geller and I were banned from entering Britain in 2013, apparently for life, also for the crime of telling the truth about Islam and jihad. Meanwhile, Britain has a steadily lengthening record of admitting jihad preachers without a moment of hesitation. Syed Muzaffar Shah Qadri’s preaching of hatred and jihad violence was so hardline that he was banned from preaching in Pakistan, but the UK Home Office welcomed him into Britain."
+ },
+ {
+  "pid": "s011",
+  "techs": [
+   "Slogans"
+  ],
+  "known_spans": [
+   [
+    "Slogans",
+    "Def Jihad\""
+   ]
+  ],
+  "units": [
+   "Ms Geller, of the Atlas Shrugs blog, and Mr Spencer, of Jihad Watch, are also co-founders of the American Freedom Defense Initiative, best known for a pro-Israel \"Defeat Jihad\" poster campaign on the New York subway."
+  ],
+  "text": "Ms Geller, of the Atlas Shrugs blog, and Mr Spencer, of Jihad Watch, are also co-founders of the American Freedom Defense Initiative, best known for a pro-Israel \"Defeat Jihad\" poster campaign on the New York subway."
+ },
+ {
+  "pid": "s012",
+  "techs": [
+   "Doubt",
+   "Name_Calling-Labeling"
+  ],
+  "known_spans": [],
+  "units": [
+   "And finally, in a bizarre tweet, Greenwald opined, “I hope the story [maligning Assange] turns out true” – apparently because maintenance of the Guardian’s reputation is more important than Assange’s fate and the right of journalists to dig up embarrassing secrets without fear of being imprisoned."
+  ],
+  "text": "And finally, in a bizarre tweet, Greenwald opined, “I hope the story [maligning Assange] turns out true” – apparently because maintenance of the Guardian’s reputation is more important than Assange’s fate and the right of journalists to dig up embarrassing secrets without fear of being imprisoned."
+ },
+ {
+  "pid": "s013",
+  "techs": [
+   "Conversation_Killer"
+  ],
+  "known_spans": [],
+  "units": [
+   "“What’s often called political correctness is politeness,”",
+   "Clinton said.",
+   "“It’s not being rude and insulting to people.",
+   "It’s respecting the diversity that we have in our society,” she said.",
+   "“The Democratic Party is a much more diverse political party, attracting people who are African-American, Latino, LGBT, whatever the reason why people feel more comfortable where they are taken in, where they are included as part of a political movement or party.”",
+   "“And I don’t think it’s politically correct to say we value that.",
+   "And I don’t want to go around insulting people.",
+   "I don’t want to paint with a broad brush every immigrant is this, every African-American is that, every, you know, other person with different religious beliefs or whatever – that’s childish.”"
+  ],
+  "text": "“What’s often called political correctness is politeness,” Clinton said. “It’s not being rude and insulting to people. It’s respecting the diversity that we have in our society,” she said. “The Democratic Party is a much more diverse political party, attracting people who are African-American, Latino, LGBT, whatever the reason why people feel more comfortable where they are taken in, where they are included as part of a political movement or party.” “And I don’t think it’s politically correct to say we value that. And I don’t want to go around insulting people. I don’t want to paint with a broad brush every immigrant is this, every African-American is that, every, you know, other person with different religious beliefs or whatever – that’s childish.”"
+ },
+ {
+  "pid": "s014",
+  "techs": [
+   "Causal_Oversimplification"
+  ],
+  "known_spans": [
+   [
+    "Causal_Oversimplification",
+    "T se groups of people a s mply enemie f e cross of Christ and know not the power of God unto salv ion"
+   ]
+  ],
+  "units": [
+   "These groups of people are simply enemies of the cross of Christ and know not the power of God unto salvation (Philippians 3:18)."
+  ],
+  "text": "These groups of people are simply enemies of the cross of Christ and know not the power of God unto salvation (Philippians 3:18)."
+ },
+ {
+  "pid": "s015",
+  "techs": [
+   "Flag_Waving",
+   "Loaded_Language"
+  ],
+  "known_spans": [
+   [
+    "Flag_Waving",
+    "keeping secret from the American people"
+   ]
+  ],
+  "units": [
+   "But things obviously went dreadfully wrong in Mexico City, which is why the CIA had to shut down that part of the post-assassination investigation.",
+   "Not surprisingly, the CIA’s Mexico City operations regarding Oswald are among the 98 percent of the records that Trump and the CIA have chosen to continue keeping secret from the American people, on grounds of “national security” of course."
+  ],
+  "text": "But things obviously went dreadfully wrong in Mexico City, which is why the CIA had to shut down that part of the post-assassination investigation. Not surprisingly, the CIA’s Mexico City operations regarding Oswald are among the 98 percent of the records that Trump and the CIA have chosen to continue keeping secret from the American people, on grounds of “national security” of course."
+ },
+ {
+  "pid": "s016",
+  "techs": [
+   "Doubt",
+   "Exaggeration-Minimisation",
+   "Guilt_by_Association",
+   "Name_Calling-Labeling"
+  ],
+  "known_spans": [],
+  "units": [
+   "TAOS, N.M.",
+   "(AP) — The Latest on 11 children found living in a filthy, makeshift compound in New Mexico (all times local): 4 p.m.",
+   "A representative of a New York mosque says the raid of a ramshackle compound in New Mexico is being used as propaganda against Muslims.",
+   "Ali Abdul-Karim Judan, a spokesman for the mosque, said in a video posted Thursday on Facebook that the incident was a domestic situation that has nothing to do with extremism.",
+   "The grandfather of a severely disabled boy, who authorities say was kidnapped by his father and taken to the compound, has said remains found there are those of his grandson.",
+   "The man is an imam at the New York mosque.",
+   "Judan also cast doubt on a contention by prosecutors that children found at the site were being trained to use assault rifles in preparation for school shootings.",
+   "He said authorities should not have made that claim without stronger evidence.",
+   "The mosque has attracted radicals over the years, including a man who later helped bomb the World Trade Center in 1993…."
+  ],
+  "text": "TAOS, N.M. (AP) — The Latest on 11 children found living in a filthy, makeshift compound in New Mexico (all times local): 4 p.m. A representative of a New York mosque says the raid of a ramshackle compound in New Mexico is being used as propaganda against Muslims. Ali Abdul-Karim Judan, a spokesman for the mosque, said in a video posted Thursday on Facebook that the incident was a domestic situation that has nothing to do with extremism. The grandfather of a severely disabled boy, who authorities say was kidnapped by his father and taken to the compound, has said remains found there are those of his grandson. The man is an imam at the New York mosque. Judan also cast doubt on a contention by prosecutors that children found at the site were being trained to use assault rifles in preparation for school shootings. He said authorities should not have made that claim without stronger evidence. The mosque has attracted radicals over the years, including a man who later helped bomb the World Trade Center in 1993…."
+ },
+ {
+  "pid": "s017",
+  "techs": [
+   "Appeal_to_Authority",
+   "Loaded_Language"
+  ],
+  "known_spans": [],
+  "units": [
+   "The government needs to stop cooperating with, and listening to, Muslim Brotherhood front groups such as CAIR and ISNA immediately.",
+   "The Muslim Brotherhood document, the Explanatory Memorandum, has made it clear that the Brotherhood’s objective is to destroy our civilization from within by our own hands with the influence of these groups.",
+   "Moreover, as Robert Spencer advises, there needs to be legislation that will bar all such groups and affiliated individuals from advising the government or receiving any grants from it."
+  ],
+  "text": "The government needs to stop cooperating with, and listening to, Muslim Brotherhood front groups such as CAIR and ISNA immediately. The Muslim Brotherhood document, the Explanatory Memorandum, has made it clear that the Brotherhood’s objective is to destroy our civilization from within by our own hands with the influence of these groups. Moreover, as Robert Spencer advises, there needs to be legislation that will bar all such groups and affiliated individuals from advising the government or receiving any grants from it."
+ },
+ {
+  "pid": "s018",
+  "techs": [
+   "Flag_Waving",
+   "Repetition"
+  ],
+  "known_spans": [
+   [
+    "Flag_Waving",
+    "American pe le dese ve t  know the full truth about Russia’ interference in our democracy"
+   ]
+  ],
+  "units": [
+   "Former San Antonio, Texas mayor and former Housing and Urban Development Secretary Julian Castro tweeted that the “American people deserve to know the full truth about Russia’s interference in our democracy."
+  ],
+  "text": "Former San Antonio, Texas mayor and former Housing and Urban Development Secretary Julian Castro tweeted that the “American people deserve to know the full truth about Russia’s interference in our democracy."
+ },
+ {
+  "pid": "s019",
+  "techs": [
+   "Exaggeration-Minimisation"
+  ],
+  "known_spans": [
+   [
+    "Exaggeration-Minimisation",
+    "the claim is “100% false"
+   ]
+  ],
+  "units": [
+   "Manafort held secret talks with Assange in Ecuadorian embassy Donald Trump’s former campaign manager Paul Manafort held secret talks with Julian Assange inside the Ecuadorian embassy in London, and visited around the time he joined Trump’s campaign, the Guardian has been told.",
+   "Sources have said Manafort went to see Assange in 2013, 2015 and in spring 2016 – during the period when he was made a key figure in Trump’s push for the White House.",
+   "It is unclear why Manafort wanted to see Assange and what was discussed.",
+   "But the last meeting is likely to come under scrutiny and could interest Robert Mueller, the special prosecutor who is investigating alleged collusion between the Trump campaign and Russia.",
+   "A well-placed source has told the Guardian that Manafort went to see Assange around March 2016.",
+   "Months later WikiLeaks released a stash of Democratic emails stolen by Russian intelligence officers.",
+   "Manafort, 69, denies involvement in the hack and says the claim is “100% false”.",
+   "His lawyers declined to answer the Guardian’s questions about the visits."
+  ],
+  "text": "Manafort held secret talks with Assange in Ecuadorian embassy Donald Trump’s former campaign manager Paul Manafort held secret talks with Julian Assange inside the Ecuadorian embassy in London, and visited around the time he joined Trump’s campaign, the Guardian has been told. Sources have said Manafort went to see Assange in 2013, 2015 and in spring 2016 – during the period when he was made a key figure in Trump’s push for the White House. It is unclear why Manafort wanted to see Assange and what was discussed. But the last meeting is likely to come under scrutiny and could interest Robert Mueller, the special prosecutor who is investigating alleged collusion between the Trump campaign and Russia. A well-placed source has told the Guardian that Manafort went to see Assange around March 2016. Months later WikiLeaks released a stash of Democratic emails stolen by Russian intelligence officers. Manafort, 69, denies involvement in the hack and says the claim is “100% false”. His lawyers declined to answer the Guardian’s questions about the visits."
+ },
+ {
+  "pid": "s020",
+  "techs": [
+   "Doubt"
+  ],
+  "known_spans": [],
+  "units": [
+   "“Well, they could be–lets face it, ISIS twice before the attack, ISIS warned the United States that they would attack Las Vegas in June and August after the attack claimed responsibility four times.",
+   "Meanwhile, the local law enforcement investigative services are telling us there is no terrorist connection–lone gunman, again, something is not adding up,”",
+   "Perry replied."
+  ],
+  "text": "“Well, they could be–lets face it, ISIS twice before the attack, ISIS warned the United States that they would attack Las Vegas in June and August after the attack claimed responsibility four times. Meanwhile, the local law enforcement investigative services are telling us there is no terrorist connection–lone gunman, again, something is not adding up,” Perry replied."
+ },
+ {
+  "pid": "s021",
+  "techs": [
+   "Flag_Waving"
+  ],
+  "known_spans": [
+   [
+    "Flag_Waving",
+    "American blood"
+   ]
+  ],
+  "units": [
+   "Furthermore, Iran has funded and armed its terrorist proxy Hezbollah, which has sent its militia from its home base of Lebanon to fight alongside Assad's forces.",
+   "And Iran has used Syria as a transit point for shipment of sophisticated rockets to Hezbollah in Lebanon for future use against Israeli population centers.",
+   "Despite the fact that Hezbollah has American blood on its hands, the U.S.-led coalition has chosen not to do anything about Hezbollah’s presence in Syria, bought and paid for by Iran."
+  ],
+  "text": "Furthermore, Iran has funded and armed its terrorist proxy Hezbollah, which has sent its militia from its home base of Lebanon to fight alongside Assad's forces. And Iran has used Syria as a transit point for shipment of sophisticated rockets to Hezbollah in Lebanon for future use against Israeli population centers. Despite the fact that Hezbollah has American blood on its hands, the U.S.-led coalition has chosen not to do anything about Hezbollah’s presence in Syria, bought and paid for by Iran."
+ },
+ {
+  "pid": "s022",
+  "techs": [
+   "Doubt",
+   "Loaded_Language",
+   "Name_Calling-Labeling"
+  ],
+  "known_spans": [
+   [
+    "Loaded_Language",
+    "smear"
+   ]
+  ],
+  "units": [
+   "Within hours of being published the Guardian piece was debunked as fake news.",
+   "That did not hinder other outlets to add to its smear.",
+   "Politico allowed \"a former CIA officer,\" writing under a pen name, to suggest - without any evidence - that the Guardian has been duped - not by its MI5/6 and Ecuadorian spy sources, but by Russian disinformation:"
+  ],
+  "text": "Within hours of being published the Guardian piece was debunked as fake news. That did not hinder other outlets to add to its smear. Politico allowed \"a former CIA officer,\" writing under a pen name, to suggest - without any evidence - that the Guardian has been duped - not by its MI5/6 and Ecuadorian spy sources, but by Russian disinformation:"
+ },
+ {
+  "pid": "s023",
+  "techs": [
+   "Appeal_to_Fear-Prejudice",
+   "False_Dilemma-No_Choice",
+   "Loaded_Language"
+  ],
+  "known_spans": [
+   [
+    "False_Dilemma-No_Choice",
+    "he he dquarters of my archdioces d my apostol ha  bee ccup ed by rad I am sts wh  wan us convert or d e"
+   ]
+  ],
+  "units": [
+   "not preparing for a confrontation with Islam, to which St.",
+   "John Paul II has called them (Ecclesia in Europa, No.",
+   "57).",
+   "We are under the impression that you do not take your brother Bishop Nona Amel, Chaldean-Catholic Archbishop of Mosul in exile, seriously, when he tells us: “Our present sufferings are the prelude to those that you, Europeans and Western Christians, will suffer in the near future.",
+   "I have lost my diocese.",
+   "The headquarters of my archdiocese and my apostolate have been occupied by radical Islamists who want us to convert or die.",
+   "(…) You are welcoming into your country an ever increasing number of Muslims.",
+   "You are in danger as well.",
+   "You must make strong and courageous decisions (…).",
+   "You think that all men are equal, but Islam does not say that all men are equal.",
+   "(…) If you do not understand this very quickly, you will become the victims of the enemy that you have invited into your home.”",
+   "(August 9, 2014) “.",
+   "This is a matter of life and death, and any complacency towards Islam is treasonous.",
+   "We do not wish the West to continue with Islamization, nor that your actions contribute to it.",
+   "Where then would we go to seek refuge?"
+  ],
+  "text": "not preparing for a confrontation with Islam, to which St. John Paul II has called them (Ecclesia in Europa, No. 57). We are under the impression that you do not take your brother Bishop Nona Amel, Chaldean-Catholic Archbishop of Mosul in exile, seriously, when he tells us: “Our present sufferings are the prelude to those that you, Europeans and Western Christians, will suffer in the near future. I have lost my diocese. The headquarters of my archdiocese and my apostolate have been occupied by radical Islamists who want us to convert or die. (…) You are welcoming into your country an ever increasing number of Muslims. You are in danger as well. You must make strong and courageous decisions (…). You think that all men are equal, but Islam does not say that all men are equal. (…) If you do not understand this very quickly, you will become the victims of the enemy that you have invited into your home.” (August 9, 2014) “. This is a matter of life and death, and any complacency towards Islam is treasonous. We do not wish the West to continue with Islamization, nor that your actions contribute to it. Where then would we go to seek refuge?"
+ },
+ {
+  "pid": "s024",
+  "techs": [
+   "Doubt"
+  ],
+  "known_spans": [
+   [
+    "Doubt",
+    "One can only speculate as to what the reasons for these lies actually are?"
+   ]
+  ],
+  "units": [
+   "One can only speculate as to what the reasons for these lies actually are?"
+  ],
+  "text": "One can only speculate as to what the reasons for these lies actually are?"
+ },
+ {
+  "pid": "s025",
+  "techs": [
+   "Appeal_to_Authority"
+  ],
+  "known_spans": [],
+  "units": [
+   "The outbreak of the contagious and deadly Marburg virus disease in the Kween district of eastern Uganda was declared by the nation’s Ministry of Health back on October 19.",
+   "Since then, five cases have been identified as international aid agencies, stretched thin by Madagascar’s black death outbreak, have rushed to deploy teams on the ground to control the recent outbreak.",
+   "This news comes amid a surge in cases of plague in Madagascar, which is considered to be the “worst outbreak in 50 years” and now at “crisis” point."
+  ],
+  "text": "The outbreak of the contagious and deadly Marburg virus disease in the Kween district of eastern Uganda was declared by the nation’s Ministry of Health back on October 19. Since then, five cases have been identified as international aid agencies, stretched thin by Madagascar’s black death outbreak, have rushed to deploy teams on the ground to control the recent outbreak. This news comes amid a surge in cases of plague in Madagascar, which is considered to be the “worst outbreak in 50 years” and now at “crisis” point."
+ },
+ {
+  "pid": "s026",
+  "techs": [
+   "Appeal_to_Fear-Prejudice",
+   "Repetition"
+  ],
+  "known_spans": [],
+  "units": [
+   "Evidently, they do think we are fools or willing to play the fool in exchange for the benefits of respectable conformity in the midst of an unparalleled debacle for the Church.",
+   "(Consider the example of Catholic Answers, which “defends the Faith” while refusing to recognize that it is under ferocious attack from the very vertices of the Church.",
+   "Silence at best is the price it must pay for remaining in good standing with the pro-homosexual bishop Francis has installed in San Diego.)"
+  ],
+  "text": "Evidently, they do think we are fools or willing to play the fool in exchange for the benefits of respectable conformity in the midst of an unparalleled debacle for the Church. (Consider the example of Catholic Answers, which “defends the Faith” while refusing to recognize that it is under ferocious attack from the very vertices of the Church. Silence at best is the price it must pay for remaining in good standing with the pro-homosexual bishop Francis has installed in San Diego.)"
+ },
+ {
+  "pid": "s027",
+  "techs": [
+   "Appeal_to_Fear-Prejudice",
+   "Exaggeration-Minimisation",
+   "Loaded_Language"
+  ],
+  "known_spans": [
+   [
+    "Exaggeration-Minimisation",
+    "u th h h  of the w is in her history"
+   ]
+  ],
+  "units": [
+   "No, Bergoglio must go.",
+   "The successors of the Apostles, the only ones in a position to end his rampage, must demand his resignation and, should he refuse as expected, act in this unprecedented emergency to declare his removal from the office he has criminally abused and whose very credibility he threatens to destroy.",
+   "May God give them the grace to do what must be done and what history will vindicate as a rescue of the Church during the height of the worst crisis in her history."
+  ],
+  "text": "No, Bergoglio must go. The successors of the Apostles, the only ones in a position to end his rampage, must demand his resignation and, should he refuse as expected, act in this unprecedented emergency to declare his removal from the office he has criminally abused and whose very credibility he threatens to destroy. May God give them the grace to do what must be done and what history will vindicate as a rescue of the Church during the height of the worst crisis in her history."
+ },
+ {
+  "pid": "s028",
+  "techs": [
+   "Loaded_Language",
+   "Name_Calling-Labeling",
+   "Slogans"
+  ],
+  "known_spans": [
+   [
+    "Loaded_Language",
+    "absurd"
+   ]
+  ],
+  "units": [
+   "In April 2016, Zakkout promoted a report discussing the absurd notion of Jewish involvement in the September 11th attacks on the World Trade Center and the Pentagon.",
+   "A photo from the report shows the burning towers with a Jewish Star affixed to one.",
+   "The report begins, “It ain’t debatable!",
+   "Soup to nuts, top to bottom, the 9/11/01 terrorist attacks on New York City and Washington D.C. were an ‘Israeli’-Jewish job.”",
+   "The website which published the report and which Zakkout linked to is Mouqawamah Music, a site that openly calls for “Death to Israel” and labels the Jewish religion “wicked and filth-ridden.”"
+  ],
+  "text": "In April 2016, Zakkout promoted a report discussing the absurd notion of Jewish involvement in the September 11th attacks on the World Trade Center and the Pentagon. A photo from the report shows the burning towers with a Jewish Star affixed to one. The report begins, “It ain’t debatable! Soup to nuts, top to bottom, the 9/11/01 terrorist attacks on New York City and Washington D.C. were an ‘Israeli’-Jewish job.” The website which published the report and which Zakkout linked to is Mouqawamah Music, a site that openly calls for “Death to Israel” and labels the Jewish religion “wicked and filth-ridden.”"
+ },
+ {
+  "pid": "s029",
+  "techs": [
+   "Name_Calling-Labeling",
+   "Whataboutism"
+  ],
+  "known_spans": [],
+  "units": [
+   "Will none of the hierarchs rise to defend the Church as “a new Athanasius, a new Basil”?",
+   "Even the best among them continue to limit themselves to generalized lamentations at conferences or in interviews about the parlous state of the Church or at most the “confusion”",
+   "Francis has caused by not “clarifying” precisely what he has just clarified.",
+   "They avoid the absolutely necessary direct and public exposure of error at its source.",
+   "That error threatens to overwhelm the Church while they do little more than fret about a situation whose self-evident cause—a reckless Pope in love with his own ideas and filled with contempt for Tradition—they seem incapable of identifying."
+  ],
+  "text": "Will none of the hierarchs rise to defend the Church as “a new Athanasius, a new Basil”? Even the best among them continue to limit themselves to generalized lamentations at conferences or in interviews about the parlous state of the Church or at most the “confusion” Francis has caused by not “clarifying” precisely what he has just clarified. They avoid the absolutely necessary direct and public exposure of error at its source. That error threatens to overwhelm the Church while they do little more than fret about a situation whose self-evident cause—a reckless Pope in love with his own ideas and filled with contempt for Tradition—they seem incapable of identifying."
+ },
+ {
+  "pid": "s030",
+  "techs": [
+   "Appeal_to_Authority",
+   "Appeal_to_Popularity",
+   "Loaded_Language",
+   "Name_Calling-Labeling"
+  ],
+  "known_spans": [
+   [
+    "Loaded_Language",
+    "cc J ws of drinking blood"
+   ]
+  ],
+  "units": [
+   "The American Jewish Historical Society was founded to study and preserve Jewish history.",
+   "These days it’s instead partnering with Jewish Voice for Peace: an anti-Israel BDS hate group that defends anti-Semitism and which sponsored talks by an anti-Semite who accused Jews of drinking blood.",
+   "Coming up in late October is “The Balfour Declaration: Support for a Jewish Homeland or Jewish State?”",
+   "The two speakers are Robert Herbst, the coordinator of the Westchester chapter of JVP, and Jonathan Kuttab, who advocates a one-state solution for eliminating Israel.",
+   "He had tweeted, \"EU no longer considers #Hamas a terrorist group.",
+   "Time for US to do same.\"",
+   "In December, the AJHS will feature “Rubble Rubble”, a play by Dan Fishback based on his trip to Israel.",
+   "Fishback is a BDS supporter and a member of the JVP Artists Council.",
+   "His goal is to “normalize Jewish anti-Zionism”.",
+   "AJHS and JVP members get discounted admission."
+  ],
+  "text": "The American Jewish Historical Society was founded to study and preserve Jewish history. These days it’s instead partnering with Jewish Voice for Peace: an anti-Israel BDS hate group that defends anti-Semitism and which sponsored talks by an anti-Semite who accused Jews of drinking blood. Coming up in late October is “The Balfour Declaration: Support for a Jewish Homeland or Jewish State?” The two speakers are Robert Herbst, the coordinator of the Westchester chapter of JVP, and Jonathan Kuttab, who advocates a one-state solution for eliminating Israel. He had tweeted, \"EU no longer considers #Hamas a terrorist group. Time for US to do same.\" In December, the AJHS will feature “Rubble Rubble”, a play by Dan Fishback based on his trip to Israel. Fishback is a BDS supporter and a member of the JVP Artists Council. His goal is to “normalize Jewish anti-Zionism”. AJHS and JVP members get discounted admission."
+ },
+ {
+  "pid": "s031",
+  "techs": [
+   "Flag_Waving",
+   "Loaded_Language",
+   "Name_Calling-Labeling"
+  ],
+  "known_spans": [],
+  "units": [
+   "Today, right now, at this moment, we are faced with a massive effort of the military/security complex, the neoconservatives, the Democratic Party, and the presstitute media to discredit the elected President of the United States and to overthrow him in order that the utterly corrupt elite that rule American can continue to hold on to power and to protect the massive budget of the military/security complex that, along with the Israel Lobby, funds the elections of those who rule us.",
+   "Trump, like Reagan, was an exception, and it is the exceptions that accumulate the ire of the corrupt leftwing, bought off with money, and the ire of the media, concentrated into small tight ownership groups indebted to those who permitted the illegal concentration of a once independent and diverse American media that once served, on occasion, as a watchdog over government.",
+   "The rightwing, wrapped in the flag, dismisses all truth as “anti-American.”"
+  ],
+  "text": "Today, right now, at this moment, we are faced with a massive effort of the military/security complex, the neoconservatives, the Democratic Party, and the presstitute media to discredit the elected President of the United States and to overthrow him in order that the utterly corrupt elite that rule American can continue to hold on to power and to protect the massive budget of the military/security complex that, along with the Israel Lobby, funds the elections of those who rule us. Trump, like Reagan, was an exception, and it is the exceptions that accumulate the ire of the corrupt leftwing, bought off with money, and the ire of the media, concentrated into small tight ownership groups indebted to those who permitted the illegal concentration of a once independent and diverse American media that once served, on occasion, as a watchdog over government. The rightwing, wrapped in the flag, dismisses all truth as “anti-American.”"
+ },
+ {
+  "pid": "s032",
+  "techs": [
+   "Appeal_to_Fear-Prejudice",
+   "False_Dilemma-No_Choice"
+  ],
+  "known_spans": [],
+  "units": [
+   "Do we accept that outcome, pack up and go home?",
+   "Or do we leave our forces in Syria and Iraq and defy any demand from Assad to vacate his country?"
+  ],
+  "text": "Do we accept that outcome, pack up and go home? Or do we leave our forces in Syria and Iraq and defy any demand from Assad to vacate his country?"
+ },
+ {
+  "pid": "s033",
+  "techs": [
+   "Doubt",
+   "Name_Calling-Labeling"
+  ],
+  "known_spans": [
+   [
+    "Name_Calling-Labeling",
+    "a notoriously change-averse institution"
+   ]
+  ],
+  "units": [
+   "The new wave of allegations has called Pope Francis’s handling of abuse into question as many Catholics look to him to help the church regain its credibility.",
+   "The pope’s track record has been mixed, something some outsiders attribute to his learning curve or shortcomings and others chalk up to resistance from a notoriously change-averse institution."
+  ],
+  "text": "The new wave of allegations has called Pope Francis’s handling of abuse into question as many Catholics look to him to help the church regain its credibility. The pope’s track record has been mixed, something some outsiders attribute to his learning curve or shortcomings and others chalk up to resistance from a notoriously change-averse institution."
+ },
+ {
+  "pid": "s034",
+  "techs": [
+   "Slogans"
+  ],
+  "known_spans": [],
+  "units": [
+   "Hungarian Prime Minister: ‘Christianity is Europe’s last hope’"
+  ],
+  "text": "Hungarian Prime Minister: ‘Christianity is Europe’s last hope’"
+ },
+ {
+  "pid": "s035",
+  "techs": [
+   "Exaggeration-Minimisation"
+  ],
+  "known_spans": [],
+  "units": [
+   "Not the charism of the order, nor the rule, nor the Patristic tradition, nor the Doctors, nor the mystics, nor any of the 2000-year-old tradition of religious life, from the Desert Fathers to the giants of the Tridentine period; just Vatican II.",
+   "And only, apparently, a single “interpretation” of it, if we are to judge by the soap and oil Braz de Aviz poured on the ruffled feathers of the Leadership Conference of Women Religious – the most virulently anti-Catholic organisation of “Catholic” religious in the world – and by his vicious persecution of the Franciscans of the Immaculate."
+  ],
+  "text": "Not the charism of the order, nor the rule, nor the Patristic tradition, nor the Doctors, nor the mystics, nor any of the 2000-year-old tradition of religious life, from the Desert Fathers to the giants of the Tridentine period; just Vatican II. And only, apparently, a single “interpretation” of it, if we are to judge by the soap and oil Braz de Aviz poured on the ruffled feathers of the Leadership Conference of Women Religious – the most virulently anti-Catholic organisation of “Catholic” religious in the world – and by his vicious persecution of the Franciscans of the Immaculate."
+ },
+ {
+  "pid": "s036",
+  "techs": [
+   "Causal_Oversimplification",
+   "Name_Calling-Labeling"
+  ],
+  "known_spans": [
+   [
+    "Name_Calling-Labeling",
+    "T mp-h g w man"
+   ]
+  ],
+  "units": [
+   "Currently, there's more Republicans in Congress than Democrats, which means the guy will be confirmed.",
+   "There's an election 2 months away.",
+   "The Democrats think that they'll take back the majority of Congress and will thus be able to block Trump's nomination.",
+   "All they have to do is delay the confirmation until after the election.",
+   "So, they dig up some Trump-hating woman from Kavanaugh’s past and convince her to say that he assaulted her thinking that such an allegation will surely delay the vote long enough for them to regain control of Congress."
+  ],
+  "text": "Currently, there's more Republicans in Congress than Democrats, which means the guy will be confirmed. There's an election 2 months away. The Democrats think that they'll take back the majority of Congress and will thus be able to block Trump's nomination. All they have to do is delay the confirmation until after the election. So, they dig up some Trump-hating woman from Kavanaugh’s past and convince her to say that he assaulted her thinking that such an allegation will surely delay the vote long enough for them to regain control of Congress."
+ },
+ {
+  "pid": "s037",
+  "techs": [
+   "Appeal_to_Authority",
+   "Loaded_Language"
+  ],
+  "known_spans": [
+   [
+    "Loaded_Language",
+    "h gh a ert"
+   ]
+  ],
+  "units": [
+   "Officials have reported infections in 17 of the island nation’s 22 regions since the outbreak started in August.",
+   "And the number of cases is growing by the day, said Elhadj As Sy, the secretary general of the International Federation of Red Cross and Red Crescent Societies (IFRC) as the nation put all hospitals on high alert.",
+   "The hospitals have also begun implementing preventative measures with attempts to stall the spread of the bacterial infection."
+  ],
+  "text": "Officials have reported infections in 17 of the island nation’s 22 regions since the outbreak started in August. And the number of cases is growing by the day, said Elhadj As Sy, the secretary general of the International Federation of Red Cross and Red Crescent Societies (IFRC) as the nation put all hospitals on high alert. The hospitals have also begun implementing preventative measures with attempts to stall the spread of the bacterial infection."
+ },
+ {
+  "pid": "s038",
+  "techs": [
+   "Exaggeration-Minimisation",
+   "Flag_Waving",
+   "Loaded_Language",
+   "Name_Calling-Labeling"
+  ],
+  "known_spans": [
+   [
+    "Name_Calling-Labeling",
+    "leftist hate groups"
+   ]
+  ],
+  "units": [
+   "Speaking of Mastercard, the David Horowitz Freedom Center just recently won a major battle with the credit card, defeating well-financed leftwing groups that are trying to run the Center out of business and suffocate free speech in America.",
+   "The Freedom Center emerged victorious, but it is clear that leftist hate groups such as the SPLC and Color of Change.org are preparing new attacks against the Freedom Center and other conservative groups and individuals 24/7."
+  ],
+  "text": "Speaking of Mastercard, the David Horowitz Freedom Center just recently won a major battle with the credit card, defeating well-financed leftwing groups that are trying to run the Center out of business and suffocate free speech in America. The Freedom Center emerged victorious, but it is clear that leftist hate groups such as the SPLC and Color of Change.org are preparing new attacks against the Freedom Center and other conservative groups and individuals 24/7."
+ },
+ {
+  "pid": "s039",
+  "techs": [
+   "Exaggeration-Minimisation",
+   "Repetition"
+  ],
+  "known_spans": [
+   [
+    "Repetition",
+    "shooting"
+   ]
+  ],
+  "units": [
+   "“When the Parkland shooting happened, our phone calls and emails exploded,” said coalition president Tim Lambert.",
+   "“In the last couple of months, our numbers have doubled.",
+   "We’re dealing with probably between 1,200 and 1,400 calls and emails per month, and prior to that it was 600 to 700.”"
+  ],
+  "text": "“When the Parkland shooting happened, our phone calls and emails exploded,” said coalition president Tim Lambert. “In the last couple of months, our numbers have doubled. We’re dealing with probably between 1,200 and 1,400 calls and emails per month, and prior to that it was 600 to 700.”"
+ },
+ {
+  "pid": "s040",
+  "techs": [
+   "Conversation_Killer",
+   "Loaded_Language"
+  ],
+  "known_spans": [
+   [
+    "Loaded_Language",
+    "a papal tyranny Church ha v r ee"
+   ]
+  ],
+  "units": [
+   "The time for “prudence” is long past.",
+   "Prudence now gives way to mere pusillanimity.",
+   "The time for hierarchical action is now, before the damage to the Church becomes irreparable.",
+   "The members of a hierarchy seemingly cowed by a papal tyranny the Church has never before seen must rise immediately and give a courageous answer to the challenge posed long ago by Monsignor Klaus Gamber, when an already monumental ecclesial crisis was still in what can now can be seen as merely a preliminary stage:"
+  ],
+  "text": "The time for “prudence” is long past. Prudence now gives way to mere pusillanimity. The time for hierarchical action is now, before the damage to the Church becomes irreparable. The members of a hierarchy seemingly cowed by a papal tyranny the Church has never before seen must rise immediately and give a courageous answer to the challenge posed long ago by Monsignor Klaus Gamber, when an already monumental ecclesial crisis was still in what can now can be seen as merely a preliminary stage:"
+ },
+ {
+  "pid": "s041",
+  "techs": [
+   "Causal_Oversimplification",
+   "Name_Calling-Labeling"
+  ],
+  "known_spans": [
+   [
+    "Causal_Oversimplification",
+    "Fr  that point on it is Christ who delegates the divine authority to punish by killing, and both Scripture and tradition testify that it is lawfully wielded by those to whom He  trusts the temporal sword in His Kingdom"
+   ],
+   [
+    "Name_Calling-Labeling",
+    "the glorified man who is Christ the King"
+   ]
+  ],
+  "units": [
+   "Not even from the Cross did Christ decry the death penalty, either for himself or for the two thieves crucified with Him.",
+   "It would continue to be dealt out to men by other men on earth, with only one significant change: Henceforth it would be administered under the authority of the glorified man who is Christ the King, as part and parcel of that universal power “in heaven and on earth” which He received from His Father (Matt.",
+   "28:18) after His Resurrection.",
+   "From that point on it is Christ who delegates the divine authority to punish by killing, and both Scripture and tradition testify that it is lawfully wielded by those to whom He entrusts the temporal sword in His Kingdom.",
+   "As He told Pontius Pilate at the time of His trial, “Thou shouldst not have any power against me, unless it were given thee from above”",
+   "(John 19:10)."
+  ],
+  "text": "Not even from the Cross did Christ decry the death penalty, either for himself or for the two thieves crucified with Him. It would continue to be dealt out to men by other men on earth, with only one significant change: Henceforth it would be administered under the authority of the glorified man who is Christ the King, as part and parcel of that universal power “in heaven and on earth” which He received from His Father (Matt. 28:18) after His Resurrection. From that point on it is Christ who delegates the divine authority to punish by killing, and both Scripture and tradition testify that it is lawfully wielded by those to whom He entrusts the temporal sword in His Kingdom. As He told Pontius Pilate at the time of His trial, “Thou shouldst not have any power against me, unless it were given thee from above” (John 19:10)."
+ },
+ {
+  "pid": "s042",
+  "techs": [
+   "Appeal_to_Authority",
+   "Appeal_to_Fear-Prejudice",
+   "Loaded_Language"
+  ],
+  "known_spans": [
+   [
+    "Appeal_to_Authority",
+    "See my book The Kennedy Autopsy.)"
+   ]
+  ],
+  "units": [
+   "It was one of the most brilliant and cunning ruses in history.",
+   "They get the body out of Parkland by force, in violation of Texas law, and put it in the hands of the military in Maryland, which conducts a secret fraudulent and bogus autopsy.",
+   "(See my book The Kennedy Autopsy.) Lyndon Johnson telephones Dallas District Attorney Henry Wade on the night of the assassination and orders him to shut down any investigation of a conspiracy because it might lead to nuclear war.",
+   "As soon as Oswald is assassinated, the FBI orders Wade to turn over all his investigative files to the FBI.",
+   "At the same time, Deputy Attorney General Nicholas Katzenbach and FBI Head J.",
+   "Edgar Hoover both write secret memos and reports saying any further investigation must stop immediately.",
+   "Lyndon Johnson gets Earl Warren and Sen.",
+   "Richard Russel to join the Warren Commission by telling them that the assassination could lead to World War III.",
+   "Johnson appoints former CIA Director Allan Dulles, who Kennedy had fired as a result of the CIA’s regime-change operation at the Bay of Pigs, to the Warren Commission, thereby guaranteeing that there will be no investigation of the CIA."
+  ],
+  "text": "It was one of the most brilliant and cunning ruses in history. They get the body out of Parkland by force, in violation of Texas law, and put it in the hands of the military in Maryland, which conducts a secret fraudulent and bogus autopsy. (See my book The Kennedy Autopsy.) Lyndon Johnson telephones Dallas District Attorney Henry Wade on the night of the assassination and orders him to shut down any investigation of a conspiracy because it might lead to nuclear war. As soon as Oswald is assassinated, the FBI orders Wade to turn over all his investigative files to the FBI. At the same time, Deputy Attorney General Nicholas Katzenbach and FBI Head J. Edgar Hoover both write secret memos and reports saying any further investigation must stop immediately. Lyndon Johnson gets Earl Warren and Sen. Richard Russel to join the Warren Commission by telling them that the assassination could lead to World War III. Johnson appoints former CIA Director Allan Dulles, who Kennedy had fired as a result of the CIA’s regime-change operation at the Bay of Pigs, to the Warren Commission, thereby guaranteeing that there will be no investigation of the CIA."
+ },
+ {
+  "pid": "s043",
+  "techs": [
+   "Appeal_to_Fear-Prejudice",
+   "Repetition"
+  ],
+  "known_spans": [
+   [
+    "Appeal_to_Fear-Prejudice",
+    "if I do that, then I betray my mother, the Church. The Church!"
+   ]
+  ],
+  "units": [
+   "And so, Cardinal Villot says, there is a confusion, and they do not want me to visit the pope.",
+   "It is impossible to admit me.",
+   "And I know the pope very well!",
+   "When I was the apostolic delegate to Pius XII, I was going to Rome every year.",
+   "And during those eleven years, I met Msgr.",
+   "Montini.",
+   "I know him very well.",
+   "He received me twice during the Council, for a private audience with the pope.",
+   "But, now, with my position against the Council and the reforms, he says: “No, impossible!",
+   "You must sign in writing that you [accept] the Council and all the reforms before I will receive you in audience.”",
+   "But I cannot do that.",
+   "For me, if I do that, then I betray my mother, the Church.",
+   "The Church!"
+  ],
+  "text": "And so, Cardinal Villot says, there is a confusion, and they do not want me to visit the pope. It is impossible to admit me. And I know the pope very well! When I was the apostolic delegate to Pius XII, I was going to Rome every year. And during those eleven years, I met Msgr. Montini. I know him very well. He received me twice during the Council, for a private audience with the pope. But, now, with my position against the Council and the reforms, he says: “No, impossible! You must sign in writing that you [accept] the Council and all the reforms before I will receive you in audience.” But I cannot do that. For me, if I do that, then I betray my mother, the Church. The Church!"
+ },
+ {
+  "pid": "s044",
+  "techs": [
+   "Flag_Waving"
+  ],
+  "known_spans": [
+   [
+    "Flag_Waving",
+    "the CIA steadfastly kept secret from the American people"
+   ]
+  ],
+  "units": [
+   "But there has to be a reason why the CIA chose to keep this particular batch of records secret for more than 50 years.",
+   "Those long-secret records undoubtedly include small bits of important circumstantial evidence that fill out even further the mosaic of a regime-change operation that took place in Dallas in November 1963, the same types of regime-change operation that took place in Iran in 1953, Guatemala in 1954, Cuba in 1960-1963, Congo in 1961, and Chile in 1973, all of which the CIA steadfastly kept secret from the American people."
+  ],
+  "text": "But there has to be a reason why the CIA chose to keep this particular batch of records secret for more than 50 years. Those long-secret records undoubtedly include small bits of important circumstantial evidence that fill out even further the mosaic of a regime-change operation that took place in Dallas in November 1963, the same types of regime-change operation that took place in Iran in 1953, Guatemala in 1954, Cuba in 1960-1963, Congo in 1961, and Chile in 1973, all of which the CIA steadfastly kept secret from the American people."
+ },
+ {
+  "pid": "s045",
+  "techs": [
+   "Doubt"
+  ],
+  "known_spans": [
+   [
+    "Doubt",
+    "d s y nk h r anyone would be safe?"
+   ]
+  ],
+  "units": [
+   "When Prime Minister Theresa May, who was the head of the Home Office when she banned us and was thus directly responsible for the ban, threw us under the bus in order to satiate savages who threatened violence, did she really think she or anyone would be safe?"
+  ],
+  "text": "When Prime Minister Theresa May, who was the head of the Home Office when she banned us and was thus directly responsible for the ban, threw us under the bus in order to satiate savages who threatened violence, did she really think she or anyone would be safe?"
+ },
+ {
+  "pid": "s046",
+  "techs": [
+   "Doubt",
+   "Loaded_Language"
+  ],
+  "known_spans": [],
+  "units": [
+   "“There were a lot of us in the run-up to Sept.",
+   "11 who had seen warning signs that something devastating might be in the planning stages.",
+   "But we worked for ossified bureaucracies incapable of acting quickly and decisively.",
+   "Lately, the two of us have been wondering how things might have been different if there had been a quick, confidential way to get information out.”",
+   "The WikiLeaks Files: T...",
+   "WikiLeaks Best Price: $2.50 Buy New $7.00 (as of 05:50 EDT - Details)"
+  ],
+  "text": "“There were a lot of us in the run-up to Sept. 11 who had seen warning signs that something devastating might be in the planning stages. But we worked for ossified bureaucracies incapable of acting quickly and decisively. Lately, the two of us have been wondering how things might have been different if there had been a quick, confidential way to get information out.” The WikiLeaks Files: T... WikiLeaks Best Price: $2.50 Buy New $7.00 (as of 05:50 EDT - Details)"
+ },
+ {
+  "pid": "s047",
+  "techs": [
+   "Causal_Oversimplification"
+  ],
+  "known_spans": [],
+  "units": [
+   "On January 25th, Zakkout posted onto his personal Facebook page a video clip of a speech made by Steve Anderson, the pastor of the Faithful Word Baptist Church in Tempe, Arizona.",
+   "Anderson is notorious for calling for the killing of gays to end AIDS.",
+   "In the clip, Anderson states the following: “And the Jews were scattered into all nations for literally 2000 years, right?",
+   "For 1800 sum odd years.",
+   "And by the way, everywhere they were scattered, they were persecuted, hated, treated badly.",
+   "Why? ‘Cause God’s blessing them?",
+   "No. ‘Cause they’re under the curse of God for having rejected the Lord Jesus Christ.”"
+  ],
+  "text": "On January 25th, Zakkout posted onto his personal Facebook page a video clip of a speech made by Steve Anderson, the pastor of the Faithful Word Baptist Church in Tempe, Arizona. Anderson is notorious for calling for the killing of gays to end AIDS. In the clip, Anderson states the following: “And the Jews were scattered into all nations for literally 2000 years, right? For 1800 sum odd years. And by the way, everywhere they were scattered, they were persecuted, hated, treated badly. Why? ‘Cause God’s blessing them? No. ‘Cause they’re under the curse of God for having rejected the Lord Jesus Christ.”"
+ },
+ {
+  "pid": "s048",
+  "techs": [
+   "Appeal_to_Popularity",
+   "Loaded_Language"
+  ],
+  "known_spans": [
+   [
+    "Loaded_Language",
+    "s and ou ag s"
+   ]
+  ],
+  "units": [
+   "Finally, I ask you all to join me and the entire clergy of the Diocese of Madison in making public and private acts of reparation to the Most Sacred Heart of Jesus and to the Immaculate Heart of Mary for all the sins of sexual depravity committed by members of the clergy and episcopacy.",
+   "I will be offering a public Mass of reparation on Friday, September 14, the Feast of the Triumph of the Holy Cross, at Holy Name Heights and I ask all pastors to do the same in their own parishes.",
+   "In addition, I ask that all priests, clergy, religious, and diocesan employees join me in observing the upcoming Autumn Ember Days (Sep.",
+   "19, 21, and 22) as days of fasting and abstinence in reparation for the sins and outrages committed by members of the clergy and episcopacy and I invite all the faithful to do the same.",
+   "Some sins, like some demons, can only be driven out by prayer and fasting."
+  ],
+  "text": "Finally, I ask you all to join me and the entire clergy of the Diocese of Madison in making public and private acts of reparation to the Most Sacred Heart of Jesus and to the Immaculate Heart of Mary for all the sins of sexual depravity committed by members of the clergy and episcopacy. I will be offering a public Mass of reparation on Friday, September 14, the Feast of the Triumph of the Holy Cross, at Holy Name Heights and I ask all pastors to do the same in their own parishes. In addition, I ask that all priests, clergy, religious, and diocesan employees join me in observing the upcoming Autumn Ember Days (Sep. 19, 21, and 22) as days of fasting and abstinence in reparation for the sins and outrages committed by members of the clergy and episcopacy and I invite all the faithful to do the same. Some sins, like some demons, can only be driven out by prayer and fasting."
+ },
+ {
+  "pid": "s049",
+  "techs": [
+   "Doubt",
+   "False_Dilemma-No_Choice"
+  ],
+  "known_spans": [],
+  "units": [
+   "You do not like to beat around the bush, and neither do we, so allow us to say frankly that we do not understand your teaching about Islam, as we read in paragraphs 252 and 253 of Evangelii Gaudium, because it does not account for the fact that Islam came AFTER Christ, and so is, and can only be, an Antichrist (see 1 Jn 2.22), and one of the most dangerous because it presents itself as the fulfillment of Revelation (of which Jesus would have been only a prophet).",
+   "If Islam is a good religion in itself, as you seem to teach, why did we become Catholic?",
+   "Do not your words question the soundness of the choice we made at the risk of our lives?",
+   "Islam prescribes death for apostates (Quran 4.89, 8.7-11), do you know?",
+   "How is it possible to compare Islamic violence with so-called Christian violence?",
+   "“What is the relationship between Christ and Satan?",
+   "What union is there between light and darkness?",
+   "What association between the faithful and the unfaithful?”",
+   "(2 Cor 6: 14-17)In accordance with His teaching (Lk 14:26), we preferred Him, the Christ, to our own life.",
+   "Are we not in a good position to talk to you about Islam?"
+  ],
+  "text": "You do not like to beat around the bush, and neither do we, so allow us to say frankly that we do not understand your teaching about Islam, as we read in paragraphs 252 and 253 of Evangelii Gaudium, because it does not account for the fact that Islam came AFTER Christ, and so is, and can only be, an Antichrist (see 1 Jn 2.22), and one of the most dangerous because it presents itself as the fulfillment of Revelation (of which Jesus would have been only a prophet). If Islam is a good religion in itself, as you seem to teach, why did we become Catholic? Do not your words question the soundness of the choice we made at the risk of our lives? Islam prescribes death for apostates (Quran 4.89, 8.7-11), do you know? How is it possible to compare Islamic violence with so-called Christian violence? “What is the relationship between Christ and Satan? What union is there between light and darkness? What association between the faithful and the unfaithful?” (2 Cor 6: 14-17)In accordance with His teaching (Lk 14:26), we preferred Him, the Christ, to our own life. Are we not in a good position to talk to you about Islam?"
+ },
+ {
+  "pid": "s050",
+  "techs": [
+   "Flag_Waving",
+   "Guilt_by_Association",
+   "Loaded_Language"
+  ],
+  "known_spans": [
+   [
+    "Flag_Waving",
+    "Am ric s s with  people of Ira n th ir courag ous struggle for f e om.”"
+   ]
+  ],
+  "units": [
+   "When it comes to Iran’s governing authorities, the Trump administration is under no illusions about the nefarious nature of this fascist theocracy.",
+   "“We are restoring clarity about our adversaries,”",
+   "Trump stated in a not too subtle jibe at his predecessor who seemed to be in a perpetual state of confusion about who his friends and enemies were.",
+   "Trump also referenced the recent widespread Iranian protests, crushed with extreme ruthlessness by the Iranian Revolutionary Guard Corps and its Basij auxiliary militia.",
+   "“When the people of Iran rose up against the crimes of a corrupt dictatorship,” he stated, “I did not stay silent.",
+   "America stands with the people of Iran in their courageous struggle for freedom.”"
+  ],
+  "text": "When it comes to Iran’s governing authorities, the Trump administration is under no illusions about the nefarious nature of this fascist theocracy. “We are restoring clarity about our adversaries,” Trump stated in a not too subtle jibe at his predecessor who seemed to be in a perpetual state of confusion about who his friends and enemies were. Trump also referenced the recent widespread Iranian protests, crushed with extreme ruthlessness by the Iranian Revolutionary Guard Corps and its Basij auxiliary militia. “When the people of Iran rose up against the crimes of a corrupt dictatorship,” he stated, “I did not stay silent. America stands with the people of Iran in their courageous struggle for freedom.”"
+ },
+ {
+  "pid": "s051",
+  "techs": [],
+  "known_spans": [],
+  "units": [
+   "William Jacobson explains the latest “revise” by the authorities is the now infamously botched Vegas investigation:"
+  ],
+  "text": "William Jacobson explains the latest “revise” by the authorities is the now infamously botched Vegas investigation:"
+ },
+ {
+  "pid": "s052",
+  "techs": [
+   "Exaggeration-Minimisation",
+   "Repetition"
+  ],
+  "known_spans": [
+   [
+    "Repetition",
+    "sme r"
+   ]
+  ],
+  "units": [
+   "Dallas, TX — The Dallas Police on Thursday announced the findings of a search warrant they executed on the home of Botham Jean after he was gunned down in his apartment by one of their own.",
+   "The department is now accused of trying to “smear”",
+   "Jean by claiming they found a tiny bit of marijuana in his house—as if this justifies going into someone’s home and murdering them."
+  ],
+  "text": "Dallas, TX — The Dallas Police on Thursday announced the findings of a search warrant they executed on the home of Botham Jean after he was gunned down in his apartment by one of their own. The department is now accused of trying to “smear” Jean by claiming they found a tiny bit of marijuana in his house—as if this justifies going into someone’s home and murdering them."
+ },
+ {
+  "pid": "s053",
+  "techs": [
+   "Appeal_to_Fear-Prejudice",
+   "Conversation_Killer",
+   "Doubt",
+   "Loaded_Language"
+  ],
+  "known_spans": [],
+  "units": [
+   "Or is it not so that it is both negligent and uncharitable for some bishops to refuse to inform their faithful that according to the Church's own infallible teaching, everlasting damnation is the price to be paid for this kind of inclusivity and toleration?",
+   "And if the episcopal retort is going to be that this acceptance refers only to chaste homosexuals, then we call FOUL even louder since this crosses the line into willful deception.",
+   "We're all sinners, of course--- and the Church already accepts repentant homosexuals as they are, just as she accepts repentant practitioners of ANY sins of the flesh."
+  ],
+  "text": "Or is it not so that it is both negligent and uncharitable for some bishops to refuse to inform their faithful that according to the Church's own infallible teaching, everlasting damnation is the price to be paid for this kind of inclusivity and toleration? And if the episcopal retort is going to be that this acceptance refers only to chaste homosexuals, then we call FOUL even louder since this crosses the line into willful deception. We're all sinners, of course--- and the Church already accepts repentant homosexuals as they are, just as she accepts repentant practitioners of ANY sins of the flesh."
+ },
+ {
+  "pid": "s054",
+  "techs": [
+   "Loaded_Language",
+   "Name_Calling-Labeling",
+   "Obfuscation-Vagueness-Confusion"
+  ],
+  "known_spans": [
+   [
+    "Name_Calling-Labeling",
+    "h m"
+   ]
+  ],
+  "units": [
+   "From the neo-Catholic perspective, the events of recent days present a terrifying prospect: the final collapse of the Novus Ordo establishment, an end to the conciliar aggiornamento and a revival of integral Tradition, which growing numbers of young people are seeking.",
+   "Hence even before Archbishop Viganò had come forward, commentators like Faggioli were already sounding the neo-Catholic air raid siren.",
+   "Faggioli fretted that “[t]he abuse scandal and delegitimization of the episcopate has created a great power vacuum in the Church” that could be filled by the “neo-traditionalist Catholicism of the younger generations of American Catholics” who “attack American bishops and cardinals close to Pope Francis.”",
+   "Accordingly, he rushed to the defense of Bergoglio and his corrupt regime against “a radicalization of religious conservatism in the neo-traditionalism sense...”"
+  ],
+  "text": "From the neo-Catholic perspective, the events of recent days present a terrifying prospect: the final collapse of the Novus Ordo establishment, an end to the conciliar aggiornamento and a revival of integral Tradition, which growing numbers of young people are seeking. Hence even before Archbishop Viganò had come forward, commentators like Faggioli were already sounding the neo-Catholic air raid siren. Faggioli fretted that “[t]he abuse scandal and delegitimization of the episcopate has created a great power vacuum in the Church” that could be filled by the “neo-traditionalist Catholicism of the younger generations of American Catholics” who “attack American bishops and cardinals close to Pope Francis.” Accordingly, he rushed to the defense of Bergoglio and his corrupt regime against “a radicalization of religious conservatism in the neo-traditionalism sense...”"
+ },
+ {
+  "pid": "s055",
+  "techs": [
+   "Slogans"
+  ],
+  "known_spans": [
+   [
+    "Slogans",
+    "I l  ust  wiped out”"
+   ]
+  ],
+  "units": [
+   "Iran has tested several ballistic missiles during the last two years, including two Qadr H missiles with the phrase “Israel must be wiped out” emblazoned on the sides.",
+   "The commander of Iran’s Army, Major General Ataollah Salehi, had told reporters just a month before the launch of those missiles that Iran was \"neither paying any attention to the resolutions against Iran, nor implementing them.",
+   "This is not a breach of the JCPOA.”"
+  ],
+  "text": "Iran has tested several ballistic missiles during the last two years, including two Qadr H missiles with the phrase “Israel must be wiped out” emblazoned on the sides. The commander of Iran’s Army, Major General Ataollah Salehi, had told reporters just a month before the launch of those missiles that Iran was \"neither paying any attention to the resolutions against Iran, nor implementing them. This is not a breach of the JCPOA.”"
+ },
+ {
+  "pid": "s056",
+  "techs": [
+   "Doubt",
+   "Loaded_Language"
+  ],
+  "known_spans": [],
+  "units": [
+   "Of course, this leads many to believe that Campos didn’t even exist, to begin with.",
+   "His mere existence appears to have been fabricated by the very authorities who are cramming lies down our throats about this massacre for the sake of political agendas."
+  ],
+  "text": "Of course, this leads many to believe that Campos didn’t even exist, to begin with. His mere existence appears to have been fabricated by the very authorities who are cramming lies down our throats about this massacre for the sake of political agendas."
+ },
+ {
+  "pid": "s057",
+  "techs": [],
+  "known_spans": [],
+  "units": [
+   "Simply expressing support for a terrorist organization or attack is not against the law.",
+   "Patel's crime was failing to disclose his trips to Jordan when he was trying to join the Army and Air Force in December 2016 and January 2017.",
+   "Court documents say Patel lied about his travel history, saying his only time out of the country in the past seven years was a family trip to India in 2011 and 2012."
+  ],
+  "text": "Simply expressing support for a terrorist organization or attack is not against the law. Patel's crime was failing to disclose his trips to Jordan when he was trying to join the Army and Air Force in December 2016 and January 2017. Court documents say Patel lied about his travel history, saying his only time out of the country in the past seven years was a family trip to India in 2011 and 2012."
+ },
+ {
+  "pid": "s058",
+  "techs": [
+   "Doubt",
+   "Red_Herring"
+  ],
+  "known_spans": [
+   [
+    "Doubt",
+    "Obviousl  not ng pp n"
+   ]
+  ],
+  "units": [
+   "Obviously not going to happen.",
+   "But the story is breaking through the embargo.",
+   "We're starting to have that \"national dialogue\" about racism that the left keeps wanting us to have."
+  ],
+  "text": "Obviously not going to happen. But the story is breaking through the embargo. We're starting to have that \"national dialogue\" about racism that the left keeps wanting us to have."
+ },
+ {
+  "pid": "s059",
+  "techs": [
+   "Flag_Waving",
+   "Loaded_Language"
+  ],
+  "known_spans": [
+   [
+    "Loaded_Language",
+    "empire of lies"
+   ]
+  ],
+  "units": [
+   "“You get accused of treasonous activity and treasonous speech because in an empire of lies the truth is treason,”",
+   "Paul told the Russia-based news outlet.",
+   "“Challenging the status quo is what they can’t stand and it unnerves them, so they have to silence people.”",
+   "“Some of us tell the truth about our government, they call us treasonous and say we’re speaking out of line and they’d like to punish us, and I think that’s part of what’s happening with social media,”",
+   "Paul told RT, adding that he hopes anti-government or anti-war voices can eliminate their “dependency” on the current social media platforms.",
+   "“I’m just hoping that technology can stay ahead of it all and that we can have real alternatives to the dependency on Twitter and other companies that have been working hand in glove with the government,”",
+   "Paul added.",
+   "(source)"
+  ],
+  "text": "“You get accused of treasonous activity and treasonous speech because in an empire of lies the truth is treason,” Paul told the Russia-based news outlet. “Challenging the status quo is what they can’t stand and it unnerves them, so they have to silence people.” “Some of us tell the truth about our government, they call us treasonous and say we’re speaking out of line and they’d like to punish us, and I think that’s part of what’s happening with social media,” Paul told RT, adding that he hopes anti-government or anti-war voices can eliminate their “dependency” on the current social media platforms. “I’m just hoping that technology can stay ahead of it all and that we can have real alternatives to the dependency on Twitter and other companies that have been working hand in glove with the government,” Paul added. (source)"
+ },
+ {
+  "pid": "s060",
+  "techs": [
+   "Exaggeration-Minimisation",
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "known_spans": [],
+  "units": [
+   "Because North Korea has scraped and skimped for decades to build nuclear weapons for the sole reason of deterring a major US attack, including the use by the US of tactical nuclear weapons.",
+   "Pakistan ‘ate grass’ for decades to afford nuclear weapons to offset the threat from far more powerful India.",
+   "Israel uses the same argument to justify its large nuclear arsenal."
+  ],
+  "text": "Because North Korea has scraped and skimped for decades to build nuclear weapons for the sole reason of deterring a major US attack, including the use by the US of tactical nuclear weapons. Pakistan ‘ate grass’ for decades to afford nuclear weapons to offset the threat from far more powerful India. Israel uses the same argument to justify its large nuclear arsenal."
+ },
+ {
+  "pid": "s061",
+  "techs": [
+   "Loaded_Language",
+   "Obfuscation-Vagueness-Confusion"
+  ],
+  "known_spans": [],
+  "units": [
+   "The authorities stonewalled at every turn.",
+   "And, predictably, the killer gets a pass.",
+   "Allahu Akbar usually means motive unknown."
+  ],
+  "text": "The authorities stonewalled at every turn. And, predictably, the killer gets a pass. Allahu Akbar usually means motive unknown."
+ },
+ {
+  "pid": "s062",
+  "techs": [
+   "Flag_Waving",
+   "Name_Calling-Labeling"
+  ],
+  "known_spans": [
+   [
+    "Flag_Waving",
+    "patriotic"
+   ]
+  ],
+  "units": [
+   "According to Breitbart, in the mother’s post on Facebook, which has since been taken down, Patricia Spittler asks for help in identifying the man she called “scum bag of the year.”",
+   "The San Antonio CBS affiliate reported that Spittler wrote: “His friend was wearing a patriotic hat, and this happened!",
+   "It would be nice to know who he is for someone to let him know his actions are not okay!”",
+   "Spittler added: “Real tough guy… approaches a group of teenagers minding their own business just having a burger!",
+   "He kept his hat, too.”"
+  ],
+  "text": "According to Breitbart, in the mother’s post on Facebook, which has since been taken down, Patricia Spittler asks for help in identifying the man she called “scum bag of the year.” The San Antonio CBS affiliate reported that Spittler wrote: “His friend was wearing a patriotic hat, and this happened! It would be nice to know who he is for someone to let him know his actions are not okay!” Spittler added: “Real tough guy… approaches a group of teenagers minding their own business just having a burger! He kept his hat, too.”"
+ },
+ {
+  "pid": "s063",
+  "techs": [],
+  "known_spans": [],
+  "units": [
+   "Brian Kemp, her Republican challenger, issued a statement a day earlier calling for Abrams to concede.",
+   "Kemp has declared victory and said it is “mathematically impossible” for her campaign to force a runoff."
+  ],
+  "text": "Brian Kemp, her Republican challenger, issued a statement a day earlier calling for Abrams to concede. Kemp has declared victory and said it is “mathematically impossible” for her campaign to force a runoff."
+ },
+ {
+  "pid": "s064",
+  "techs": [
+   "Appeal_to_Authority",
+   "Name_Calling-Labeling",
+   "Red_Herring"
+  ],
+  "known_spans": [
+   [
+    "Appeal_to_Authority",
+    "mm y' l safe tha t woul 've been.\""
+   ]
+  ],
+  "units": [
+   "The Department of Justice is looking into whether Oakland Mayor Libby Schaaf obstructed justice by warning Northern California residents of an impending raid by U.S.",
+   "Immigration and Customs Enforcement (ICE).",
+   "The agency’s acting director, Thomas Homan, told “Fox & Friends”",
+   "Wednesday morning that the DOJ is “reviewing” whether Schaaf broke any laws by telling her constituents ICE would be raiding the area in order to arrest people violating federal immigration laws.",
+   "Schaaf, a Democrat, posted the warning to Twitter Saturday, writing that “multiple credible sources” told her the immigration agency was “preparing to conduct an operation in the Bay Area, including Oakland, starting as soon as”",
+   "Sunday.",
+   "“What she did is no better than a gang lookout yelling ‘police’ when a police cruiser comes in the neighborhood, except she did it to a whole community,”",
+   "Homan told \"Fox & Friends.\"",
+   "\"There's over 800 significant public safety threat criminals ... that we are unable to locate because of that warning, so that community's a lot less safe than it would've been.\""
+  ],
+  "text": "The Department of Justice is looking into whether Oakland Mayor Libby Schaaf obstructed justice by warning Northern California residents of an impending raid by U.S. Immigration and Customs Enforcement (ICE). The agency’s acting director, Thomas Homan, told “Fox & Friends” Wednesday morning that the DOJ is “reviewing” whether Schaaf broke any laws by telling her constituents ICE would be raiding the area in order to arrest people violating federal immigration laws. Schaaf, a Democrat, posted the warning to Twitter Saturday, writing that “multiple credible sources” told her the immigration agency was “preparing to conduct an operation in the Bay Area, including Oakland, starting as soon as” Sunday. “What she did is no better than a gang lookout yelling ‘police’ when a police cruiser comes in the neighborhood, except she did it to a whole community,” Homan told \"Fox & Friends.\" \"There's over 800 significant public safety threat criminals ... that we are unable to locate because of that warning, so that community's a lot less safe than it would've been.\""
+ },
+ {
+  "pid": "s065",
+  "techs": [],
+  "known_spans": [],
+  "units": [
+   "Who should replace Nikki Haley as our ambassador to the U.N.? * John Bolton Richard Grenell Dina Powell Heather Nauert Ivanka Trump"
+  ],
+  "text": "Who should replace Nikki Haley as our ambassador to the U.N.? * John Bolton Richard Grenell Dina Powell Heather Nauert Ivanka Trump"
+ },
+ {
+  "pid": "s066",
+  "techs": [
+   "False_Dilemma-No_Choice"
+  ],
+  "known_spans": [
+   [
+    "False_Dilemma-No_Choice",
+    "only solution"
+   ]
+  ],
+  "units": [
+   "“The vaccination campaign begins tomorrow, Monday, in Mbandaka, capital of the province,”",
+   "Minister of Health Oly Ilunga told The Associated Press as reported by 9 News Australia.",
+   "“It will target, first, the health staff, the contacts of the sick and the contacts of the contacts.”",
+   "The World Health Organization has been warning about the “Ebola situation” in Congo, and it appears their only solution is an experimental vaccine."
+  ],
+  "text": "“The vaccination campaign begins tomorrow, Monday, in Mbandaka, capital of the province,” Minister of Health Oly Ilunga told The Associated Press as reported by 9 News Australia. “It will target, first, the health staff, the contacts of the sick and the contacts of the contacts.” The World Health Organization has been warning about the “Ebola situation” in Congo, and it appears their only solution is an experimental vaccine."
+ },
+ {
+  "pid": "s067",
+  "techs": [
+   "Appeal_to_Hypocrisy",
+   "Loaded_Language",
+   "Red_Herring"
+  ],
+  "known_spans": [],
+  "units": [
+   "Anyhow, they have now released a different photo (above)and it is the same guy, and he is black.",
+   "This goes in our \"Black Murders Of White Cops\" category, and also in our \"Not Reporting Race\" category, since except for the photograph, there's no mention of the race issue.Officers Anthony Morelli and Eric Joering are dead, and Smith is alive in hospital.",
+   "If these two men had survived, and Quentin Lamar Smith had died, you'd be hearing a lot about the race issue."
+  ],
+  "text": "Anyhow, they have now released a different photo (above)and it is the same guy, and he is black. This goes in our \"Black Murders Of White Cops\" category, and also in our \"Not Reporting Race\" category, since except for the photograph, there's no mention of the race issue.Officers Anthony Morelli and Eric Joering are dead, and Smith is alive in hospital. If these two men had survived, and Quentin Lamar Smith had died, you'd be hearing a lot about the race issue."
+ },
+ {
+  "pid": "s068",
+  "techs": [],
+  "known_spans": [],
+  "units": [
+   "Now in the United States a chorus of voices is rising especially from the lay faithful, and has recently been joined by several bishops and priests, asking that all those who, by their silence, covered up McCarrick’s criminal behavior, or who used him to advance their career or promote their intentions, ambitions and power in the Church, should resign."
+  ],
+  "text": "Now in the United States a chorus of voices is rising especially from the lay faithful, and has recently been joined by several bishops and priests, asking that all those who, by their silence, covered up McCarrick’s criminal behavior, or who used him to advance their career or promote their intentions, ambitions and power in the Church, should resign."
+ },
+ {
+  "pid": "s069",
+  "techs": [
+   "Causal_Oversimplification",
+   "False_Dilemma-No_Choice",
+   "Loaded_Language"
+  ],
+  "known_spans": [
+   [
+    "Causal_Oversimplification",
+    "S ffering the p alty not only allows the criminal to render expiation to God and to society, but if accepted in Christ g ac with d e repent , preserves his soul from hell and eliminates much of his purgatory"
+   ]
+  ],
+  "units": [
+   "As it is, the death penalty as administered by society must be viewed against the backdrop of divine revelation if it is to make any real sense.",
+   "When Catholic society puts a man to death, it terminates only his temporal life on earth, catapulting him into eternity for his final judgment before almighty God.",
+   "Suffering the penalty not only allows the criminal to render expiation to God and to society, but if accepted in Christ’s grace with due repentance, it preserves his soul from hell and eliminates much of his purgatory.",
+   "If his contrition is perfect, it’s conceivable that he could go straight to heaven!",
+   "In any case, neither he nor society is any longer burdened with the guilt of his wrongdoing."
+  ],
+  "text": "As it is, the death penalty as administered by society must be viewed against the backdrop of divine revelation if it is to make any real sense. When Catholic society puts a man to death, it terminates only his temporal life on earth, catapulting him into eternity for his final judgment before almighty God. Suffering the penalty not only allows the criminal to render expiation to God and to society, but if accepted in Christ’s grace with due repentance, it preserves his soul from hell and eliminates much of his purgatory. If his contrition is perfect, it’s conceivable that he could go straight to heaven! In any case, neither he nor society is any longer burdened with the guilt of his wrongdoing."
+ },
+ {
+  "pid": "s070",
+  "techs": [
+   "Doubt",
+   "Loaded_Language",
+   "Slogans"
+  ],
+  "known_spans": [
+   [
+    "Doubt",
+    "Americ as ever been a democracy"
+   ]
+  ],
+  "units": [
+   "Nation of Islam leader and prominent antisemite Louis Farrakhan chanted “Death to America” and claimed that “America has never been a democracy” on Sunday during a solidarity trip to Iran, ahead of the re-implementation of US sanctions on the country this week.",
+   "According to Iran’s semi-official state news agency Mehr, Farrakhan said at a meeting with the Secretary of Iran’s Expediency Council Mohsen Rezaei that America is conspiring against Iran.",
+   "“I understand how the enemies have plotted against the Iranian people and I would like to stay alongside you to stop their plots,” he said.",
+   "He also blasted American support for Saudi Arabia, Iran’s arch-rival in the region, and added, “Satan seeks to divide Muslims and wants them to kill each other, while God tells us in the Quran to be united.”"
+  ],
+  "text": "Nation of Islam leader and prominent antisemite Louis Farrakhan chanted “Death to America” and claimed that “America has never been a democracy” on Sunday during a solidarity trip to Iran, ahead of the re-implementation of US sanctions on the country this week. According to Iran’s semi-official state news agency Mehr, Farrakhan said at a meeting with the Secretary of Iran’s Expediency Council Mohsen Rezaei that America is conspiring against Iran. “I understand how the enemies have plotted against the Iranian people and I would like to stay alongside you to stop their plots,” he said. He also blasted American support for Saudi Arabia, Iran’s arch-rival in the region, and added, “Satan seeks to divide Muslims and wants them to kill each other, while God tells us in the Quran to be united.”"
+ },
+ {
+  "pid": "s071",
+  "techs": [
+   "Appeal_to_Hypocrisy",
+   "Flag_Waving",
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "known_spans": [],
+  "units": [
+   "“Why do we talk and investigate and get angry about an accidental fire in Grenfell, but are expected to immediately forget — or ‘not look back in anger’ — about the deliberate, ideology-driven murder of British children?\"",
+   "Waters went on.",
+   "“And why are Muslims allowed to cover their faces with a black sack while the rest of us are subject to strict security?",
+   "Why are children being mutilated and forcefully raped while the law looks the other way?",
+   "Forcefully married, child married, while the law looks the other way?",
+   "Why?",
+   "Why are animals slaughtered in agony and terror and Halal imposed on all of us in a country that has legislated against unstunned slaughter?",
+   "Why?\""
+  ],
+  "text": "“Why do we talk and investigate and get angry about an accidental fire in Grenfell, but are expected to immediately forget — or ‘not look back in anger’ — about the deliberate, ideology-driven murder of British children?\" Waters went on. “And why are Muslims allowed to cover their faces with a black sack while the rest of us are subject to strict security? Why are children being mutilated and forcefully raped while the law looks the other way? Forcefully married, child married, while the law looks the other way? Why? Why are animals slaughtered in agony and terror and Halal imposed on all of us in a country that has legislated against unstunned slaughter? Why?\""
+ },
+ {
+  "pid": "s072",
+  "techs": [
+   "Appeal_to_Fear-Prejudice",
+   "Guilt_by_Association",
+   "Loaded_Language",
+   "Repetition",
+   "Slogans"
+  ],
+  "known_spans": [
+   [
+    "Guilt_by_Association",
+    "Such measures are c mmon practice i th Korea and Saudi Arabia"
+   ]
+  ],
+  "units": [
+   "Tommy Robinson was arrested on May 25 outside Leeds Crown Court after using social media to broadcast details of an ongoing trial which was subject to reporting restrictions.",
+   "He was arrested, brought before a judge, and sentenced within five hours.",
+   "The judge ordered a media ban on his arrest and imprisonment, even forcing British publications to delete their articles about the case.",
+   "Such measures are common practice in North Korea and Saudi Arabia.",
+   "It is sad to see how Britain, the cradle of Western democracy and the rule of law, is fast descending into tyranny.",
+   "Tommy is a hero.",
+   "It is a disgrace that he is still in jail.",
+   "I have been invited to a major protest demonstration in London next week, and I will be coming.",
+   "Free Tommy now."
+  ],
+  "text": "Tommy Robinson was arrested on May 25 outside Leeds Crown Court after using social media to broadcast details of an ongoing trial which was subject to reporting restrictions. He was arrested, brought before a judge, and sentenced within five hours. The judge ordered a media ban on his arrest and imprisonment, even forcing British publications to delete their articles about the case. Such measures are common practice in North Korea and Saudi Arabia. It is sad to see how Britain, the cradle of Western democracy and the rule of law, is fast descending into tyranny. Tommy is a hero. It is a disgrace that he is still in jail. I have been invited to a major protest demonstration in London next week, and I will be coming. Free Tommy now."
+ },
+ {
+  "pid": "s073",
+  "techs": [
+   "Doubt",
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "known_spans": [
+   [
+    "Doubt",
+    "kn ws"
+   ],
+   [
+    "Doubt",
+    "knows"
+   ]
+  ],
+  "units": [
+   "And the label of “violent extremist” turns out to be used very generously.",
+   "Ganesh makes wild leaps and inferences.",
+   "He talks of Darren Osborne, the perpetrator of the vehicular attack on Finsbury Park Mosque.",
+   "This was a heinous crime, and should rightly be condemned.",
+   "But why did Osborne do this, according to Ganesh?",
+   "The attack “was executed after he had become indignant after watching a BBC broadcast on child sexual exploitation and turned to social media to make sense of it.",
+   "He found a narrative from British counter-jihad groups closely aligned with the alt-right, such as Britain First and the founder of the English Defence League Tommy Robinson.”",
+   "The British counter-jihad movement is thus swept into the same group of violent extremists as Osborne, because Ganesh “knows” they encouraged him."
+  ],
+  "text": "And the label of “violent extremist” turns out to be used very generously. Ganesh makes wild leaps and inferences. He talks of Darren Osborne, the perpetrator of the vehicular attack on Finsbury Park Mosque. This was a heinous crime, and should rightly be condemned. But why did Osborne do this, according to Ganesh? The attack “was executed after he had become indignant after watching a BBC broadcast on child sexual exploitation and turned to social media to make sense of it. He found a narrative from British counter-jihad groups closely aligned with the alt-right, such as Britain First and the founder of the English Defence League Tommy Robinson.” The British counter-jihad movement is thus swept into the same group of violent extremists as Osborne, because Ganesh “knows” they encouraged him."
+ },
+ {
+  "pid": "s074",
+  "techs": [
+   "Appeal_to_Authority",
+   "Doubt",
+   "Loaded_Language",
+   "Straw_Man"
+  ],
+  "known_spans": [],
+  "units": [
+   "John Allen’s instant analysis attempting to impeach Viganò’s testimony is, as one would expect from him, a bit craftier.",
+   "His opinion is: “Take it seriously, but with a large grain of salt.”",
+   "Which is just Allen’s more nuanced way of saying: “Don’t believe it.”",
+   "Allen’s view is supported by such irrelevancies as the fact that Viganò’s account implicates “no fewer than 32 senior churchmen”",
+   "(so what?), that he “has a history” of “innuendo and conspiracy theories”",
+   "(a gratuitous assertion unsupported by evidence of falsity), that he allegedly quashed an investigation of Archbishop John Nienstedt and ordered evidence destroyed (an allegation Viganò has immediately and categorically denied with conclusive supporting documents, but in any event a tuo quoque fallacy) and that Allen has “the impression that all this was orchestrated with a political agenda in mind”",
+   "(the same “conspiracy theory” mentality he gratuitously attributes to Viganò)."
+  ],
+  "text": "John Allen’s instant analysis attempting to impeach Viganò’s testimony is, as one would expect from him, a bit craftier. His opinion is: “Take it seriously, but with a large grain of salt.” Which is just Allen’s more nuanced way of saying: “Don’t believe it.” Allen’s view is supported by such irrelevancies as the fact that Viganò’s account implicates “no fewer than 32 senior churchmen” (so what?), that he “has a history” of “innuendo and conspiracy theories” (a gratuitous assertion unsupported by evidence of falsity), that he allegedly quashed an investigation of Archbishop John Nienstedt and ordered evidence destroyed (an allegation Viganò has immediately and categorically denied with conclusive supporting documents, but in any event a tuo quoque fallacy) and that Allen has “the impression that all this was orchestrated with a political agenda in mind” (the same “conspiracy theory” mentality he gratuitously attributes to Viganò)."
+ },
+ {
+  "pid": "s075",
+  "techs": [],
+  "known_spans": [],
+  "units": [
+   "On Sunday, a former classmate from Judge Kavanaugh's time at Yale accused the Supreme Court nominee of exposing himself to her at a party.",
+   "The New Yorker has just published an article written by Ronan Farrow and Jane Mayer, based on information that was reportedly sent to at least four Democratic senators.",
+   "The article recounted a claim by Deborah Ramirez, a Yale classmate of Brett Kavanaugh’s, concerning “a dormitory party gone awry.”",
+   "As the article acknowledged, however, “her memories contained gaps because she had been drinking at the time of the alleged incident.”",
+   "The article goes on to say that in her initial conversations with The New Yorker, Ms.",
+   "Ramirez was “reluctant to characterize Kavanaugh’s role in the alleged incident with certainty.”",
+   "It was only after “six days of carefully assessing her memories and consulting with her attorney” that Ms.",
+   "Ramirez was suddenly able to pinpoint Judge Kavanaugh as having committed an unsavory act, even though she admitted being “foggy” at the time.",
+   "The New Yorker article also noted that the magazine “has not confirmed with other eyewitnesses that Kavanaugh was present at the party.”"
+  ],
+  "text": "On Sunday, a former classmate from Judge Kavanaugh's time at Yale accused the Supreme Court nominee of exposing himself to her at a party. The New Yorker has just published an article written by Ronan Farrow and Jane Mayer, based on information that was reportedly sent to at least four Democratic senators. The article recounted a claim by Deborah Ramirez, a Yale classmate of Brett Kavanaugh’s, concerning “a dormitory party gone awry.” As the article acknowledged, however, “her memories contained gaps because she had been drinking at the time of the alleged incident.” The article goes on to say that in her initial conversations with The New Yorker, Ms. Ramirez was “reluctant to characterize Kavanaugh’s role in the alleged incident with certainty.” It was only after “six days of carefully assessing her memories and consulting with her attorney” that Ms. Ramirez was suddenly able to pinpoint Judge Kavanaugh as having committed an unsavory act, even though she admitted being “foggy” at the time. The New Yorker article also noted that the magazine “has not confirmed with other eyewitnesses that Kavanaugh was present at the party.”"
+ },
+ {
+  "pid": "s076",
+  "techs": [
+   "Exaggeration-Minimisation",
+   "False_Dilemma-No_Choice",
+   "Name_Calling-Labeling",
+   "Repetition"
+  ],
+  "known_spans": [],
+  "units": [
+   "In other words, there have been absolutely no problems whatever with the direction taken either by the Church or by the religious life since Vatican II.",
+   "Everything that has happened has been in complete and perfect continuity between the Before Church and the After Church; there has been no rupture or break with the past.",
+   "All changes undertaken by religious houses were perfectly legitimate and good - “fruitful” if, perhaps, a bit “intense” – and have been made in “light of the teachings” of Vatican II and “changed socio-cultural conditions.”",
+   "There is, therefore, no legitimate reason whatever for any religious house to attempt to “turn back the clock” to the pre-Vatican II norms or styles of religious life.",
+   "Anyone attempting to do this are Bad Nuns [insert string of incomprehensible papal insults here.]"
+  ],
+  "text": "In other words, there have been absolutely no problems whatever with the direction taken either by the Church or by the religious life since Vatican II. Everything that has happened has been in complete and perfect continuity between the Before Church and the After Church; there has been no rupture or break with the past. All changes undertaken by religious houses were perfectly legitimate and good - “fruitful” if, perhaps, a bit “intense” – and have been made in “light of the teachings” of Vatican II and “changed socio-cultural conditions.” There is, therefore, no legitimate reason whatever for any religious house to attempt to “turn back the clock” to the pre-Vatican II norms or styles of religious life. Anyone attempting to do this are Bad Nuns [insert string of incomprehensible papal insults here.]"
+ },
+ {
+  "pid": "s077",
+  "techs": [],
+  "known_spans": [],
+  "units": [
+   "If Kavanaugh isn’t on the bench on October 1, the Supreme Court will be shorthanded as it begins hearing cases in its new term.",
+   "The high court normally has a complement of nine justices but with Associate Justice Anthony Kennedy’s retirement July 31, which cleared the way for Kavanaugh’s nomination, there have only been only eight justices in place.",
+   "Roughly speaking there is a 4-to-4 liberal to conservative ideological split on the court.",
+   "Democrats would prefer to drag the confirmation process into the next Congress where they stand a good chance of taking control from Republicans.",
+   "Election Day is November 6.",
+   "The GOP currently controls the Senate, which has the final say on judicial nominations, by an uncomfortably close margin of 51 to 49."
+  ],
+  "text": "If Kavanaugh isn’t on the bench on October 1, the Supreme Court will be shorthanded as it begins hearing cases in its new term. The high court normally has a complement of nine justices but with Associate Justice Anthony Kennedy’s retirement July 31, which cleared the way for Kavanaugh’s nomination, there have only been only eight justices in place. Roughly speaking there is a 4-to-4 liberal to conservative ideological split on the court. Democrats would prefer to drag the confirmation process into the next Congress where they stand a good chance of taking control from Republicans. Election Day is November 6. The GOP currently controls the Senate, which has the final say on judicial nominations, by an uncomfortably close margin of 51 to 49."
+ },
+ {
+  "pid": "s078",
+  "techs": [
+   "Appeal_to_Authority"
+  ],
+  "known_spans": [],
+  "units": [
+   "What would be the grounds for a declaration of deposition at such a gathering of prelates?",
+   "One could readily point to the evidence that a faction that included Bergoglio himself had agreed upon his election before the conclave, and that all those involved, including Bergoglio, were thereby excommunicated latae sententiae in accordance with Article 81 of John Paul II’s Universi Dominici Gregis, which provides:"
+  ],
+  "text": "What would be the grounds for a declaration of deposition at such a gathering of prelates? One could readily point to the evidence that a faction that included Bergoglio himself had agreed upon his election before the conclave, and that all those involved, including Bergoglio, were thereby excommunicated latae sententiae in accordance with Article 81 of John Paul II’s Universi Dominici Gregis, which provides:"
+ },
+ {
+  "pid": "s079",
+  "techs": [
+   "Doubt"
+  ],
+  "known_spans": [
+   [
+    "Doubt",
+    "th want the pub c to believ"
+   ]
+  ],
+  "units": [
+   "There are two conflicting timelines of Campos’s injury, but what the media has so far made clear, is that they want the public to believe Campos was walking down the Mandalay Bay Hotel & Casino’s 32nd floor hallway, when Stephen Paddock spotted him on a camera he’d allegedly set up in a room service cart, just outside his suite.",
+   "Once he saw Campos, Paddock reportedly fired nearly 200 rounds through his suite door, wounding Campos in the leg.",
+   "Moments later (6 minutes actually, according to the newly revised timeline regarding Campos) Paddock allegedly opened fire on a crowd killing more than 50 and injuring nearly 500."
+  ],
+  "text": "There are two conflicting timelines of Campos’s injury, but what the media has so far made clear, is that they want the public to believe Campos was walking down the Mandalay Bay Hotel & Casino’s 32nd floor hallway, when Stephen Paddock spotted him on a camera he’d allegedly set up in a room service cart, just outside his suite. Once he saw Campos, Paddock reportedly fired nearly 200 rounds through his suite door, wounding Campos in the leg. Moments later (6 minutes actually, according to the newly revised timeline regarding Campos) Paddock allegedly opened fire on a crowd killing more than 50 and injuring nearly 500."
+ },
+ {
+  "pid": "s080",
+  "techs": [
+   "Doubt",
+   "Flag_Waving"
+  ],
+  "known_spans": [],
+  "units": [
+   "Jeff then describes a scene in which he and his wife were walking through the main lobby when screams and gunfire erupted.",
+   "Keep in mind, this is all information that the police and the FBI has hidden from the American people."
+  ],
+  "text": "Jeff then describes a scene in which he and his wife were walking through the main lobby when screams and gunfire erupted. Keep in mind, this is all information that the police and the FBI has hidden from the American people."
+ },
+ {
+  "pid": "s081",
+  "techs": [
+   "Conversation_Killer"
+  ],
+  "known_spans": [],
+  "units": [
+   "The faces of the criminal Democrat Party, at least two of them, have now had an ethics complaint filed against them in the US Senate, and rightly so.",
+   "Senators Kamala Harris, who basically said that Judge Brett Kavanaugh was guilty because she believed Christine Blasey Ford's unsubstantiated and uncorroborated accusations against him, and Elizabeth Warren, also known as \"Fauxahontas,\" are the two members of the Senate who will be investigated."
+  ],
+  "text": "The faces of the criminal Democrat Party, at least two of them, have now had an ethics complaint filed against them in the US Senate, and rightly so. Senators Kamala Harris, who basically said that Judge Brett Kavanaugh was guilty because she believed Christine Blasey Ford's unsubstantiated and uncorroborated accusations against him, and Elizabeth Warren, also known as \"Fauxahontas,\" are the two members of the Senate who will be investigated."
+ },
+ {
+  "pid": "s082",
+  "techs": [
+   "Appeal_to_Fear-Prejudice",
+   "Name_Calling-Labeling",
+   "Repetition"
+  ],
+  "known_spans": [
+   [
+    "Appeal_to_Fear-Prejudice",
+    "them want to overwhelm German values, and European values  general, with sha values"
+   ]
+  ],
+  "units": [
+   "\"They don’t want a 'German life' in Germany in the sense that they are willing to accept German values,\" she added.",
+   "\"Many, all too many, of them want to overwhelm German values, and European values in general, with sharia values.",
+   "They are in Europe to conquer and Islamize it, with willing and eager help from Europe’s short-sighted, self-serving, internationalist intelligentsia.\""
+  ],
+  "text": "\"They don’t want a 'German life' in Germany in the sense that they are willing to accept German values,\" she added. \"Many, all too many, of them want to overwhelm German values, and European values in general, with sharia values. They are in Europe to conquer and Islamize it, with willing and eager help from Europe’s short-sighted, self-serving, internationalist intelligentsia.\""
+ },
+ {
+  "pid": "s083",
+  "techs": [
+   "Doubt",
+   "Loaded_Language",
+   "Name_Calling-Labeling"
+  ],
+  "known_spans": [
+   [
+    "Name_Calling-Labeling",
+    "m ou l t for British government disinformation operations ai t def Ru"
+   ]
+  ],
+  "units": [
+   "The Guardian has become a main outlet for British government disinformation operations aimed at defaming Russia.",
+   "It smeared Assange and Snowden as Russian collaborators.",
+   "It uncritically peddled the Russiagate story and the nonsensical Skripal claims which are both obviously concocted by British intelligence services.",
+   "That seems to have become its main purpose."
+  ],
+  "text": "The Guardian has become a main outlet for British government disinformation operations aimed at defaming Russia. It smeared Assange and Snowden as Russian collaborators. It uncritically peddled the Russiagate story and the nonsensical Skripal claims which are both obviously concocted by British intelligence services. That seems to have become its main purpose."
+ },
+ {
+  "pid": "s084",
+  "techs": [
+   "False_Dilemma-No_Choice"
+  ],
+  "known_spans": [],
+  "units": [
+   "That notion read more like a warning — behave or else — and the Correspondents’ Association seemed unmoved."
+  ],
+  "text": "That notion read more like a warning — behave or else — and the Correspondents’ Association seemed unmoved."
+ },
+ {
+  "pid": "s085",
+  "techs": [],
+  "known_spans": [],
+  "units": [
+   "Given that Pope Francis has, since that interview took place, attempted to make the Argentine bishops’ interpretation of AL 'magisterial'--an interpretation that allows public adulterers to receive Holy Communion--Cardinal Burke’s reply to my question on January 9th of this year would seem to take on new relevancy."
+  ],
+  "text": "Given that Pope Francis has, since that interview took place, attempted to make the Argentine bishops’ interpretation of AL 'magisterial'--an interpretation that allows public adulterers to receive Holy Communion--Cardinal Burke’s reply to my question on January 9th of this year would seem to take on new relevancy."
+ },
+ {
+  "pid": "s086",
+  "techs": [
+   "Appeal_to_Fear-Prejudice",
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "known_spans": [
+   [
+    "Repetition",
+    "those who hate freedom"
+   ]
+  ],
+  "units": [
+   "Yesterday, the alternative media purge was boldly advanced in a coordinated effort to silence people who dissent from establishment views.",
+   "It’s just one more step toward a monopoly on information by those who hate freedom.",
+   "At this rate, they’ll soon have unquestioned access to the minds of more than 2 billion people.",
+   "And this should terrify everyone who wants to be free to question the status quo and to seek a wide range of information."
+  ],
+  "text": "Yesterday, the alternative media purge was boldly advanced in a coordinated effort to silence people who dissent from establishment views. It’s just one more step toward a monopoly on information by those who hate freedom. At this rate, they’ll soon have unquestioned access to the minds of more than 2 billion people. And this should terrify everyone who wants to be free to question the status quo and to seek a wide range of information."
+ },
+ {
+  "pid": "s087",
+  "techs": [
+   "Appeal_to_Fear-Prejudice",
+   "False_Dilemma-No_Choice"
+  ],
+  "known_spans": [],
+  "units": [
+   "The UK Home Office also admitted Shaykh Hamza Sodagar into the country, despite the fact that he has said: “If there’s homosexual men, the punishment is one of five things.",
+   "One – the easiest one maybe – chop their head off, that’s the easiest.",
+   "Second – burn them to death.",
+   "Third – throw ’em off a cliff.",
+   "Fourth – tear down a wall on them so they die under that.",
+   "Fifth – a combination of the above.”"
+  ],
+  "text": "The UK Home Office also admitted Shaykh Hamza Sodagar into the country, despite the fact that he has said: “If there’s homosexual men, the punishment is one of five things. One – the easiest one maybe – chop their head off, that’s the easiest. Second – burn them to death. Third – throw ’em off a cliff. Fourth – tear down a wall on them so they die under that. Fifth – a combination of the above.”"
+ },
+ {
+  "pid": "s088",
+  "techs": [
+   "Causal_Oversimplification",
+   "Name_Calling-Labeling",
+   "Repetition"
+  ],
+  "known_spans": [
+   [
+    "Causal_Oversimplification",
+    "simply because Ms. Ford is a woman who has made what they call, without any corroborating evidence to date, a “credible” charge"
+   ]
+  ],
+  "units": [
+   "Ms.",
+   "Ford’s supporters are exploiting the “Me Too” movement to declare Judge Kavanaugh guilty simply because Ms.",
+   "Ford is a woman who has made what they call, without any corroborating evidence to date, a “credible” charge.",
+   "The same would presumably be the case for Ms.",
+   "Ramirez.",
+   "They argue that since the Senate Judiciary Committee is not a criminal judicial trial, but rather a legislative hearing for confirmation of a Supreme Court nominee, the normal burden of proof shouldered by the accuser should not apply.",
+   "Judge Kavanaugh should have to prove that he is not guilty, they are in effect insisting.",
+   "This is another case of Kavanaugh Derangement Syndrome."
+  ],
+  "text": "Ms. Ford’s supporters are exploiting the “Me Too” movement to declare Judge Kavanaugh guilty simply because Ms. Ford is a woman who has made what they call, without any corroborating evidence to date, a “credible” charge. The same would presumably be the case for Ms. Ramirez. They argue that since the Senate Judiciary Committee is not a criminal judicial trial, but rather a legislative hearing for confirmation of a Supreme Court nominee, the normal burden of proof shouldered by the accuser should not apply. Judge Kavanaugh should have to prove that he is not guilty, they are in effect insisting. This is another case of Kavanaugh Derangement Syndrome."
+ },
+ {
+  "pid": "s089",
+  "techs": [
+   "Flag_Waving",
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "known_spans": [
+   [
+    "Flag_Waving",
+    "our children, our loved ones and our men and women in law enforcement"
+   ],
+   [
+    "Flag_Waving",
+    "h ldren, our loved ones a r men and women law enf c m nt"
+   ]
+  ],
+  "units": [
+   "“When the Trump Administration inexplicably gave the green light to distribute on the internet blueprints of 3D-printed, untraceable ghost guns, it needlessly endangered our children, our loved ones and our men and women in law enforcement,”",
+   "Becerra said in a statement.",
+   "“The Trump Administration’s actions were dangerous and incompetent.”"
+  ],
+  "text": "“When the Trump Administration inexplicably gave the green light to distribute on the internet blueprints of 3D-printed, untraceable ghost guns, it needlessly endangered our children, our loved ones and our men and women in law enforcement,” Becerra said in a statement. “The Trump Administration’s actions were dangerous and incompetent.”"
+ },
+ {
+  "pid": "s090",
+  "techs": [
+   "Appeal_to_Authority",
+   "Causal_Oversimplification",
+   "Loaded_Language",
+   "Name_Calling-Labeling",
+   "Repetition"
+  ],
+  "known_spans": [
+   [
+    "Causal_Oversimplification",
+    "and t impos on of thei  poll tax [jizya], “until they pay th tr bute out of ha d and have een humbled” (Kor n 9:29) is a divinely ordained obligation"
+   ]
+  ],
+  "units": [
+   "Now, the prior degradation of the infidels in this world before the life to come—where it is their lot—is considered an act of piety; and the imposition of their poll tax [jizya], “until they pay the tribute out of hand and have been humbled”",
+   "(Koran 9:29) is a divinely ordained obligation….The dhimmi’s payment of his dues by a bill drawn on a Muslim, or by delegating a real believer to pay it in his name will not be tolerated.",
+   "It must be exacted from him directly in order to vilify and humiliate him, so that Islam and its people may be exalted and the race of infidels brought low.",
+   "The jizya is to be imposed on all of them in full, without exception."
+  ],
+  "text": "Now, the prior degradation of the infidels in this world before the life to come—where it is their lot—is considered an act of piety; and the imposition of their poll tax [jizya], “until they pay the tribute out of hand and have been humbled” (Koran 9:29) is a divinely ordained obligation….The dhimmi’s payment of his dues by a bill drawn on a Muslim, or by delegating a real believer to pay it in his name will not be tolerated. It must be exacted from him directly in order to vilify and humiliate him, so that Islam and its people may be exalted and the race of infidels brought low. The jizya is to be imposed on all of them in full, without exception."
+ },
+ {
+  "pid": "s091",
+  "techs": [
+   "Appeal_to_Fear-Prejudice",
+   "Exaggeration-Minimisation",
+   "Name_Calling-Labeling",
+   "Straw_Man"
+  ],
+  "known_spans": [],
+  "units": [
+   "The law caught up.",
+   "Less than a week later, Wilson received a letter from the US State Department demanding that he take down his printable-gun blueprints or face prosecution for violating federal export controls.",
+   "Under an obscure set of US regulations known as the International Trade in Arms Regulations (ITAR), Wilson was accused of exporting weapons without a license, just as if he’d shipped his plastic gun to Mexico rather than put a digital version of it on the internet.",
+   "He took Defcad.com offline, but his lawyer warned him that he still potentially faced millions of dollars in fines and years in prison simply for having made the file available to overseas downloaders for a few days.",
+   "“I thought my life was over,”",
+   "Wilson says."
+  ],
+  "text": "The law caught up. Less than a week later, Wilson received a letter from the US State Department demanding that he take down his printable-gun blueprints or face prosecution for violating federal export controls. Under an obscure set of US regulations known as the International Trade in Arms Regulations (ITAR), Wilson was accused of exporting weapons without a license, just as if he’d shipped his plastic gun to Mexico rather than put a digital version of it on the internet. He took Defcad.com offline, but his lawyer warned him that he still potentially faced millions of dollars in fines and years in prison simply for having made the file available to overseas downloaders for a few days. “I thought my life was over,” Wilson says."
+ },
+ {
+  "pid": "s092",
+  "techs": [
+   "Causal_Oversimplification"
+  ],
+  "known_spans": [
+   [
+    "Causal_Oversimplification",
+    "“They used me as an example because of [the backlash over] Hillary linton,”"
+   ]
+  ],
+  "units": [
+   "“My case was usually something handled by military courts,”",
+   "Saucier said.",
+   "“They used me as an example because of [the backlash over] Hillary Clinton,” he continued, alleging his life was ruined for political reasons."
+  ],
+  "text": "“My case was usually something handled by military courts,” Saucier said. “They used me as an example because of [the backlash over] Hillary Clinton,” he continued, alleging his life was ruined for political reasons."
+ },
+ {
+  "pid": "s093",
+  "techs": [],
+  "known_spans": [],
+  "units": [
+   "Top Florida County Election Official Illegally Let People Vote Over Fax & Email"
+  ],
+  "text": "Top Florida County Election Official Illegally Let People Vote Over Fax & Email"
+ },
+ {
+  "pid": "s094",
+  "techs": [
+   "Causal_Oversimplification",
+   "Doubt",
+   "Loaded_Language",
+   "Name_Calling-Labeling"
+  ],
+  "known_spans": [],
+  "units": [
+   "So, according to Faggioli, the same Pope who sacks conservative bishops and cardinals according to his pleasure and has just removed a cardinal from the College of Cardinals in an unprecedented disciplinary act under fire from the media, is somehow powerless to dismiss Modernist bishops who have created an obscene “gay culture” in the Church and replace them with orthodox, normal heterosexual males.",
+   "Francis cannot “simply fire” even Cardinal Wuerl, who covered up crimes of homosexual predation by the priests he transferred elsewhere while Archbishop of Pittsburgh, and who authorized payment of $900,000 in hush money to bury sexual abuse claims against a homosexual priest involved in the production of child pornography."
+  ],
+  "text": "So, according to Faggioli, the same Pope who sacks conservative bishops and cardinals according to his pleasure and has just removed a cardinal from the College of Cardinals in an unprecedented disciplinary act under fire from the media, is somehow powerless to dismiss Modernist bishops who have created an obscene “gay culture” in the Church and replace them with orthodox, normal heterosexual males. Francis cannot “simply fire” even Cardinal Wuerl, who covered up crimes of homosexual predation by the priests he transferred elsewhere while Archbishop of Pittsburgh, and who authorized payment of $900,000 in hush money to bury sexual abuse claims against a homosexual priest involved in the production of child pornography."
+ },
+ {
+  "pid": "s095",
+  "techs": [
+   "Appeal_to_Fear-Prejudice",
+   "Name_Calling-Labeling",
+   "Repetition"
+  ],
+  "known_spans": [
+   [
+    "Name_Calling-Labeling",
+    "black death"
+   ]
+  ],
+  "units": [
+   "The newest warning about the outbreak of the airborne pneumonic plague, or black death, in Madagascar has been released.",
+   "Officials warn that it’s inevitable that this bacterial infection that’s infected over 2000 people will become resistant to antibiotics.",
+   "The only way to treat a person who has contracted the plague is with antibiotics.",
+   "But experts now warn that because they are being used so much to treat the infection, antibiotics resistance is inevitable and making this disease much more terrifying.",
+   "Once the bacteria is resistant, the Madagascar healthcare system will be overwhelmed, and the disease will have control of the nation."
+  ],
+  "text": "The newest warning about the outbreak of the airborne pneumonic plague, or black death, in Madagascar has been released. Officials warn that it’s inevitable that this bacterial infection that’s infected over 2000 people will become resistant to antibiotics. The only way to treat a person who has contracted the plague is with antibiotics. But experts now warn that because they are being used so much to treat the infection, antibiotics resistance is inevitable and making this disease much more terrifying. Once the bacteria is resistant, the Madagascar healthcare system will be overwhelmed, and the disease will have control of the nation."
+ },
+ {
+  "pid": "s096",
+  "techs": [
+   "Exaggeration-Minimisation",
+   "Flag_Waving"
+  ],
+  "known_spans": [
+   [
+    "Flag_Waving",
+    "the CIA has argued that the release of any of its JFK records would threaten “national security"
+   ]
+  ],
+  "units": [
+   "Ever since the assassination, the CIA has argued that the release of any of its JFK records would threaten “national security.”",
+   "One thing is for sure and undeniable: Despite the release of many of the CIA’s records in the 1990s and yesterday, the United States did not fall into the ocean or fall to the communists.",
+   "And neither would it have done so if Trump had not granted the CIA’s request for a continued cover-up of what it did on November 22, 1963."
+  ],
+  "text": "Ever since the assassination, the CIA has argued that the release of any of its JFK records would threaten “national security.” One thing is for sure and undeniable: Despite the release of many of the CIA’s records in the 1990s and yesterday, the United States did not fall into the ocean or fall to the communists. And neither would it have done so if Trump had not granted the CIA’s request for a continued cover-up of what it did on November 22, 1963."
+ },
+ {
+  "pid": "s097",
+  "techs": [
+   "Appeal_to_Fear-Prejudice",
+   "Appeal_to_Popularity",
+   "Exaggeration-Minimisation",
+   "False_Dilemma-No_Choice",
+   "Loaded_Language",
+   "Name_Calling-Labeling",
+   "Slogans"
+  ],
+  "known_spans": [
+   [
+    "Slogans",
+    "May God bless and keep Bishop Robert Morlino"
+   ]
+  ],
+  "units": [
+   "This is what a courageous shepherd looks like!",
+   "In our opinion, during the most vile clergy sex scandal in history, every bishop in the country must do exactly what Bishop Morlino has done, i.e., issue a statement of fidelity to the Church’s moral theology, specifically her teaching against the mortal sin of homosexual acts.",
+   "In so doing, the bishops will incur the wrath of the enemies of the Church, yes.",
+   "They will be crucified in the media, yes.",
+   "But they will also be doing their sacred duty before God in reassuring their thoroughly scandalized flocks that they are absolutely committed to the defense and enforcement of the Church’s moral teaching at a time when it is under scurrilous attack from within.",
+   "Nothing less will do.",
+   "Bishop Morlino has now done it, and we respectfully demand that the rest of the American bishops either follow suit or face the charge of being complicit with the degenerate and even criminal shepherds, accounts of whose betrayal and vice now dominate the news.",
+   "May God bless and keep Bishop Robert Morlino.",
+   "MJM"
+  ],
+  "text": "This is what a courageous shepherd looks like! In our opinion, during the most vile clergy sex scandal in history, every bishop in the country must do exactly what Bishop Morlino has done, i.e., issue a statement of fidelity to the Church’s moral theology, specifically her teaching against the mortal sin of homosexual acts. In so doing, the bishops will incur the wrath of the enemies of the Church, yes. They will be crucified in the media, yes. But they will also be doing their sacred duty before God in reassuring their thoroughly scandalized flocks that they are absolutely committed to the defense and enforcement of the Church’s moral teaching at a time when it is under scurrilous attack from within. Nothing less will do. Bishop Morlino has now done it, and we respectfully demand that the rest of the American bishops either follow suit or face the charge of being complicit with the degenerate and even criminal shepherds, accounts of whose betrayal and vice now dominate the news. May God bless and keep Bishop Robert Morlino. MJM"
+ },
+ {
+  "pid": "s098",
+  "techs": [
+   "Exaggeration-Minimisation",
+   "Flag_Waving",
+   "Loaded_Language"
+  ],
+  "known_spans": [],
+  "units": [
+   "“In addition to stopping all payments to these countries, which seem to have almost no control over their population, I must, in the strongest of terms, ask Mexico to stop this onslaught — and if unable to do so I will call up the U.S.",
+   "Military and CLOSE OUR SOUTHERN BORDER!”",
+   "Trump said on Twitter."
+  ],
+  "text": "“In addition to stopping all payments to these countries, which seem to have almost no control over their population, I must, in the strongest of terms, ask Mexico to stop this onslaught — and if unable to do so I will call up the U.S. Military and CLOSE OUR SOUTHERN BORDER!” Trump said on Twitter."
+ },
+ {
+  "pid": "s099",
+  "techs": [
+   "Loaded_Language",
+   "Slogans"
+  ],
+  "known_spans": [
+   [
+    "Loaded_Language",
+    "misguided joke"
+   ]
+  ],
+  "units": [
+   "As an aside, one of the more vocal proponents of BDS at McGill is a rancid character named Igor Sadikov, who in February posted a comment on twitter advocating violence against “Zionists.”",
+   "As a result, he was forced to resign his position as an SSMU director but dodged an impeachment effort to have him stripped of his position at McGill’s Arts Undergraduate Society.",
+   "Sadikov made light of his “punch a Zionist” tweet calling it a “misguided joke.”",
+   "It does not appear that Sadikov was subjected to any form of school disciplinary action despite the fact that his call for violence violated McGill’s Code of Conduct."
+  ],
+  "text": "As an aside, one of the more vocal proponents of BDS at McGill is a rancid character named Igor Sadikov, who in February posted a comment on twitter advocating violence against “Zionists.” As a result, he was forced to resign his position as an SSMU director but dodged an impeachment effort to have him stripped of his position at McGill’s Arts Undergraduate Society. Sadikov made light of his “punch a Zionist” tweet calling it a “misguided joke.” It does not appear that Sadikov was subjected to any form of school disciplinary action despite the fact that his call for violence violated McGill’s Code of Conduct."
+ }
+]

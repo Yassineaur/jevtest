@@ -1,0 +1,51 @@
+{
+ "paragraphs_used": 84,
+ "views": 216,
+ "pairs": 108,
+ "by_family": {
+  "KILL": 74,
+  "KILL_C": 74,
+  "INJECT": 34,
+  "INJECT_C": 34
+ },
+ "by_family_tech": {
+  "KILL": {
+   "Flag_Waving": 10,
+   "Slogans": 5,
+   "Conversation_Killer": 3,
+   "False_Dilemma-No_Choice": 5,
+   "Exaggeration-Minimisation": 7,
+   "Name_Calling-Labeling": 10,
+   "Doubt": 7,
+   "Repetition": 2,
+   "Causal_Oversimplification": 4,
+   "Guilt_by_Association": 2,
+   "Appeal_to_Authority": 5,
+   "Loaded_Language": 8,
+   "Red_Herring": 1,
+   "Obfuscation-Vagueness-Confusion": 1,
+   "Appeal_to_Hypocrisy": 1,
+   "Straw_Man": 2,
+   "Appeal_to_Fear-Prejudice": 1
+  },
+  "INJECT": {
+   "Straw_Man": 3,
+   "Appeal_to_Popularity": 3,
+   "Doubt": 5,
+   "Appeal_to_Authority": 2,
+   "Name_Calling-Labeling": 4,
+   "Guilt_by_Association": 1,
+   "Causal_Oversimplification": 2,
+   "Loaded_Language": 4,
+   "Appeal_to_Hypocrisy": 1,
+   "Slogans": 1,
+   "False_Dilemma-No_Choice": 1,
+   "Appeal_to_Fear-Prejudice": 2,
+   "Whataboutism": 1,
+   "Conversation_Killer": 1,
+   "Flag_Waving": 1,
+   "Red_Herring": 1,
+   "Exaggeration-Minimisation": 1
+  }
+ }
+}

@@ -1,0 +1,2055 @@
+[
+ {
+  "view": "INJECT_C",
+  "tech": "Conversation_Killer",
+  "tech2": null,
+  "label": [
+   "Causal_Oversimplification",
+   "Name_Calling-Labeling"
+  ],
+  "pair": "s036:INJECT:Conversation_Killer"
+ },
+ {
+  "view": "KILL",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "pair": "s060:KILL:Exaggeration-Minimisation"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Name_Calling-Labeling"
+  ],
+  "pair": "s012:KILL:Doubt"
+ },
+ {
+  "view": "KILL",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling"
+  ],
+  "pair": "s012:KILL:Doubt"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Loaded_Language",
+   "Name_Calling-Labeling",
+   "Slogans"
+  ],
+  "pair": "s028:KILL:Loaded_Language"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Repetition"
+  ],
+  "pair": "s039:KILL:Exaggeration-Minimisation"
+ },
+ {
+  "view": "KILL",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling",
+   "Slogans"
+  ],
+  "pair": "s028:KILL:Loaded_Language"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Guilt_by_Association",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Guilt_by_Association"
+  ],
+  "pair": "s005:INJECT:Guilt_by_Association"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Appeal_to_Authority",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Authority"
+  ],
+  "pair": "s025:KILL:Appeal_to_Authority"
+ },
+ {
+  "view": "KILL",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling"
+  ],
+  "pair": "s062:KILL:Flag_Waving"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Slogans",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Loaded_Language",
+   "Slogans"
+  ],
+  "pair": "s070:KILL:Slogans"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Name_Calling-Labeling"
+  ],
+  "pair": "s033:KILL:Name_Calling-Labeling"
+ },
+ {
+  "view": "INJECT",
+  "tech": "False_Dilemma-No_Choice",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Authority",
+   "False_Dilemma-No_Choice",
+   "Loaded_Language"
+  ],
+  "pair": "s017:INJECT:False_Dilemma-No_Choice"
+ },
+ {
+  "view": "KILL",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [],
+  "pair": "s079:KILL:Doubt"
+ },
+ {
+  "view": "KILL",
+  "tech": "Obfuscation-Vagueness-Confusion",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "pair": "s061:KILL:Obfuscation-Vagueness-Confusion"
+ },
+ {
+  "view": "KILL",
+  "tech": "False_Dilemma-No_Choice",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Loaded_Language"
+  ],
+  "pair": "s023:KILL:False_Dilemma-No_Choice"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Doubt"
+  ],
+  "pair": "s002:INJECT:Doubt"
+ },
+ {
+  "view": "KILL",
+  "tech": "Guilt_by_Association",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Loaded_Language",
+   "Repetition",
+   "Slogans"
+  ],
+  "pair": "s072:KILL:Guilt_by_Association"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Flag_Waving",
+   "Repetition"
+  ],
+  "pair": "s018:KILL:Flag_Waving"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Doubt"
+  ],
+  "pair": "s007:INJECT:Loaded_Language"
+ },
+ {
+  "view": "KILL",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Conversation_Killer"
+  ],
+  "pair": "s040:KILL:Loaded_Language"
+ },
+ {
+  "view": "KILL",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Slogans"
+  ],
+  "pair": "s099:KILL:Loaded_Language"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [],
+  "pair": "s085:INJECT:Exaggeration-Minimisation"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Slogans",
+  "tech2": null,
+  "label": [
+   "Slogans"
+  ],
+  "pair": "s011:KILL:Slogans"
+ },
+ {
+  "view": "KILL",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [],
+  "pair": "s021:KILL:Flag_Waving"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Exaggeration-Minimisation"
+  ],
+  "pair": "s019:INJECT:Doubt"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Appeal_to_Authority",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Loaded_Language"
+  ],
+  "pair": "s046:INJECT:Appeal_to_Authority"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Authority",
+   "Doubt",
+   "Loaded_Language"
+  ],
+  "pair": "s037:INJECT:Doubt"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Loaded_Language"
+  ],
+  "pair": "s007:INJECT:Loaded_Language"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling"
+  ],
+  "pair": "s075:INJECT:Name_Calling-Labeling"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Repetition"
+  ],
+  "pair": "s052:KILL:Exaggeration-Minimisation"
+ },
+ {
+  "view": "KILL",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Doubt"
+  ],
+  "pair": "s033:KILL:Name_Calling-Labeling"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Causal_Oversimplification",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Name_Calling-Labeling"
+  ],
+  "pair": "s006:INJECT:Causal_Oversimplification"
+ },
+ {
+  "view": "KILL",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [],
+  "pair": "s045:KILL:Doubt"
+ },
+ {
+  "view": "KILL",
+  "tech": "Appeal_to_Authority",
+  "tech2": null,
+  "label": [],
+  "pair": "s078:KILL:Appeal_to_Authority"
+ },
+ {
+  "view": "KILL",
+  "tech": "Repetition",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Loaded_Language"
+  ],
+  "pair": "s009:KILL:Repetition"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling",
+   "Whataboutism"
+  ],
+  "pair": "s029:KILL:Name_Calling-Labeling"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Flag_Waving",
+   "Loaded_Language",
+   "Name_Calling-Labeling"
+  ],
+  "pair": "s038:KILL:Name_Calling-Labeling"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Appeal_to_Popularity",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Popularity",
+   "Slogans"
+  ],
+  "pair": "s001:INJECT:Appeal_to_Popularity"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": null,
+  "label": [
+   "False_Dilemma-No_Choice"
+  ],
+  "pair": "s066:INJECT:Appeal_to_Fear-Prejudice"
+ },
+ {
+  "view": "KILL",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Flag_Waving",
+   "Loaded_Language"
+  ],
+  "pair": "s038:KILL:Name_Calling-Labeling"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Guilt_by_Association",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Guilt_by_Association",
+   "Loaded_Language",
+   "Repetition",
+   "Slogans"
+  ],
+  "pair": "s072:KILL:Guilt_by_Association"
+ },
+ {
+  "view": "KILL",
+  "tech": "False_Dilemma-No_Choice",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice"
+  ],
+  "pair": "s032:KILL:False_Dilemma-No_Choice"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Appeal_to_Hypocrisy",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Appeal_to_Hypocrisy",
+   "Flag_Waving",
+   "Loaded_Language"
+  ],
+  "pair": "s008:INJECT:Appeal_to_Hypocrisy"
+ },
+ {
+  "view": "KILL",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [],
+  "pair": "s019:KILL:Exaggeration-Minimisation"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Slogans"
+  ],
+  "pair": "s011:INJECT:Name_Calling-Labeling"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Causal_Oversimplification",
+  "tech2": null,
+  "label": [
+   "Causal_Oversimplification"
+  ],
+  "pair": "s014:KILL:Causal_Oversimplification"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Slogans",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "pair": "s009:INJECT:Slogans"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Conversation_Killer",
+  "tech2": null,
+  "label": [
+   "Conversation_Killer"
+  ],
+  "pair": "s081:KILL:Conversation_Killer"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation"
+  ],
+  "pair": "s019:INJECT:Doubt"
+ },
+ {
+  "view": "KILL",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Loaded_Language"
+  ],
+  "pair": "s083:KILL:Name_Calling-Labeling"
+ },
+ {
+  "view": "KILL",
+  "tech": "Repetition",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice"
+  ],
+  "pair": "s026:KILL:Repetition"
+ },
+ {
+  "view": "KILL",
+  "tech": "Conversation_Killer",
+  "tech2": null,
+  "label": [],
+  "pair": "s013:KILL:Conversation_Killer"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Flag_Waving"
+  ],
+  "pair": "s044:INJECT:Doubt"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Appeal_to_Popularity",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Exaggeration-Minimisation",
+   "False_Dilemma-No_Choice",
+   "Name_Calling-Labeling"
+  ],
+  "pair": "s010:INJECT:Appeal_to_Popularity"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Doubt"
+  ],
+  "pair": "s045:KILL:Doubt"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Slogans",
+  "tech2": null,
+  "label": [
+   "Slogans"
+  ],
+  "pair": "s034:KILL:Slogans"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation"
+  ],
+  "pair": "s005:KILL:Exaggeration-Minimisation"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Appeal_to_Authority",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Authority",
+   "Doubt",
+   "Loaded_Language"
+  ],
+  "pair": "s046:INJECT:Appeal_to_Authority"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Doubt"
+  ],
+  "pair": "s079:KILL:Doubt"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Causal_Oversimplification",
+  "tech2": null,
+  "label": [
+   "Causal_Oversimplification",
+   "Flag_Waving"
+  ],
+  "pair": "s021:INJECT:Causal_Oversimplification"
+ },
+ {
+  "view": "KILL",
+  "tech": "Appeal_to_Authority",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "pair": "s037:KILL:Appeal_to_Authority"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Appeal_to_Popularity",
+  "tech2": null,
+  "label": [
+   "Flag_Waving",
+   "Loaded_Language"
+  ],
+  "pair": "s015:INJECT:Appeal_to_Popularity"
+ },
+ {
+  "view": "KILL",
+  "tech": "Straw_Man",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Exaggeration-Minimisation",
+   "Name_Calling-Labeling"
+  ],
+  "pair": "s091:KILL:Straw_Man"
+ },
+ {
+  "view": "KILL",
+  "tech": "False_Dilemma-No_Choice",
+  "tech2": null,
+  "label": [],
+  "pair": "s084:KILL:False_Dilemma-No_Choice"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Causal_Oversimplification",
+   "Name_Calling-Labeling"
+  ],
+  "pair": "s036:KILL:Name_Calling-Labeling"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "pair": "s060:KILL:Exaggeration-Minimisation"
+ },
+ {
+  "view": "KILL",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [],
+  "pair": "s020:KILL:Doubt"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Causal_Oversimplification",
+  "tech2": null,
+  "label": [
+   "Causal_Oversimplification",
+   "Name_Calling-Labeling",
+   "Repetition"
+  ],
+  "pair": "s088:KILL:Causal_Oversimplification"
+ },
+ {
+  "view": "KILL",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [],
+  "pair": "s024:KILL:Doubt"
+ },
+ {
+  "view": "KILL",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Repetition"
+  ],
+  "pair": "s052:KILL:Exaggeration-Minimisation"
+ },
+ {
+  "view": "KILL",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation"
+  ],
+  "pair": "s096:KILL:Flag_Waving"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Conversation_Killer",
+  "tech2": null,
+  "label": [
+   "Conversation_Killer"
+  ],
+  "pair": "s003:KILL:Conversation_Killer"
+ },
+ {
+  "view": "KILL",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Doubt"
+  ],
+  "pair": "s056:KILL:Loaded_Language"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [],
+  "pair": "s075:INJECT:Name_Calling-Labeling"
+ },
+ {
+  "view": "KILL",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [],
+  "pair": "s035:KILL:Exaggeration-Minimisation"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Exaggeration-Minimisation",
+   "False_Dilemma-No_Choice",
+   "Name_Calling-Labeling"
+  ],
+  "pair": "s010:KILL:Name_Calling-Labeling"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling",
+   "Slogans"
+  ],
+  "pair": "s011:INJECT:Name_Calling-Labeling"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Loaded_Language",
+   "Name_Calling-Labeling"
+  ],
+  "pair": "s083:KILL:Name_Calling-Labeling"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Repetition",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "pair": "s009:KILL:Repetition"
+ },
+ {
+  "view": "KILL",
+  "tech": "Guilt_by_Association",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Exaggeration-Minimisation",
+   "Name_Calling-Labeling"
+  ],
+  "pair": "s016:KILL:Guilt_by_Association"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "False_Dilemma-No_Choice",
+  "tech2": null,
+  "label": [
+   "False_Dilemma-No_Choice"
+  ],
+  "pair": "s084:KILL:False_Dilemma-No_Choice"
+ },
+ {
+  "view": "KILL",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Guilt_by_Association",
+   "Loaded_Language"
+  ],
+  "pair": "s050:KILL:Flag_Waving"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Slogans",
+  "tech2": null,
+  "label": [
+   "Slogans"
+  ],
+  "pair": "s001:KILL:Slogans"
+ },
+ {
+  "view": "KILL",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Doubt"
+  ],
+  "pair": "s046:KILL:Loaded_Language"
+ },
+ {
+  "view": "KILL",
+  "tech": "Straw_Man",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Authority",
+   "Doubt",
+   "Loaded_Language"
+  ],
+  "pair": "s074:KILL:Straw_Man"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling"
+  ],
+  "pair": "s051:INJECT:Name_Calling-Labeling"
+ },
+ {
+  "view": "KILL",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": null,
+  "label": [
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "pair": "s086:KILL:Appeal_to_Fear-Prejudice"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "pair": "s063:INJECT:Loaded_Language"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation"
+  ],
+  "pair": "s085:INJECT:Exaggeration-Minimisation"
+ },
+ {
+  "view": "KILL",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [],
+  "pair": "s007:KILL:Doubt"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Straw_Man",
+  "tech2": null,
+  "label": [
+   "Flag_Waving",
+   "Slogans",
+   "Straw_Man"
+  ],
+  "pair": "s000:INJECT:Straw_Man"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Appeal_to_Popularity",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Appeal_to_Popularity",
+   "Exaggeration-Minimisation",
+   "False_Dilemma-No_Choice",
+   "Name_Calling-Labeling"
+  ],
+  "pair": "s010:INJECT:Appeal_to_Popularity"
+ },
+ {
+  "view": "KILL",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Doubt"
+  ],
+  "pair": "s080:KILL:Flag_Waving"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Slogans",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Loaded_Language",
+   "Repetition",
+   "Slogans"
+  ],
+  "pair": "s009:INJECT:Slogans"
+ },
+ {
+  "view": "KILL",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Loaded_Language",
+   "Obfuscation-Vagueness-Confusion"
+  ],
+  "pair": "s054:KILL:Name_Calling-Labeling"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Loaded_Language"
+  ],
+  "pair": "s056:KILL:Loaded_Language"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Flag_Waving"
+  ],
+  "pair": "s096:KILL:Flag_Waving"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Popularity",
+   "Loaded_Language"
+  ],
+  "pair": "s048:KILL:Loaded_Language"
+ },
+ {
+  "view": "KILL",
+  "tech": "False_Dilemma-No_Choice",
+  "tech2": null,
+  "label": [
+   "Slogans"
+  ],
+  "pair": "s004:KILL:False_Dilemma-No_Choice"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Straw_Man",
+  "tech2": null,
+  "label": [
+   "Conversation_Killer"
+  ],
+  "pair": "s013:INJECT:Straw_Man"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Authority",
+   "Appeal_to_Fear-Prejudice"
+  ],
+  "pair": "s025:INJECT:Appeal_to_Fear-Prejudice"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Exaggeration-Minimisation",
+   "Repetition"
+  ],
+  "pair": "s052:INJECT:Doubt"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Red_Herring",
+  "tech2": null,
+  "label": [],
+  "pair": "s077:INJECT:Red_Herring"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Slogans",
+  "tech2": null,
+  "label": [
+   "Slogans"
+  ],
+  "pair": "s055:KILL:Slogans"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "False_Dilemma-No_Choice",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "False_Dilemma-No_Choice"
+  ],
+  "pair": "s032:KILL:False_Dilemma-No_Choice"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Authority",
+   "Loaded_Language"
+  ],
+  "pair": "s037:INJECT:Doubt"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Flag_Waving"
+  ],
+  "pair": "s080:KILL:Flag_Waving"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Guilt_by_Association",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Exaggeration-Minimisation",
+   "Guilt_by_Association",
+   "Name_Calling-Labeling"
+  ],
+  "pair": "s016:KILL:Guilt_by_Association"
+ },
+ {
+  "view": "KILL",
+  "tech": "Causal_Oversimplification",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling",
+   "Repetition"
+  ],
+  "pair": "s088:KILL:Causal_Oversimplification"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Flag_Waving",
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "pair": "s089:KILL:Flag_Waving"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Exaggeration-Minimisation",
+   "Loaded_Language"
+  ],
+  "pair": "s027:KILL:Exaggeration-Minimisation"
+ },
+ {
+  "view": "KILL",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Repetition"
+  ],
+  "pair": "s095:KILL:Name_Calling-Labeling"
+ },
+ {
+  "view": "KILL",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Repetition"
+  ],
+  "pair": "s018:KILL:Flag_Waving"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Straw_Man",
+  "tech2": null,
+  "label": [
+   "Straw_Man"
+  ],
+  "pair": "s057:INJECT:Straw_Man"
+ },
+ {
+  "view": "KILL",
+  "tech": "Slogans",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Loaded_Language"
+  ],
+  "pair": "s070:KILL:Slogans"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Name_Calling-Labeling",
+   "Repetition"
+  ],
+  "pair": "s082:KILL:Name_Calling-Labeling"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "False_Dilemma-No_Choice"
+  ],
+  "pair": "s066:INJECT:Appeal_to_Fear-Prejudice"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Appeal_to_Authority",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Authority",
+   "Conversation_Killer"
+  ],
+  "pair": "s003:INJECT:Appeal_to_Authority"
+ },
+ {
+  "view": "KILL",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Whataboutism"
+  ],
+  "pair": "s029:KILL:Name_Calling-Labeling"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Appeal_to_Hypocrisy",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Flag_Waving",
+   "Loaded_Language"
+  ],
+  "pair": "s008:INJECT:Appeal_to_Hypocrisy"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [],
+  "pair": "s093:INJECT:Loaded_Language"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Red_Herring",
+  "tech2": null,
+  "label": [
+   "Red_Herring"
+  ],
+  "pair": "s077:INJECT:Red_Herring"
+ },
+ {
+  "view": "KILL",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "pair": "s073:KILL:Doubt"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Whataboutism",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Name_Calling-Labeling"
+  ],
+  "pair": "s033:INJECT:Whataboutism"
+ },
+ {
+  "view": "KILL",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "pair": "s015:KILL:Flag_Waving"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Flag_Waving"
+  ],
+  "pair": "s044:INJECT:Doubt"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Appeal_to_Authority",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Authority"
+  ],
+  "pair": "s078:KILL:Appeal_to_Authority"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Repetition",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Repetition"
+  ],
+  "pair": "s026:KILL:Repetition"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Doubt"
+  ],
+  "pair": "s024:KILL:Doubt"
+ },
+ {
+  "view": "KILL",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation"
+  ],
+  "pair": "s006:KILL:Name_Calling-Labeling"
+ },
+ {
+  "view": "KILL",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Loaded_Language"
+  ],
+  "pair": "s027:KILL:Exaggeration-Minimisation"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Doubt"
+  ],
+  "pair": "s020:KILL:Doubt"
+ },
+ {
+  "view": "KILL",
+  "tech": "Appeal_to_Hypocrisy",
+  "tech2": null,
+  "label": [
+   "Flag_Waving",
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "pair": "s071:KILL:Appeal_to_Hypocrisy"
+ },
+ {
+  "view": "KILL",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [],
+  "pair": "s005:KILL:Exaggeration-Minimisation"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Appeal_to_Authority",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Authority",
+   "Loaded_Language"
+  ],
+  "pair": "s037:KILL:Appeal_to_Authority"
+ },
+ {
+  "view": "KILL",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Repetition"
+  ],
+  "pair": "s082:KILL:Name_Calling-Labeling"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Whataboutism",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Name_Calling-Labeling",
+   "Whataboutism"
+  ],
+  "pair": "s033:INJECT:Whataboutism"
+ },
+ {
+  "view": "KILL",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [],
+  "pair": "s044:KILL:Flag_Waving"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Appeal_to_Authority",
+  "tech2": null,
+  "label": [
+   "Conversation_Killer"
+  ],
+  "pair": "s003:INJECT:Appeal_to_Authority"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Flag_Waving",
+   "Loaded_Language"
+  ],
+  "pair": "s015:KILL:Flag_Waving"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Appeal_to_Popularity",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Popularity",
+   "Flag_Waving",
+   "Loaded_Language"
+  ],
+  "pair": "s015:INJECT:Appeal_to_Popularity"
+ },
+ {
+  "view": "KILL",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Slogans"
+  ],
+  "pair": "s000:KILL:Flag_Waving"
+ },
+ {
+  "view": "KILL",
+  "tech": "Slogans",
+  "tech2": null,
+  "label": [],
+  "pair": "s001:KILL:Slogans"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Appeal_to_Hypocrisy",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Hypocrisy",
+   "Flag_Waving",
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "pair": "s071:KILL:Appeal_to_Hypocrisy"
+ },
+ {
+  "view": "KILL",
+  "tech": "Slogans",
+  "tech2": null,
+  "label": [],
+  "pair": "s034:KILL:Slogans"
+ },
+ {
+  "view": "KILL",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Name_Calling-Labeling"
+  ],
+  "pair": "s022:KILL:Loaded_Language"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Straw_Man",
+  "tech2": null,
+  "label": [],
+  "pair": "s057:INJECT:Straw_Man"
+ },
+ {
+  "view": "KILL",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Causal_Oversimplification"
+  ],
+  "pair": "s036:KILL:Name_Calling-Labeling"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Doubt"
+  ],
+  "pair": "s007:KILL:Doubt"
+ },
+ {
+  "view": "KILL",
+  "tech": "Slogans",
+  "tech2": null,
+  "label": [],
+  "pair": "s055:KILL:Slogans"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "False_Dilemma-No_Choice",
+   "Slogans"
+  ],
+  "pair": "s004:INJECT:Name_Calling-Labeling"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "pair": "s073:KILL:Doubt"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Causal_Oversimplification",
+  "tech2": null,
+  "label": [
+   "Flag_Waving"
+  ],
+  "pair": "s021:INJECT:Causal_Oversimplification"
+ },
+ {
+  "view": "KILL",
+  "tech": "Causal_Oversimplification",
+  "tech2": null,
+  "label": [],
+  "pair": "s092:KILL:Causal_Oversimplification"
+ },
+ {
+  "view": "KILL",
+  "tech": "Appeal_to_Authority",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "pair": "s017:KILL:Appeal_to_Authority"
+ },
+ {
+  "view": "KILL",
+  "tech": "Appeal_to_Authority",
+  "tech2": null,
+  "label": [],
+  "pair": "s025:KILL:Appeal_to_Authority"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation"
+  ],
+  "pair": "s019:KILL:Exaggeration-Minimisation"
+ },
+ {
+  "view": "KILL",
+  "tech": "Conversation_Killer",
+  "tech2": null,
+  "label": [],
+  "pair": "s081:KILL:Conversation_Killer"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Repetition"
+  ],
+  "pair": "s052:INJECT:Doubt"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Conversation_Killer",
+  "tech2": null,
+  "label": [
+   "Causal_Oversimplification",
+   "Conversation_Killer",
+   "Name_Calling-Labeling"
+  ],
+  "pair": "s036:INJECT:Conversation_Killer"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Flag_Waving"
+  ],
+  "pair": "s021:KILL:Flag_Waving"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Conversation_Killer",
+   "Loaded_Language"
+  ],
+  "pair": "s040:KILL:Loaded_Language"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Guilt_by_Association",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation"
+  ],
+  "pair": "s005:INJECT:Guilt_by_Association"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Flag_Waving",
+   "Slogans"
+  ],
+  "pair": "s000:KILL:Flag_Waving"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Loaded_Language"
+  ],
+  "pair": "s046:KILL:Loaded_Language"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Loaded_Language",
+   "Name_Calling-Labeling"
+  ],
+  "pair": "s022:KILL:Loaded_Language"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "False_Dilemma-No_Choice",
+  "tech2": null,
+  "label": [
+   "False_Dilemma-No_Choice"
+  ],
+  "pair": "s066:KILL:False_Dilemma-No_Choice"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Appeal_to_Authority",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Authority",
+   "Loaded_Language"
+  ],
+  "pair": "s017:KILL:Appeal_to_Authority"
+ },
+ {
+  "view": "KILL",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Popularity"
+  ],
+  "pair": "s048:KILL:Loaded_Language"
+ },
+ {
+  "view": "KILL",
+  "tech": "Causal_Oversimplification",
+  "tech2": null,
+  "label": [],
+  "pair": "s014:KILL:Causal_Oversimplification"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Red_Herring",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Red_Herring"
+  ],
+  "pair": "s058:KILL:Red_Herring"
+ },
+ {
+  "view": "KILL",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Repetition"
+  ],
+  "pair": "s039:KILL:Exaggeration-Minimisation"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Authority"
+  ],
+  "pair": "s025:INJECT:Appeal_to_Fear-Prejudice"
+ },
+ {
+  "view": "KILL",
+  "tech": "Appeal_to_Authority",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Loaded_Language"
+  ],
+  "pair": "s042:KILL:Appeal_to_Authority"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Appeal_to_Popularity",
+  "tech2": null,
+  "label": [
+   "Slogans"
+  ],
+  "pair": "s001:INJECT:Appeal_to_Popularity"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Flag_Waving",
+   "Loaded_Language"
+  ],
+  "pair": "s059:KILL:Loaded_Language"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "False_Dilemma-No_Choice",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Authority",
+   "Loaded_Language"
+  ],
+  "pair": "s017:INJECT:False_Dilemma-No_Choice"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "pair": "s093:INJECT:Loaded_Language"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [],
+  "pair": "s002:INJECT:Doubt"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "False_Dilemma-No_Choice",
+  "tech2": null,
+  "label": [
+   "False_Dilemma-No_Choice",
+   "Slogans"
+  ],
+  "pair": "s004:KILL:False_Dilemma-No_Choice"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "False_Dilemma-No_Choice",
+   "Name_Calling-Labeling",
+   "Slogans"
+  ],
+  "pair": "s004:INJECT:Name_Calling-Labeling"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Flag_Waving",
+   "Guilt_by_Association",
+   "Loaded_Language"
+  ],
+  "pair": "s050:KILL:Flag_Waving"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Straw_Man",
+  "tech2": null,
+  "label": [
+   "Flag_Waving",
+   "Slogans"
+  ],
+  "pair": "s000:INJECT:Straw_Man"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Flag_Waving",
+   "Name_Calling-Labeling"
+  ],
+  "pair": "s062:KILL:Flag_Waving"
+ },
+ {
+  "view": "KILL",
+  "tech": "Slogans",
+  "tech2": null,
+  "label": [],
+  "pair": "s011:KILL:Slogans"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "pair": "s068:INJECT:Loaded_Language"
+ },
+ {
+  "view": "KILL",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "pair": "s089:KILL:Flag_Waving"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [],
+  "pair": "s068:INJECT:Loaded_Language"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Name_Calling-Labeling",
+   "Repetition"
+  ],
+  "pair": "s095:KILL:Name_Calling-Labeling"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation"
+  ],
+  "pair": "s035:KILL:Exaggeration-Minimisation"
+ },
+ {
+  "view": "KILL",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Flag_Waving"
+  ],
+  "pair": "s059:KILL:Loaded_Language"
+ },
+ {
+  "view": "KILL",
+  "tech": "Conversation_Killer",
+  "tech2": null,
+  "label": [],
+  "pair": "s003:KILL:Conversation_Killer"
+ },
+ {
+  "view": "KILL",
+  "tech": "False_Dilemma-No_Choice",
+  "tech2": null,
+  "label": [],
+  "pair": "s066:KILL:False_Dilemma-No_Choice"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Straw_Man",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Authority",
+   "Doubt",
+   "Loaded_Language",
+   "Straw_Man"
+  ],
+  "pair": "s074:KILL:Straw_Man"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [],
+  "pair": "s051:INJECT:Name_Calling-Labeling"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Name_Calling-Labeling"
+  ],
+  "pair": "s006:KILL:Name_Calling-Labeling"
+ },
+ {
+  "view": "KILL",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Exaggeration-Minimisation",
+   "False_Dilemma-No_Choice"
+  ],
+  "pair": "s010:KILL:Name_Calling-Labeling"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "False_Dilemma-No_Choice",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "False_Dilemma-No_Choice",
+   "Loaded_Language"
+  ],
+  "pair": "s023:KILL:False_Dilemma-No_Choice"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Flag_Waving",
+   "Repetition"
+  ],
+  "pair": "s039:INJECT:Flag_Waving"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Causal_Oversimplification",
+  "tech2": null,
+  "label": [
+   "Causal_Oversimplification",
+   "Exaggeration-Minimisation",
+   "Name_Calling-Labeling"
+  ],
+  "pair": "s006:INJECT:Causal_Oversimplification"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Causal_Oversimplification",
+  "tech2": null,
+  "label": [
+   "Causal_Oversimplification"
+  ],
+  "pair": "s092:KILL:Causal_Oversimplification"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Obfuscation-Vagueness-Confusion",
+  "tech2": null,
+  "label": [
+   "Loaded_Language",
+   "Obfuscation-Vagueness-Confusion"
+  ],
+  "pair": "s061:KILL:Obfuscation-Vagueness-Confusion"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [],
+  "pair": "s063:INJECT:Loaded_Language"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Flag_Waving"
+  ],
+  "pair": "s044:KILL:Flag_Waving"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Causal_Oversimplification",
+  "tech2": null,
+  "label": [
+   "Causal_Oversimplification"
+  ],
+  "pair": "s047:KILL:Causal_Oversimplification"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Straw_Man",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Exaggeration-Minimisation",
+   "Name_Calling-Labeling",
+   "Straw_Man"
+  ],
+  "pair": "s091:KILL:Straw_Man"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Conversation_Killer",
+  "tech2": null,
+  "label": [
+   "Conversation_Killer"
+  ],
+  "pair": "s013:KILL:Conversation_Killer"
+ },
+ {
+  "view": "INJECT",
+  "tech": "Straw_Man",
+  "tech2": null,
+  "label": [
+   "Conversation_Killer",
+   "Straw_Man"
+  ],
+  "pair": "s013:INJECT:Straw_Man"
+ },
+ {
+  "view": "KILL",
+  "tech": "Red_Herring",
+  "tech2": null,
+  "label": [
+   "Doubt"
+  ],
+  "pair": "s058:KILL:Red_Herring"
+ },
+ {
+  "view": "KILL",
+  "tech": "Causal_Oversimplification",
+  "tech2": null,
+  "label": [],
+  "pair": "s047:KILL:Causal_Oversimplification"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Loaded_Language",
+   "Slogans"
+  ],
+  "pair": "s099:KILL:Loaded_Language"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Appeal_to_Authority",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Authority",
+   "Appeal_to_Fear-Prejudice",
+   "Loaded_Language"
+  ],
+  "pair": "s042:KILL:Appeal_to_Authority"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "pair": "s086:KILL:Appeal_to_Fear-Prejudice"
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Loaded_Language",
+   "Name_Calling-Labeling",
+   "Obfuscation-Vagueness-Confusion"
+  ],
+  "pair": "s054:KILL:Name_Calling-Labeling"
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Repetition"
+  ],
+  "pair": "s039:INJECT:Flag_Waving"
+ }
+]
