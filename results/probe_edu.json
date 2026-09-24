@@ -1,0 +1,17 @@
+{
+  "pretrained": {
+    "start_f1": 0.7402448096300804,
+    "end_f1": 0.7353680430879713,
+    "boundary_f1": 0.7378796322095291,
+    "n_tokens_fit": 49057,
+    "n_tokens_test": 78689
+  },
+  "T4": {
+    "start_f1": 0.7105731577073692,
+    "end_f1": 0.6994874756370462,
+    "boundary_f1": 0.7050684636891533,
+    "n_tokens_fit": 49057,
+    "n_tokens_test": 78689
+  },
+  "reference_trained_segmenter_T4seg": 0.909
+}

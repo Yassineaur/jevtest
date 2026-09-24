@@ -1,0 +1,2 @@
+deleted 2026-09-24: ModernBERT-base rejected by the pre-registered backbone rule (holdout 0.496 vs 0.524); config, log, metrics and preds kept
+deleted 2026-09-24: DeBERTa-v3-large rejected by the pre-registered backbone rule (holdout tie 0.524 but 2x slower: 34.9 vs 18.5 ms p50); config, log, metrics and preds kept

@@ -1,0 +1,1351 @@
+[
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V3",
+  "tech": "Loaded_Language",
+  "tech2": "Doubt",
+  "label": [
+   "Doubt"
+  ],
+  "why": "replace Loaded_Language evidence with a Doubt cue; label must move to Doubt"
+ },
+ {
+  "view": "V1",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V4",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Loaded_Language",
+   "Name_Calling-Labeling"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V4",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V6",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Flag_Waving",
+   "Loaded_Language"
+  ],
+  "why": "inject a Loaded_Language cue into a Loaded_Language-negative paragraph; label must appear"
+ },
+ {
+  "view": "V1",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V6",
+  "tech": "Repetition",
+  "tech2": null,
+  "label": [
+   "Repetition"
+  ],
+  "why": "inject a Repetition cue into a Repetition-negative paragraph; label must appear"
+ },
+ {
+  "view": "V1",
+  "tech": "Repetition",
+  "tech2": null,
+  "label": [
+   "Repetition"
+  ],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V3",
+  "tech": "Name_Calling-Labeling",
+  "tech2": "Exaggeration-Minimisation",
+  "label": [
+   "Exaggeration-Minimisation"
+  ],
+  "why": "replace Name_Calling-Labeling evidence with a Exaggeration-Minimisation cue; label must move to Exaggeration-Minimisation"
+ },
+ {
+  "view": "V4",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Doubt"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V1",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V6",
+  "tech": "False_Dilemma-No_Choice",
+  "tech2": null,
+  "label": [
+   "False_Dilemma-No_Choice",
+   "Name_Calling-Labeling"
+  ],
+  "why": "inject a False_Dilemma-No_Choice cue into a False_Dilemma-No_Choice-negative paragraph; label must appear"
+ },
+ {
+  "view": "V6",
+  "tech": "Red_Herring",
+  "tech2": null,
+  "label": [
+   "Red_Herring"
+  ],
+  "why": "inject a Red_Herring cue into a Red_Herring-negative paragraph; label must appear"
+ },
+ {
+  "view": "V3",
+  "tech": "Slogans",
+  "tech2": "Appeal_to_Fear-Prejudice",
+  "label": [
+   "Appeal_to_Fear-Prejudice"
+  ],
+  "why": "replace Slogans evidence with a Appeal_to_Fear-Prejudice cue; label must move to Appeal_to_Fear-Prejudice"
+ },
+ {
+  "view": "V4",
+  "tech": "Repetition",
+  "tech2": null,
+  "label": [
+   "Repetition"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V4",
+  "tech": "Slogans",
+  "tech2": null,
+  "label": [
+   "Slogans"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V6",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Flag_Waving"
+  ],
+  "why": "inject a Flag_Waving cue into a Flag_Waving-negative paragraph; label must appear"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V1",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V4",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling",
+   "Whataboutism"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V6",
+  "tech": "Appeal_to_Popularity",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Popularity",
+   "Doubt",
+   "Loaded_Language",
+   "Name_Calling-Labeling"
+  ],
+  "why": "inject a Appeal_to_Popularity cue into a Appeal_to_Popularity-negative paragraph; label must appear"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V3",
+  "tech": "Causal_Oversimplification",
+  "tech2": "Doubt",
+  "label": [
+   "Doubt"
+  ],
+  "why": "replace Causal_Oversimplification evidence with a Doubt cue; label must move to Doubt"
+ },
+ {
+  "view": "V1",
+  "tech": "Repetition",
+  "tech2": null,
+  "label": [],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V6",
+  "tech": "Conversation_Killer",
+  "tech2": null,
+  "label": [
+   "Conversation_Killer"
+  ],
+  "why": "inject a Conversation_Killer cue into a Conversation_Killer-negative paragraph; label must appear"
+ },
+ {
+  "view": "V3",
+  "tech": "Flag_Waving",
+  "tech2": "Causal_Oversimplification",
+  "label": [
+   "Causal_Oversimplification",
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "why": "replace Flag_Waving evidence with a Causal_Oversimplification cue; label must move to Causal_Oversimplification"
+ },
+ {
+  "view": "V6",
+  "tech": "Appeal_to_Hypocrisy",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Hypocrisy"
+  ],
+  "why": "inject a Appeal_to_Hypocrisy cue into a Appeal_to_Hypocrisy-negative paragraph; label must appear"
+ },
+ {
+  "view": "V3",
+  "tech": "Loaded_Language",
+  "tech2": "Whataboutism",
+  "label": [
+   "Whataboutism"
+  ],
+  "why": "replace Loaded_Language evidence with a Whataboutism cue; label must move to Whataboutism"
+ },
+ {
+  "view": "V1",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V3",
+  "tech": "Loaded_Language",
+  "tech2": "Whataboutism",
+  "label": [
+   "Loaded_Language",
+   "Whataboutism"
+  ],
+  "why": "replace Loaded_Language evidence with a Whataboutism cue; label must move to Whataboutism"
+ },
+ {
+  "view": "V3",
+  "tech": "Doubt",
+  "tech2": "Flag_Waving",
+  "label": [
+   "Flag_Waving"
+  ],
+  "why": "replace Doubt evidence with a Flag_Waving cue; label must move to Flag_Waving"
+ },
+ {
+  "view": "V4",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [
+   "Loaded_Language",
+   "Name_Calling-Labeling"
+  ],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V6",
+  "tech": "Causal_Oversimplification",
+  "tech2": null,
+  "label": [
+   "Causal_Oversimplification"
+  ],
+  "why": "inject a Causal_Oversimplification cue into a Causal_Oversimplification-negative paragraph; label must appear"
+ },
+ {
+  "view": "V3",
+  "tech": "Loaded_Language",
+  "tech2": "Whataboutism",
+  "label": [
+   "Whataboutism"
+  ],
+  "why": "replace Loaded_Language evidence with a Whataboutism cue; label must move to Whataboutism"
+ },
+ {
+  "view": "V6",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice"
+  ],
+  "why": "inject a Appeal_to_Fear-Prejudice cue into a Appeal_to_Fear-Prejudice-negative paragraph; label must appear"
+ },
+ {
+  "view": "V4",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Loaded_Language",
+   "Name_Calling-Labeling"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V6",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation"
+  ],
+  "why": "inject a Exaggeration-Minimisation cue into a Exaggeration-Minimisation-negative paragraph; label must appear"
+ },
+ {
+  "view": "V4",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V6",
+  "tech": "Red_Herring",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Authority",
+   "Red_Herring"
+  ],
+  "why": "inject a Red_Herring cue into a Red_Herring-negative paragraph; label must appear"
+ },
+ {
+  "view": "V6",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Flag_Waving",
+   "Loaded_Language"
+  ],
+  "why": "inject a Flag_Waving cue into a Flag_Waving-negative paragraph; label must appear"
+ },
+ {
+  "view": "V4",
+  "tech": "Repetition",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V4",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V1",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V4",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Name_Calling-Labeling"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V3",
+  "tech": "Loaded_Language",
+  "tech2": "Guilt_by_Association",
+  "label": [
+   "Exaggeration-Minimisation",
+   "Guilt_by_Association",
+   "Loaded_Language"
+  ],
+  "why": "replace Loaded_Language evidence with a Guilt_by_Association cue; label must move to Guilt_by_Association"
+ },
+ {
+  "view": "V3",
+  "tech": "Name_Calling-Labeling",
+  "tech2": "Repetition",
+  "label": [
+   "Repetition"
+  ],
+  "why": "replace Name_Calling-Labeling evidence with a Repetition cue; label must move to Repetition"
+ },
+ {
+  "view": "V1",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V4",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Flag_Waving"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling"
+  ],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V3",
+  "tech": "Conversation_Killer",
+  "tech2": "Guilt_by_Association",
+  "label": [
+   "Guilt_by_Association"
+  ],
+  "why": "replace Conversation_Killer evidence with a Guilt_by_Association cue; label must move to Guilt_by_Association"
+ },
+ {
+  "view": "V6",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "inject a Loaded_Language cue into a Loaded_Language-negative paragraph; label must appear"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V6",
+  "tech": "Repetition",
+  "tech2": null,
+  "label": [
+   "Repetition"
+  ],
+  "why": "inject a Repetition cue into a Repetition-negative paragraph; label must appear"
+ },
+ {
+  "view": "V6",
+  "tech": "Repetition",
+  "tech2": null,
+  "label": [
+   "Repetition"
+  ],
+  "why": "inject a Repetition cue into a Repetition-negative paragraph; label must appear"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V4",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Name_Calling-Labeling"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V6",
+  "tech": "Whataboutism",
+  "tech2": null,
+  "label": [
+   "Whataboutism"
+  ],
+  "why": "inject a Whataboutism cue into a Whataboutism-negative paragraph; label must appear"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V6",
+  "tech": "Appeal_to_Authority",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Authority"
+  ],
+  "why": "inject a Appeal_to_Authority cue into a Appeal_to_Authority-negative paragraph; label must appear"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Exaggeration-Minimisation",
+   "Guilt_by_Association",
+   "Name_Calling-Labeling"
+  ],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V6",
+  "tech": "Guilt_by_Association",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Guilt_by_Association"
+  ],
+  "why": "inject a Guilt_by_Association cue into a Guilt_by_Association-negative paragraph; label must appear"
+ },
+ {
+  "view": "V1",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": null,
+  "label": [],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V1",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling"
+  ],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V1",
+  "tech": "Repetition",
+  "tech2": null,
+  "label": [],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V6",
+  "tech": "Slogans",
+  "tech2": null,
+  "label": [
+   "Loaded_Language",
+   "Slogans"
+  ],
+  "why": "inject a Slogans cue into a Slogans-negative paragraph; label must appear"
+ },
+ {
+  "view": "V6",
+  "tech": "False_Dilemma-No_Choice",
+  "tech2": null,
+  "label": [
+   "False_Dilemma-No_Choice"
+  ],
+  "why": "inject a False_Dilemma-No_Choice cue into a False_Dilemma-No_Choice-negative paragraph; label must appear"
+ },
+ {
+  "view": "V4",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V4",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Hypocrisy",
+   "Flag_Waving",
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V4",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Flag_Waving"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V4",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Loaded_Language"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V3",
+  "tech": "Causal_Oversimplification",
+  "tech2": "Loaded_Language",
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "replace Causal_Oversimplification evidence with a Loaded_Language cue; label must move to Loaded_Language"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V1",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V6",
+  "tech": "Guilt_by_Association",
+  "tech2": null,
+  "label": [
+   "Guilt_by_Association"
+  ],
+  "why": "inject a Guilt_by_Association cue into a Guilt_by_Association-negative paragraph; label must appear"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V1",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice"
+  ],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V1",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V1",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling"
+  ],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V1",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V4",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Loaded_Language"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V3",
+  "tech": "Name_Calling-Labeling",
+  "tech2": "Causal_Oversimplification",
+  "label": [
+   "Causal_Oversimplification"
+  ],
+  "why": "replace Name_Calling-Labeling evidence with a Causal_Oversimplification cue; label must move to Causal_Oversimplification"
+ },
+ {
+  "view": "V3",
+  "tech": "Loaded_Language",
+  "tech2": "Appeal_to_Fear-Prejudice",
+  "label": [
+   "Appeal_to_Fear-Prejudice"
+  ],
+  "why": "replace Loaded_Language evidence with a Appeal_to_Fear-Prejudice cue; label must move to Appeal_to_Fear-Prejudice"
+ },
+ {
+  "view": "V1",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V4",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V4",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [
+   "Appeal_to_Hypocrisy",
+   "Loaded_Language",
+   "Red_Herring"
+  ],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V6",
+  "tech": "Slogans",
+  "tech2": null,
+  "label": [
+   "Loaded_Language",
+   "Name_Calling-Labeling",
+   "Slogans"
+  ],
+  "why": "inject a Slogans cue into a Slogans-negative paragraph; label must appear"
+ },
+ {
+  "view": "V3",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": "Loaded_Language",
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Loaded_Language",
+   "Name_Calling-Labeling",
+   "Repetition"
+  ],
+  "why": "replace Appeal_to_Fear-Prejudice evidence with a Loaded_Language cue; label must move to Loaded_Language"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V1",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V4",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V3",
+  "tech": "Loaded_Language",
+  "tech2": "Whataboutism",
+  "label": [
+   "Whataboutism"
+  ],
+  "why": "replace Loaded_Language evidence with a Whataboutism cue; label must move to Whataboutism"
+ },
+ {
+  "view": "V3",
+  "tech": "Repetition",
+  "tech2": "Appeal_to_Popularity",
+  "label": [
+   "Appeal_to_Popularity"
+  ],
+  "why": "replace Repetition evidence with a Appeal_to_Popularity cue; label must move to Appeal_to_Popularity"
+ },
+ {
+  "view": "V3",
+  "tech": "Causal_Oversimplification",
+  "tech2": "Straw_Man",
+  "label": [
+   "False_Dilemma-No_Choice",
+   "Loaded_Language",
+   "Straw_Man"
+  ],
+  "why": "replace Causal_Oversimplification evidence with a Straw_Man cue; label must move to Straw_Man"
+ },
+ {
+  "view": "V3",
+  "tech": "Name_Calling-Labeling",
+  "tech2": "Doubt",
+  "label": [
+   "Doubt"
+  ],
+  "why": "replace Name_Calling-Labeling evidence with a Doubt cue; label must move to Doubt"
+ },
+ {
+  "view": "V3",
+  "tech": "Loaded_Language",
+  "tech2": "Exaggeration-Minimisation",
+  "label": [
+   "Exaggeration-Minimisation",
+   "Repetition"
+  ],
+  "why": "replace Loaded_Language evidence with a Exaggeration-Minimisation cue; label must move to Exaggeration-Minimisation"
+ },
+ {
+  "view": "V1",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": null,
+  "label": [],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V3",
+  "tech": "Loaded_Language",
+  "tech2": "Red_Herring",
+  "label": [
+   "Loaded_Language",
+   "Name_Calling-Labeling",
+   "Red_Herring"
+  ],
+  "why": "replace Loaded_Language evidence with a Red_Herring cue; label must move to Red_Herring"
+ },
+ {
+  "view": "V3",
+  "tech": "Name_Calling-Labeling",
+  "tech2": "Guilt_by_Association",
+  "label": [
+   "Causal_Oversimplification",
+   "Guilt_by_Association"
+  ],
+  "why": "replace Name_Calling-Labeling evidence with a Guilt_by_Association cue; label must move to Guilt_by_Association"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V3",
+  "tech": "Loaded_Language",
+  "tech2": "Whataboutism",
+  "label": [
+   "Whataboutism"
+  ],
+  "why": "replace Loaded_Language evidence with a Whataboutism cue; label must move to Whataboutism"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V1",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V1",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [
+   "Slogans"
+  ],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V6",
+  "tech": "Causal_Oversimplification",
+  "tech2": null,
+  "label": [
+   "Causal_Oversimplification"
+  ],
+  "why": "inject a Causal_Oversimplification cue into a Causal_Oversimplification-negative paragraph; label must appear"
+ },
+ {
+  "view": "V1",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Name_Calling-Labeling"
+  ],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V3",
+  "tech": "Name_Calling-Labeling",
+  "tech2": "Whataboutism",
+  "label": [
+   "Doubt",
+   "Loaded_Language",
+   "Name_Calling-Labeling",
+   "Whataboutism"
+  ],
+  "why": "replace Name_Calling-Labeling evidence with a Whataboutism cue; label must move to Whataboutism"
+ },
+ {
+  "view": "V6",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Loaded_Language"
+  ],
+  "why": "inject a Appeal_to_Fear-Prejudice cue into a Appeal_to_Fear-Prejudice-negative paragraph; label must appear"
+ },
+ {
+  "view": "V3",
+  "tech": "Flag_Waving",
+  "tech2": "Slogans",
+  "label": [
+   "Repetition",
+   "Slogans"
+  ],
+  "why": "replace Flag_Waving evidence with a Slogans cue; label must move to Slogans"
+ },
+ {
+  "view": "V1",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Slogans"
+  ],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V6",
+  "tech": "Whataboutism",
+  "tech2": null,
+  "label": [
+   "Flag_Waving",
+   "Loaded_Language",
+   "Whataboutism"
+  ],
+  "why": "inject a Whataboutism cue into a Whataboutism-negative paragraph; label must appear"
+ },
+ {
+  "view": "V3",
+  "tech": "Name_Calling-Labeling",
+  "tech2": "Appeal_to_Fear-Prejudice",
+  "label": [
+   "Appeal_to_Fear-Prejudice"
+  ],
+  "why": "replace Name_Calling-Labeling evidence with a Appeal_to_Fear-Prejudice cue; label must move to Appeal_to_Fear-Prejudice"
+ },
+ {
+  "view": "V6",
+  "tech": "Appeal_to_Hypocrisy",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Hypocrisy"
+  ],
+  "why": "inject a Appeal_to_Hypocrisy cue into a Appeal_to_Hypocrisy-negative paragraph; label must appear"
+ },
+ {
+  "view": "V1",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling"
+  ],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V1",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V1",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Loaded_Language",
+   "Name_Calling-Labeling"
+  ],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V4",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V4",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Conversation_Killer",
+   "Doubt",
+   "Loaded_Language"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V4",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Name_Calling-Labeling"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V6",
+  "tech": "Appeal_to_Authority",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Authority"
+  ],
+  "why": "inject a Appeal_to_Authority cue into a Appeal_to_Authority-negative paragraph; label must appear"
+ },
+ {
+  "view": "V4",
+  "tech": "Slogans",
+  "tech2": null,
+  "label": [
+   "False_Dilemma-No_Choice",
+   "Slogans"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling"
+  ],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V3",
+  "tech": "Repetition",
+  "tech2": "Guilt_by_Association",
+  "label": [
+   "Guilt_by_Association"
+  ],
+  "why": "replace Repetition evidence with a Guilt_by_Association cue; label must move to Guilt_by_Association"
+ },
+ {
+  "view": "V4",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Flag_Waving"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V4",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "False_Dilemma-No_Choice"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V1",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V6",
+  "tech": "Guilt_by_Association",
+  "tech2": null,
+  "label": [
+   "Guilt_by_Association"
+  ],
+  "why": "inject a Guilt_by_Association cue into a Guilt_by_Association-negative paragraph; label must appear"
+ },
+ {
+  "view": "V4",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V4",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling",
+   "Repetition"
+  ],
+  "why": "move the evidence span to a new position; label must stay"
+ },
+ {
+  "view": "V3",
+  "tech": "Repetition",
+  "tech2": "Doubt",
+  "label": [
+   "Doubt",
+   "Loaded_Language"
+  ],
+  "why": "replace Repetition evidence with a Doubt cue; label must move to Doubt"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling"
+  ],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V3",
+  "tech": "Loaded_Language",
+  "tech2": "Conversation_Killer",
+  "label": [
+   "Conversation_Killer"
+  ],
+  "why": "replace Loaded_Language evidence with a Conversation_Killer cue; label must move to Conversation_Killer"
+ },
+ {
+  "view": "V2",
+  "tech": null,
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Name_Calling-Labeling"
+  ],
+  "why": "swap two non-evidence words; label must stay"
+ },
+ {
+  "view": "V1",
+  "tech": "Slogans",
+  "tech2": null,
+  "label": [
+   "Flag_Waving"
+  ],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ },
+ {
+  "view": "V6",
+  "tech": "Straw_Man",
+  "tech2": null,
+  "label": [
+   "Straw_Man"
+  ],
+  "why": "inject a Straw_Man cue into a Straw_Man-negative paragraph; label must appear"
+ },
+ {
+  "view": "V1",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "why": "erase evidence span; label drops only if it was the sole span"
+ }
+]

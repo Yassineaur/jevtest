@@ -1,0 +1,130 @@
+{
+  "eval_version": "2026-09-24f",
+  "ckpt": "results\\seedcheck\\T0v2_s2\\best.pt",
+  "arm": "label",
+  "cem": true,
+  "backbone": "microsoft/deberta-v3-base",
+  "parser": "none",
+  "seed": 2,
+  "best_epoch": 3,
+  "n_holdout": 948,
+  "n_dev": 3127,
+  "label_mode": {
+    "micro_f1": 0.37709388391118037,
+    "macro_f1": 0.14228246303816433,
+    "threshold": 0.33
+  },
+  "label_calibration": {
+    "ece_raw": 0.01720451888168435,
+    "brier_raw": 0.023057181388139725,
+    "ece_temp": 0.008051769125208365,
+    "brier_temp": 0.02248358726501465,
+    "temperature": 1.3492828476735632
+  },
+  "selective": {
+    "aurc": 0.02070407875756098,
+    "acc_at_50": 0.9898337036288966,
+    "acc_at_80": 0.9877551020408163,
+    "acc_full": 0.9731035295305741
+  },
+  "faithfulness": {
+    "kill": {
+      "n": 1454,
+      "mean_delta": -0.20008119940757751,
+      "mean_abs_delta": 0.20535412430763245
+    },
+    "kill_ctrl": {
+      "n": 906,
+      "mean_delta": -0.0076272133737802505,
+      "mean_abs_delta": 0.06587748974561691
+    },
+    "relocate": {
+      "n": 1454,
+      "mean_delta": 0.011999459937214851,
+      "mean_abs_delta": 0.0727253407239914
+    },
+    "distractor": {
+      "n": 1269,
+      "mean_delta": -0.009064797312021255,
+      "mean_abs_delta": 0.05328037217259407
+    },
+    "inject": {
+      "n": 380,
+      "mean_delta": 0.21751150488853455,
+      "mean_abs_delta": 0.21805736422538757
+    },
+    "inject_ctrl": {
+      "n": 371,
+      "mean_delta": 0.004067708272486925,
+      "mean_abs_delta": 0.007662307936698198
+    }
+  },
+  "faithfulness_v2": {
+    "KILL": {
+      "n": 602,
+      "held_out": false,
+      "mean_edit": -0.24903549335548172,
+      "mean_ctrl": 0.009409867109634552,
+      "stat": -0.25844535880398667,
+      "stat_ci95": [
+        -0.28868308338870435,
+        -0.22914915004152822
+      ]
+    },
+    "INJECT": {
+      "n": 3067,
+      "held_out": false,
+      "mean_edit": 0.1303235595044017,
+      "mean_ctrl": 0.004133327029670688,
+      "stat": 0.12619023149657646,
+      "stat_ci95": [
+        0.11704614317737204,
+        0.13531858798500165
+      ]
+    },
+    "SWAP": {
+      "n": 577,
+      "held_out": false,
+      "mean_edit": -0.18159318024263432,
+      "mean_ctrl": 0.01504417157712305,
+      "stat": -0.19663732582322355,
+      "stat_ci95": [
+        -0.23051195333622182,
+        -0.16549233119584061
+      ],
+      "mean_new_edit_minus_ctrl": 0.09838518544194107
+    },
+    "RELOC": {
+      "n": 574,
+      "held_out": true,
+      "mean_edit": 0.04666196341463415,
+      "mean_ctrl": 0.0042277073170731705,
+      "stat": 0.04849771777003484,
+      "stat_ci95": [
+        0.03504801463414634,
+        0.06174466228222997
+      ]
+    },
+    "SUFF": {
+      "n": 598,
+      "held_out": true,
+      "mean_edit": 0.3790394899665552,
+      "mean_ctrl": 0.015467620401337792,
+      "stat": 0.36357189297658865,
+      "stat_ci95": [
+        0.3305420535117057,
+        0.39608666112040136
+      ]
+    }
+  },
+  "latency": {
+    "p50_ms": 16.896799999813084,
+    "p95_ms": 17.56445500013797,
+    "throughput_para_per_s_bs32": 1740.6773671798471,
+    "n": 300,
+    "gpu_busy_before": {
+      "memory_used_mib": 2792,
+      "utilization_pct": 17
+    }
+  }
+}

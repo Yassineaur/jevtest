@@ -1,0 +1,1902 @@
+[
+ {
+  "view": "INJECT",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling"
+  ],
+  "why": "insert a real Name_Calling-Labeling span at a boundary; Name_Calling-Labeling must appear",
+  "pair": "731513824:18|INJECT|0",
+  "dnll": 0.2171
+ },
+ {
+  "view": "INJECT",
+  "tech": "Causal_Oversimplification",
+  "tech2": null,
+  "label": [
+   "Causal_Oversimplification",
+   "Loaded_Language"
+  ],
+  "why": "insert a real Causal_Oversimplification span at a boundary; Causal_Oversimplification must appear",
+  "pair": "787730392:4|INJECT|1",
+  "dnll": -0.0873
+ },
+ {
+  "view": "SWAP_C",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "why": "replace same-shape non-evidence text by non-evidence text; unchanged",
+  "pair": "780414700:39|SWAP|0",
+  "dnll": 0.2695
+ },
+ {
+  "view": "SWAP",
+  "tech": "Loaded_Language",
+  "tech2": "False_Dilemma-No_Choice",
+  "label": [
+   "Conversation_Killer",
+   "False_Dilemma-No_Choice"
+  ],
+  "why": "replace the only Loaded_Language span by a real False_Dilemma-No_Choice span; Loaded_Language off, False_Dilemma-No_Choice on",
+  "pair": "715588833:25|SWAP|0",
+  "dnll": 0.187
+ },
+ {
+  "view": "SWAP",
+  "tech": "False_Dilemma-No_Choice",
+  "tech2": "Appeal_to_Fear-Prejudice",
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Flag_Waving",
+   "Repetition"
+  ],
+  "why": "replace the only False_Dilemma-No_Choice span by a real Appeal_to_Fear-Prejudice span; False_Dilemma-No_Choice off, Appeal_to_Fear-Prejudice on",
+  "pair": "765913191:33|SWAP|0",
+  "dnll": 0.1657
+ },
+ {
+  "view": "KILL",
+  "tech": "Repetition",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Loaded_Language"
+  ],
+  "why": "delete the only Repetition span; Repetition must disappear",
+  "pair": "794141509:3|KILL|1",
+  "dnll": 0.0905
+ },
+ {
+  "view": "SWAP",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": "Loaded_Language",
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "replace the only Appeal_to_Fear-Prejudice span by a real Loaded_Language span; Appeal_to_Fear-Prejudice off, Loaded_Language on",
+  "pair": "694327499:37|SWAP|0",
+  "dnll": 0.1429
+ },
+ {
+  "view": "INJECT",
+  "tech": "Slogans",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling",
+   "Slogans"
+  ],
+  "why": "insert a real Slogans span at a boundary; Slogans must appear",
+  "pair": "778664280:9|INJECT|0",
+  "dnll": 0.139
+ },
+ {
+  "view": "INJECT",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "why": "insert a real Loaded_Language span at a boundary; Loaded_Language must appear",
+  "pair": "721406153:14|INJECT|1",
+  "dnll": 0.2047
+ },
+ {
+  "view": "KILL",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": null,
+  "label": [
+   "Repetition"
+  ],
+  "why": "delete the only Appeal_to_Fear-Prejudice span; Appeal_to_Fear-Prejudice must disappear",
+  "pair": "728972961:54|KILL|1",
+  "dnll": 0.0493
+ },
+ {
+  "view": "KILL",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Doubt"
+  ],
+  "why": "delete the only Name_Calling-Labeling span; Name_Calling-Labeling must disappear",
+  "pair": "779394730:13|KILL|0",
+  "dnll": 0.0108
+ },
+ {
+  "view": "INJECT",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Flag_Waving",
+   "Loaded_Language"
+  ],
+  "why": "insert a real Flag_Waving span at a boundary; Flag_Waving must appear",
+  "pair": "699142854:39|INJECT|0",
+  "dnll": 0.2101
+ },
+ {
+  "view": "KILL",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [],
+  "why": "delete the only Flag_Waving span; Flag_Waving must disappear",
+  "pair": "700551604:34|KILL|0",
+  "dnll": 0.1234
+ },
+ {
+  "view": "KILL",
+  "tech": "Repetition",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "delete the only Repetition span; Repetition must disappear",
+  "pair": "709732928:10|KILL|0",
+  "dnll": 0.0118
+ },
+ {
+  "view": "KILL",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [],
+  "why": "delete the only Loaded_Language span; Loaded_Language must disappear",
+  "pair": "773520636:73|KILL|0",
+  "dnll": 0.2138
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [],
+  "why": "insert same-shape non-evidence text at the same boundary; labels unchanged",
+  "pair": "729668796:10|INJECT|0",
+  "dnll": 0.2173
+ },
+ {
+  "view": "SWAP",
+  "tech": "Doubt",
+  "tech2": "Conversation_Killer",
+  "label": [
+   "Conversation_Killer"
+  ],
+  "why": "replace the only Doubt span by a real Conversation_Killer span; Doubt off, Conversation_Killer on",
+  "pair": "698780559:5|SWAP|1",
+  "dnll": 0.1241
+ },
+ {
+  "view": "SWAP",
+  "tech": "False_Dilemma-No_Choice",
+  "tech2": "Flag_Waving",
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Flag_Waving",
+   "Loaded_Language"
+  ],
+  "why": "replace the only False_Dilemma-No_Choice span by a real Flag_Waving span; False_Dilemma-No_Choice off, Flag_Waving on",
+  "pair": "722512241:21|SWAP|1",
+  "dnll": 0.1115
+ },
+ {
+  "view": "INJECT",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Flag_Waving",
+   "Repetition"
+  ],
+  "why": "insert a real Flag_Waving span at a boundary; Flag_Waving must appear",
+  "pair": "758477392:24|INJECT|1",
+  "dnll": 0.0388
+ },
+ {
+  "view": "KILL",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [],
+  "why": "delete the only Name_Calling-Labeling span; Name_Calling-Labeling must disappear",
+  "pair": "727736557:4|KILL|0",
+  "dnll": 0.0008
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Loaded_Language",
+   "Name_Calling-Labeling"
+  ],
+  "why": "delete same-shape non-evidence text; labels unchanged",
+  "pair": "772836731:22|KILL|0",
+  "dnll": 0.0827
+ },
+ {
+  "view": "SWAP",
+  "tech": "Repetition",
+  "tech2": "Appeal_to_Authority",
+  "label": [
+   "Appeal_to_Authority",
+   "Exaggeration-Minimisation"
+  ],
+  "why": "replace the only Repetition span by a real Appeal_to_Authority span; Repetition off, Appeal_to_Authority on",
+  "pair": "723793978:3|SWAP|1",
+  "dnll": 0.1014
+ },
+ {
+  "view": "INJECT",
+  "tech": "Red_Herring",
+  "tech2": null,
+  "label": [
+   "Loaded_Language",
+   "Red_Herring",
+   "Repetition"
+  ],
+  "why": "insert a real Red_Herring span at a boundary; Red_Herring must appear",
+  "pair": "700387229:1|INJECT|0",
+  "dnll": 0.2879
+ },
+ {
+  "view": "KILL",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Name_Calling-Labeling"
+  ],
+  "why": "delete the only Loaded_Language span; Loaded_Language must disappear",
+  "pair": "701225819:3|KILL|0",
+  "dnll": 0.065
+ },
+ {
+  "view": "KILL",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [],
+  "why": "delete the only Name_Calling-Labeling span; Name_Calling-Labeling must disappear",
+  "pair": "777720051:7|KILL|1",
+  "dnll": 0.0634
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Exaggeration-Minimisation",
+   "Name_Calling-Labeling",
+   "Straw_Man"
+  ],
+  "why": "delete same-shape non-evidence text; labels unchanged",
+  "pair": "771655795:7|KILL|1",
+  "dnll": 0.1235
+ },
+ {
+  "view": "SWAP_C",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "replace same-shape non-evidence text by non-evidence text; unchanged",
+  "pair": "737194975:9|SWAP|0",
+  "dnll": 0.1852
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Repetition"
+  ],
+  "why": "insert same-shape non-evidence text at the same boundary; labels unchanged",
+  "pair": "786004130:10|INJECT|1",
+  "dnll": 0.2338
+ },
+ {
+  "view": "INJECT",
+  "tech": "Slogans",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "False_Dilemma-No_Choice",
+   "Slogans"
+  ],
+  "why": "insert a real Slogans span at a boundary; Slogans must appear",
+  "pair": "724791253:8|INJECT|0",
+  "dnll": 0.1058
+ },
+ {
+  "view": "SWAP_C",
+  "tech": "False_Dilemma-No_Choice",
+  "tech2": null,
+  "label": [
+   "False_Dilemma-No_Choice"
+  ],
+  "why": "replace same-shape non-evidence text by non-evidence text; unchanged",
+  "pair": "111111133:30|SWAP|1",
+  "dnll": -0.802
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Causal_Oversimplification",
+  "tech2": null,
+  "label": [
+   "Causal_Oversimplification"
+  ],
+  "why": "delete same-shape non-evidence text; labels unchanged",
+  "pair": "730149656:5|KILL|0",
+  "dnll": 0.1847
+ },
+ {
+  "view": "INJECT",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Flag_Waving"
+  ],
+  "why": "insert a real Flag_Waving span at a boundary; Flag_Waving must appear",
+  "pair": "782086447:41|INJECT|1",
+  "dnll": 0.1487
+ },
+ {
+  "view": "INJECT",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Causal_Oversimplification",
+   "Doubt",
+   "Exaggeration-Minimisation",
+   "Loaded_Language",
+   "Name_Calling-Labeling"
+  ],
+  "why": "insert a real Exaggeration-Minimisation span at a boundary; Exaggeration-Minimisation must appear",
+  "pair": "783702663:60|INJECT|0",
+  "dnll": 0.009
+ },
+ {
+  "view": "INJECT",
+  "tech": "Slogans",
+  "tech2": null,
+  "label": [
+   "Loaded_Language",
+   "Slogans"
+  ],
+  "why": "insert a real Slogans span at a boundary; Slogans must appear",
+  "pair": "759478604:32|INJECT|0",
+  "dnll": 0.0652
+ },
+ {
+  "view": "KILL",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice"
+  ],
+  "why": "delete the only Loaded_Language span; Loaded_Language must disappear",
+  "pair": "999000894:5|KILL|0",
+  "dnll": 0.0603
+ },
+ {
+  "view": "SWAP",
+  "tech": "Name_Calling-Labeling",
+  "tech2": "Appeal_to_Fear-Prejudice",
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "why": "replace the only Name_Calling-Labeling span by a real Appeal_to_Fear-Prejudice span; Name_Calling-Labeling off, Appeal_to_Fear-Prejudice on",
+  "pair": "999001280:26|SWAP|0",
+  "dnll": 0.2987
+ },
+ {
+  "view": "INJECT",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "why": "insert a real Appeal_to_Fear-Prejudice span at a boundary; Appeal_to_Fear-Prejudice must appear",
+  "pair": "788271400:22|INJECT|1",
+  "dnll": -0.0061
+ },
+ {
+  "view": "SWAP",
+  "tech": "Name_Calling-Labeling",
+  "tech2": "Causal_Oversimplification",
+  "label": [
+   "Causal_Oversimplification",
+   "Exaggeration-Minimisation",
+   "Loaded_Language"
+  ],
+  "why": "replace the only Name_Calling-Labeling span by a real Causal_Oversimplification span; Name_Calling-Labeling off, Causal_Oversimplification on",
+  "pair": "741655444:8|SWAP|1",
+  "dnll": 0.1213
+ },
+ {
+  "view": "SWAP",
+  "tech": "Repetition",
+  "tech2": "Appeal_to_Authority",
+  "label": [
+   "Appeal_to_Authority"
+  ],
+  "why": "replace the only Repetition span by a real Appeal_to_Authority span; Repetition off, Appeal_to_Authority on",
+  "pair": "709732928:27|SWAP|0",
+  "dnll": 0.1616
+ },
+ {
+  "view": "KILL",
+  "tech": "Repetition",
+  "tech2": null,
+  "label": [],
+  "why": "delete the only Repetition span; Repetition must disappear",
+  "pair": "709732928:33|KILL|1",
+  "dnll": 0.1375
+ },
+ {
+  "view": "INJECT",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling"
+  ],
+  "why": "insert a real Name_Calling-Labeling span at a boundary; Name_Calling-Labeling must appear",
+  "pair": "999000184:7|INJECT|1",
+  "dnll": 0.0863
+ },
+ {
+  "view": "SWAP_C",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "replace same-shape non-evidence text by non-evidence text; unchanged",
+  "pair": "761568202:4|SWAP|1",
+  "dnll": 0.2099
+ },
+ {
+  "view": "INJECT",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Name_Calling-Labeling"
+  ],
+  "why": "insert a real Doubt span at a boundary; Doubt must appear",
+  "pair": "778664280:20|INJECT|1",
+  "dnll": 0.1701
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling"
+  ],
+  "why": "insert same-shape non-evidence text at the same boundary; labels unchanged",
+  "pair": "778664280:20|INJECT|1",
+  "dnll": 0.1038
+ },
+ {
+  "view": "SWAP_C",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling"
+  ],
+  "why": "replace same-shape non-evidence text by non-evidence text; unchanged",
+  "pair": "694327499:17|SWAP|1",
+  "dnll": 0.0762
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Slogans",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "insert same-shape non-evidence text at the same boundary; labels unchanged",
+  "pair": "730246508:34|INJECT|1",
+  "dnll": 0.2425
+ },
+ {
+  "view": "INJECT",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice"
+  ],
+  "why": "insert a real Appeal_to_Fear-Prejudice span at a boundary; Appeal_to_Fear-Prejudice must appear",
+  "pair": "789370909:4|INJECT|1",
+  "dnll": 0.1
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Whataboutism",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "insert same-shape non-evidence text at the same boundary; labels unchanged",
+  "pair": "699478811:12|INJECT|0",
+  "dnll": 0.2392
+ },
+ {
+  "view": "INJECT",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Authority",
+   "Appeal_to_Fear-Prejudice",
+   "Loaded_Language"
+  ],
+  "why": "insert a real Appeal_to_Fear-Prejudice span at a boundary; Appeal_to_Fear-Prejudice must appear",
+  "pair": "785801366:18|INJECT|1",
+  "dnll": 0.1646
+ },
+ {
+  "view": "SWAP",
+  "tech": "Repetition",
+  "tech2": "Loaded_Language",
+  "label": [
+   "Exaggeration-Minimisation",
+   "Loaded_Language"
+  ],
+  "why": "replace the only Repetition span by a real Loaded_Language span; Repetition off, Loaded_Language on",
+  "pair": "787085939:3|SWAP|0",
+  "dnll": 0.1915
+ },
+ {
+  "view": "SWAP",
+  "tech": "Loaded_Language",
+  "tech2": "Red_Herring",
+  "label": [
+   "Red_Herring"
+  ],
+  "why": "replace the only Loaded_Language span by a real Red_Herring span; Loaded_Language off, Red_Herring on",
+  "pair": "725731328:24|SWAP|1",
+  "dnll": 0.1579
+ },
+ {
+  "view": "KILL",
+  "tech": "False_Dilemma-No_Choice",
+  "tech2": null,
+  "label": [],
+  "why": "delete the only False_Dilemma-No_Choice span; False_Dilemma-No_Choice must disappear",
+  "pair": "757843275:4|KILL|1",
+  "dnll": 0.0687
+ },
+ {
+  "view": "INJECT",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Loaded_Language",
+   "Obfuscation-Vagueness-Confusion"
+  ],
+  "why": "insert a real Appeal_to_Fear-Prejudice span at a boundary; Appeal_to_Fear-Prejudice must appear",
+  "pair": "771406408:5|INJECT|0",
+  "dnll": -0.3125
+ },
+ {
+  "view": "INJECT",
+  "tech": "Guilt_by_Association",
+  "tech2": null,
+  "label": [
+   "Guilt_by_Association"
+  ],
+  "why": "insert a real Guilt_by_Association span at a boundary; Guilt_by_Association must appear",
+  "pair": "698092698:9|INJECT|0",
+  "dnll": -0.2277
+ },
+ {
+  "view": "SWAP_C",
+  "tech": "Conversation_Killer",
+  "tech2": null,
+  "label": [
+   "Conversation_Killer"
+  ],
+  "why": "replace same-shape non-evidence text by non-evidence text; unchanged",
+  "pair": "999000599:6|SWAP|1",
+  "dnll": 0.1173
+ },
+ {
+  "view": "SWAP",
+  "tech": "Loaded_Language",
+  "tech2": "Appeal_to_Authority",
+  "label": [
+   "Appeal_to_Authority",
+   "Flag_Waving",
+   "Name_Calling-Labeling"
+  ],
+  "why": "replace the only Loaded_Language span by a real Appeal_to_Authority span; Loaded_Language off, Appeal_to_Authority on",
+  "pair": "772836731:8|SWAP|1",
+  "dnll": 0.1543
+ },
+ {
+  "view": "KILL",
+  "tech": "Appeal_to_Authority",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Loaded_Language"
+  ],
+  "why": "delete the only Appeal_to_Authority span; Appeal_to_Authority must disappear",
+  "pair": "703821117:59|KILL|1",
+  "dnll": 0.0569
+ },
+ {
+  "view": "KILL",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [],
+  "why": "delete the only Name_Calling-Labeling span; Name_Calling-Labeling must disappear",
+  "pair": "789615291:26|KILL|1",
+  "dnll": 0.1655
+ },
+ {
+  "view": "KILL",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [],
+  "why": "delete the only Doubt span; Doubt must disappear",
+  "pair": "702077783:20|KILL|1",
+  "dnll": 0.0654
+ },
+ {
+  "view": "SWAP",
+  "tech": "Repetition",
+  "tech2": "Red_Herring",
+  "label": [
+   "Red_Herring"
+  ],
+  "why": "replace the only Repetition span by a real Red_Herring span; Repetition off, Red_Herring on",
+  "pair": "703698295:60|SWAP|1",
+  "dnll": 0.202
+ },
+ {
+  "view": "SWAP",
+  "tech": "Flag_Waving",
+  "tech2": "False_Dilemma-No_Choice",
+  "label": [
+   "Appeal_to_Hypocrisy",
+   "False_Dilemma-No_Choice",
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "why": "replace the only Flag_Waving span by a real False_Dilemma-No_Choice span; Flag_Waving off, False_Dilemma-No_Choice on",
+  "pair": "698503276:4|SWAP|0",
+  "dnll": 0.2011
+ },
+ {
+  "view": "INJECT",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice"
+  ],
+  "why": "insert a real Appeal_to_Fear-Prejudice span at a boundary; Appeal_to_Fear-Prejudice must appear",
+  "pair": "756114837:19|INJECT|1",
+  "dnll": 0.1092
+ },
+ {
+  "view": "INJECT",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Flag_Waving",
+   "Loaded_Language",
+   "Name_Calling-Labeling"
+  ],
+  "why": "insert a real Name_Calling-Labeling span at a boundary; Name_Calling-Labeling must appear",
+  "pair": "795689901:6|INJECT|0",
+  "dnll": 0.2104
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [],
+  "why": "insert same-shape non-evidence text at the same boundary; labels unchanged",
+  "pair": "706600938:22|INJECT|1",
+  "dnll": -0.0059
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation"
+  ],
+  "why": "delete same-shape non-evidence text; labels unchanged",
+  "pair": "776616374:3|KILL|1",
+  "dnll": 0.1974
+ },
+ {
+  "view": "SWAP",
+  "tech": "Causal_Oversimplification",
+  "tech2": "Slogans",
+  "label": [
+   "Name_Calling-Labeling",
+   "Slogans"
+  ],
+  "why": "replace the only Causal_Oversimplification span by a real Slogans span; Causal_Oversimplification off, Slogans on",
+  "pair": "777488669:39|SWAP|0",
+  "dnll": 0.0482
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Name_Calling-Labeling"
+  ],
+  "why": "delete same-shape non-evidence text; labels unchanged",
+  "pair": "999001619:42|KILL|0",
+  "dnll": 0.1972
+ },
+ {
+  "view": "KILL",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [],
+  "why": "delete the only Name_Calling-Labeling span; Name_Calling-Labeling must disappear",
+  "pair": "789512681:1|KILL|0",
+  "dnll": 0.0736
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "delete same-shape non-evidence text; labels unchanged",
+  "pair": "694356862:5|KILL|0",
+  "dnll": 0.0902
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Name_Calling-Labeling"
+  ],
+  "why": "delete same-shape non-evidence text; labels unchanged",
+  "pair": "786527921:16|KILL|1",
+  "dnll": 0.0681
+ },
+ {
+  "view": "SWAP",
+  "tech": "Loaded_Language",
+  "tech2": "Appeal_to_Fear-Prejudice",
+  "label": [
+   "Appeal_to_Fear-Prejudice"
+  ],
+  "why": "replace the only Loaded_Language span by a real Appeal_to_Fear-Prejudice span; Loaded_Language off, Appeal_to_Fear-Prejudice on",
+  "pair": "779394730:19|SWAP|0",
+  "dnll": 0.2731
+ },
+ {
+  "view": "INJECT",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice"
+  ],
+  "why": "insert a real Appeal_to_Fear-Prejudice span at a boundary; Appeal_to_Fear-Prejudice must appear",
+  "pair": "789370998:11|INJECT|0",
+  "dnll": 0.1444
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [],
+  "why": "insert same-shape non-evidence text at the same boundary; labels unchanged",
+  "pair": "762200179:32|INJECT|1",
+  "dnll": 0.0462
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Doubt"
+  ],
+  "why": "delete same-shape non-evidence text; labels unchanged",
+  "pair": "702077783:20|KILL|0",
+  "dnll": 0.0327
+ },
+ {
+  "view": "KILL",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling"
+  ],
+  "why": "delete the only Loaded_Language span; Loaded_Language must disappear",
+  "pair": "793467906:6|KILL|0",
+  "dnll": -0.0037
+ },
+ {
+  "view": "INJECT",
+  "tech": "False_Dilemma-No_Choice",
+  "tech2": null,
+  "label": [
+   "False_Dilemma-No_Choice"
+  ],
+  "why": "insert a real False_Dilemma-No_Choice span at a boundary; False_Dilemma-No_Choice must appear",
+  "pair": "701837665:3|INJECT|1",
+  "dnll": 0.2197
+ },
+ {
+  "view": "KILL",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Flag_Waving"
+  ],
+  "why": "delete the only Loaded_Language span; Loaded_Language must disappear",
+  "pair": "794141509:48|KILL|0",
+  "dnll": 0.0386
+ },
+ {
+  "view": "KILL",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [],
+  "why": "delete the only Loaded_Language span; Loaded_Language must disappear",
+  "pair": "725731328:24|KILL|0",
+  "dnll": 0.0192
+ },
+ {
+  "view": "SWAP",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": "Name_Calling-Labeling",
+  "label": [
+   "Name_Calling-Labeling"
+  ],
+  "why": "replace the only Exaggeration-Minimisation span by a real Name_Calling-Labeling span; Exaggeration-Minimisation off, Name_Calling-Labeling on",
+  "pair": "703821117:48|SWAP|1",
+  "dnll": 0.1936
+ },
+ {
+  "view": "INJECT",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Authority",
+   "Name_Calling-Labeling"
+  ],
+  "why": "insert a real Name_Calling-Labeling span at a boundary; Name_Calling-Labeling must appear",
+  "pair": "788056108:26|INJECT|1",
+  "dnll": 0.1173
+ },
+ {
+  "view": "INJECT",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Flag_Waving",
+   "Loaded_Language",
+   "Name_Calling-Labeling"
+  ],
+  "why": "insert a real Appeal_to_Fear-Prejudice span at a boundary; Appeal_to_Fear-Prejudice must appear",
+  "pair": "772836731:21|INJECT|0",
+  "dnll": 0.1092
+ },
+ {
+  "view": "SWAP",
+  "tech": "Name_Calling-Labeling",
+  "tech2": "Flag_Waving",
+  "label": [
+   "Flag_Waving",
+   "Loaded_Language"
+  ],
+  "why": "replace the only Name_Calling-Labeling span by a real Flag_Waving span; Name_Calling-Labeling off, Flag_Waving on",
+  "pair": "782017101:20|SWAP|1",
+  "dnll": 0.0967
+ },
+ {
+  "view": "INJECT",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "why": "insert a real Exaggeration-Minimisation span at a boundary; Exaggeration-Minimisation must appear",
+  "pair": "715588833:28|INJECT|1",
+  "dnll": 0.2111
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Appeal_to_Authority",
+  "tech2": null,
+  "label": [
+   "Loaded_Language",
+   "Name_Calling-Labeling"
+  ],
+  "why": "insert same-shape non-evidence text at the same boundary; labels unchanged",
+  "pair": "761969692:18|INJECT|0",
+  "dnll": 0.1305
+ },
+ {
+  "view": "INJECT",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "insert a real Loaded_Language span at a boundary; Loaded_Language must appear",
+  "pair": "715790840:3|INJECT|0",
+  "dnll": 0.25
+ },
+ {
+  "view": "KILL",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [],
+  "why": "delete the only Loaded_Language span; Loaded_Language must disappear",
+  "pair": "780414700:42|KILL|1",
+  "dnll": 0.1267
+ },
+ {
+  "view": "SWAP",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": "Doubt",
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Doubt",
+   "Loaded_Language"
+  ],
+  "why": "replace the only Exaggeration-Minimisation span by a real Doubt span; Exaggeration-Minimisation off, Doubt on",
+  "pair": "788056108:35|SWAP|0",
+  "dnll": 0.2452
+ },
+ {
+  "view": "SWAP_C",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Name_Calling-Labeling"
+  ],
+  "why": "replace same-shape non-evidence text by non-evidence text; unchanged",
+  "pair": "786527921:16|SWAP|1",
+  "dnll": 0.096
+ },
+ {
+  "view": "SWAP",
+  "tech": "Name_Calling-Labeling",
+  "tech2": "Exaggeration-Minimisation",
+  "label": [
+   "Exaggeration-Minimisation",
+   "Loaded_Language"
+  ],
+  "why": "replace the only Name_Calling-Labeling span by a real Exaggeration-Minimisation span; Name_Calling-Labeling off, Exaggeration-Minimisation on",
+  "pair": "761969692:18|SWAP|0",
+  "dnll": 0.2093
+ },
+ {
+  "view": "KILL",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Flag_Waving",
+   "Loaded_Language"
+  ],
+  "why": "delete the only Name_Calling-Labeling span; Name_Calling-Labeling must disappear",
+  "pair": "787002327:14|KILL|0",
+  "dnll": 0.1195
+ },
+ {
+  "view": "SWAP",
+  "tech": "Name_Calling-Labeling",
+  "tech2": "Exaggeration-Minimisation",
+  "label": [
+   "Exaggeration-Minimisation"
+  ],
+  "why": "replace the only Name_Calling-Labeling span by a real Exaggeration-Minimisation span; Name_Calling-Labeling off, Exaggeration-Minimisation on",
+  "pair": "730149656:1|SWAP|0",
+  "dnll": 0.2501
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Authority",
+   "Doubt",
+   "Loaded_Language",
+   "Straw_Man"
+  ],
+  "why": "delete same-shape non-evidence text; labels unchanged",
+  "pair": "783702663:14|KILL|0",
+  "dnll": 0.1844
+ },
+ {
+  "view": "SWAP",
+  "tech": "Name_Calling-Labeling",
+  "tech2": "Appeal_to_Fear-Prejudice",
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Loaded_Language",
+   "Obfuscation-Vagueness-Confusion"
+  ],
+  "why": "replace the only Name_Calling-Labeling span by a real Appeal_to_Fear-Prejudice span; Name_Calling-Labeling off, Appeal_to_Fear-Prejudice on",
+  "pair": "783702663:58|SWAP|1",
+  "dnll": 0.116
+ },
+ {
+  "view": "KILL",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Name_Calling-Labeling"
+  ],
+  "why": "delete the only Loaded_Language span; Loaded_Language must disappear",
+  "pair": "999001621:49|KILL|1",
+  "dnll": 0.0534
+ },
+ {
+  "view": "INJECT",
+  "tech": "Slogans",
+  "tech2": null,
+  "label": [
+   "Slogans"
+  ],
+  "why": "insert a real Slogans span at a boundary; Slogans must appear",
+  "pair": "728972961:55|INJECT|1",
+  "dnll": 0.1394
+ },
+ {
+  "view": "SWAP",
+  "tech": "Doubt",
+  "tech2": "Slogans",
+  "label": [
+   "Loaded_Language",
+   "Repetition",
+   "Slogans"
+  ],
+  "why": "replace the only Doubt span by a real Slogans span; Doubt off, Slogans on",
+  "pair": "763114850:15|SWAP|0",
+  "dnll": 0.0994
+ },
+ {
+  "view": "SWAP",
+  "tech": "Loaded_Language",
+  "tech2": "Exaggeration-Minimisation",
+  "label": [
+   "Appeal_to_Authority",
+   "Exaggeration-Minimisation"
+  ],
+  "why": "replace the only Loaded_Language span by a real Exaggeration-Minimisation span; Loaded_Language off, Exaggeration-Minimisation on",
+  "pair": "700387229:5|SWAP|1",
+  "dnll": 0.2648
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "delete same-shape non-evidence text; labels unchanged",
+  "pair": "793467906:9|KILL|0",
+  "dnll": 0.1939
+ },
+ {
+  "view": "INJECT",
+  "tech": "Slogans",
+  "tech2": null,
+  "label": [
+   "Slogans"
+  ],
+  "why": "insert a real Slogans span at a boundary; Slogans must appear",
+  "pair": "729348908:17|INJECT|0",
+  "dnll": 0.2218
+ },
+ {
+  "view": "SWAP_C",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Loaded_Language",
+   "Name_Calling-Labeling"
+  ],
+  "why": "replace same-shape non-evidence text by non-evidence text; unchanged",
+  "pair": "757713354:7|SWAP|0",
+  "dnll": 0.1465
+ },
+ {
+  "view": "KILL",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Causal_Oversimplification"
+  ],
+  "why": "delete the only Name_Calling-Labeling span; Name_Calling-Labeling must disappear",
+  "pair": "777488669:39|KILL|1",
+  "dnll": 0.0329
+ },
+ {
+  "view": "INJECT",
+  "tech": "Slogans",
+  "tech2": null,
+  "label": [
+   "Slogans"
+  ],
+  "why": "insert a real Slogans span at a boundary; Slogans must appear",
+  "pair": "731513824:5|INJECT|0",
+  "dnll": 0.1389
+ },
+ {
+  "view": "KILL",
+  "tech": "Causal_Oversimplification",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling",
+   "Repetition"
+  ],
+  "why": "delete the only Causal_Oversimplification span; Causal_Oversimplification must disappear",
+  "pair": "789370909:18|KILL|0",
+  "dnll": 0.1235
+ },
+ {
+  "view": "SWAP",
+  "tech": "Loaded_Language",
+  "tech2": "Doubt",
+  "label": [
+   "Doubt"
+  ],
+  "why": "replace the only Loaded_Language span by a real Doubt span; Loaded_Language off, Doubt on",
+  "pair": "738781754:11|SWAP|0",
+  "dnll": 0.0577
+ },
+ {
+  "view": "SWAP",
+  "tech": "Name_Calling-Labeling",
+  "tech2": "Slogans",
+  "label": [
+   "Conversation_Killer",
+   "Exaggeration-Minimisation",
+   "Slogans"
+  ],
+  "why": "replace the only Name_Calling-Labeling span by a real Slogans span; Name_Calling-Labeling off, Slogans on",
+  "pair": "771879020:14|SWAP|1",
+  "dnll": -0.0016
+ },
+ {
+  "view": "KILL",
+  "tech": "Repetition",
+  "tech2": null,
+  "label": [],
+  "why": "delete the only Repetition span; Repetition must disappear",
+  "pair": "758386255:34|KILL|1",
+  "dnll": 0.0935
+ },
+ {
+  "view": "SWAP_C",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "replace same-shape non-evidence text by non-evidence text; unchanged",
+  "pair": "727869189:9|SWAP|0",
+  "dnll": 0.1632
+ },
+ {
+  "view": "INJECT",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "Exaggeration-Minimisation",
+   "Name_Calling-Labeling"
+  ],
+  "why": "insert a real Doubt span at a boundary; Doubt must appear",
+  "pair": "735090638:3|INJECT|1",
+  "dnll": 0.0365
+ },
+ {
+  "view": "SWAP",
+  "tech": "Guilt_by_Association",
+  "tech2": "Name_Calling-Labeling",
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Loaded_Language",
+   "Name_Calling-Labeling",
+   "Repetition",
+   "Slogans"
+  ],
+  "why": "replace the only Guilt_by_Association span by a real Name_Calling-Labeling span; Guilt_by_Association off, Name_Calling-Labeling on",
+  "pair": "761955563:21|SWAP|0",
+  "dnll": 0.1727
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation"
+  ],
+  "why": "insert same-shape non-evidence text at the same boundary; labels unchanged",
+  "pair": "729348908:11|INJECT|1",
+  "dnll": 0.038
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Conversation_Killer",
+  "tech2": null,
+  "label": [
+   "Conversation_Killer"
+  ],
+  "why": "delete same-shape non-evidence text; labels unchanged",
+  "pair": "999000147:3|KILL|1",
+  "dnll": 0.0226
+ },
+ {
+  "view": "KILL",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation"
+  ],
+  "why": "delete the only Flag_Waving span; Flag_Waving must disappear",
+  "pair": "701837665:36|KILL|0",
+  "dnll": 0.2203
+ },
+ {
+  "view": "KILL",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": null,
+  "label": [],
+  "why": "delete the only Appeal_to_Fear-Prejudice span; Appeal_to_Fear-Prejudice must disappear",
+  "pair": "728972961:27|KILL|0",
+  "dnll": 0.1107
+ },
+ {
+  "view": "SWAP",
+  "tech": "Causal_Oversimplification",
+  "tech2": "Slogans",
+  "label": [
+   "Appeal_to_Authority",
+   "Loaded_Language",
+   "Name_Calling-Labeling",
+   "Repetition",
+   "Slogans"
+  ],
+  "why": "replace the only Causal_Oversimplification span by a real Slogans span; Causal_Oversimplification off, Slogans on",
+  "pair": "765197039:15|SWAP|0",
+  "dnll": 0.0975
+ },
+ {
+  "view": "INJECT",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Doubt"
+  ],
+  "why": "insert a real Doubt span at a boundary; Doubt must appear",
+  "pair": "737194975:55|INJECT|1",
+  "dnll": 0.2413
+ },
+ {
+  "view": "INJECT",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Flag_Waving"
+  ],
+  "why": "insert a real Flag_Waving span at a boundary; Flag_Waving must appear",
+  "pair": "782086447:77|INJECT|1",
+  "dnll": -0.2784
+ },
+ {
+  "view": "INJECT",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "insert a real Loaded_Language span at a boundary; Loaded_Language must appear",
+  "pair": "773937361:38|INJECT|1",
+  "dnll": 0.1086
+ },
+ {
+  "view": "SWAP",
+  "tech": "Slogans",
+  "tech2": "Causal_Oversimplification",
+  "label": [
+   "Causal_Oversimplification"
+  ],
+  "why": "replace the only Slogans span by a real Causal_Oversimplification span; Slogans off, Causal_Oversimplification on",
+  "pair": "698503276:6|SWAP|0",
+  "dnll": 0.2763
+ },
+ {
+  "view": "KILL",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Repetition"
+  ],
+  "why": "delete the only Name_Calling-Labeling span; Name_Calling-Labeling must disappear",
+  "pair": "708071969:9|KILL|1",
+  "dnll": 0.0734
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Appeal_to_Authority",
+  "tech2": null,
+  "label": [],
+  "why": "insert same-shape non-evidence text at the same boundary; labels unchanged",
+  "pair": "785801366:39|INJECT|0",
+  "dnll": 0.151
+ },
+ {
+  "view": "INJECT",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Loaded_Language"
+  ],
+  "why": "insert a real Exaggeration-Minimisation span at a boundary; Exaggeration-Minimisation must appear",
+  "pair": "765982381:6|INJECT|0",
+  "dnll": -0.1481
+ },
+ {
+  "view": "INJECT",
+  "tech": "Red_Herring",
+  "tech2": null,
+  "label": [
+   "Red_Herring"
+  ],
+  "why": "insert a real Red_Herring span at a boundary; Red_Herring must appear",
+  "pair": "701837665:32|INJECT|1",
+  "dnll": 0.2609
+ },
+ {
+  "view": "INJECT",
+  "tech": "False_Dilemma-No_Choice",
+  "tech2": null,
+  "label": [
+   "False_Dilemma-No_Choice",
+   "Name_Calling-Labeling"
+  ],
+  "why": "insert a real False_Dilemma-No_Choice span at a boundary; False_Dilemma-No_Choice must appear",
+  "pair": "730268758:5|INJECT|1",
+  "dnll": -0.3241
+ },
+ {
+  "view": "INJECT",
+  "tech": "Causal_Oversimplification",
+  "tech2": null,
+  "label": [
+   "Causal_Oversimplification"
+  ],
+  "why": "insert a real Causal_Oversimplification span at a boundary; Causal_Oversimplification must appear",
+  "pair": "787085939:14|INJECT|1",
+  "dnll": 0.0438
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "delete same-shape non-evidence text; labels unchanged",
+  "pair": "782086447:14|KILL|1",
+  "dnll": 0.041
+ },
+ {
+  "view": "SWAP_C",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "replace same-shape non-evidence text by non-evidence text; unchanged",
+  "pair": "727569885:9|SWAP|1",
+  "dnll": 0.2902
+ },
+ {
+  "view": "SWAP_C",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Causal_Oversimplification",
+   "Exaggeration-Minimisation",
+   "Loaded_Language"
+  ],
+  "why": "replace same-shape non-evidence text by non-evidence text; unchanged",
+  "pair": "737194975:77|SWAP|1",
+  "dnll": 0.0704
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Repetition",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "False_Dilemma-No_Choice",
+   "Name_Calling-Labeling",
+   "Repetition"
+  ],
+  "why": "delete same-shape non-evidence text; labels unchanged",
+  "pair": "758386255:22|KILL|0",
+  "dnll": 0.1051
+ },
+ {
+  "view": "SWAP",
+  "tech": "Name_Calling-Labeling",
+  "tech2": "Exaggeration-Minimisation",
+  "label": [
+   "Exaggeration-Minimisation"
+  ],
+  "why": "replace the only Name_Calling-Labeling span by a real Exaggeration-Minimisation span; Name_Calling-Labeling off, Exaggeration-Minimisation on",
+  "pair": "782017101:4|SWAP|1",
+  "dnll": 0.1988
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Repetition"
+  ],
+  "why": "insert same-shape non-evidence text at the same boundary; labels unchanged",
+  "pair": "711716996:13|INJECT|0",
+  "dnll": 0.1559
+ },
+ {
+  "view": "KILL",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [],
+  "why": "delete the only Loaded_Language span; Loaded_Language must disappear",
+  "pair": "759478604:31|KILL|1",
+  "dnll": 0.027
+ },
+ {
+  "view": "KILL",
+  "tech": "Repetition",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "delete the only Repetition span; Repetition must disappear",
+  "pair": "788271400:22|KILL|1",
+  "dnll": 0.1954
+ },
+ {
+  "view": "SWAP",
+  "tech": "Loaded_Language",
+  "tech2": "Exaggeration-Minimisation",
+  "label": [
+   "Appeal_to_Popularity",
+   "Exaggeration-Minimisation"
+  ],
+  "why": "replace the only Loaded_Language span by a real Exaggeration-Minimisation span; Loaded_Language off, Exaggeration-Minimisation on",
+  "pair": "780414700:40|SWAP|0",
+  "dnll": 0.1374
+ },
+ {
+  "view": "KILL",
+  "tech": "Repetition",
+  "tech2": null,
+  "label": [],
+  "why": "delete the only Repetition span; Repetition must disappear",
+  "pair": "758386255:47|KILL|1",
+  "dnll": 0.0664
+ },
+ {
+  "view": "KILL",
+  "tech": "Slogans",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Appeal_to_Popularity",
+   "Exaggeration-Minimisation",
+   "False_Dilemma-No_Choice",
+   "Loaded_Language",
+   "Name_Calling-Labeling"
+  ],
+  "why": "delete the only Slogans span; Slogans must disappear",
+  "pair": "780414700:5|KILL|0",
+  "dnll": 0.039
+ },
+ {
+  "view": "KILL",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling"
+  ],
+  "why": "delete the only Flag_Waving span; Flag_Waving must disappear",
+  "pair": "769752554:5|KILL|0",
+  "dnll": -0.0337
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "insert same-shape non-evidence text at the same boundary; labels unchanged",
+  "pair": "766632016:12|INJECT|0",
+  "dnll": 0.2473
+ },
+ {
+  "view": "SWAP_C",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Doubt",
+   "False_Dilemma-No_Choice"
+  ],
+  "why": "replace same-shape non-evidence text by non-evidence text; unchanged",
+  "pair": "722512241:12|SWAP|1",
+  "dnll": 0.1383
+ },
+ {
+  "view": "SWAP",
+  "tech": "Flag_Waving",
+  "tech2": "Slogans",
+  "label": [
+   "Slogans"
+  ],
+  "why": "replace the only Flag_Waving span by a real Slogans span; Flag_Waving off, Slogans on",
+  "pair": "793467906:4|SWAP|0",
+  "dnll": 0.0263
+ },
+ {
+  "view": "KILL",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [],
+  "why": "delete the only Loaded_Language span; Loaded_Language must disappear",
+  "pair": "703698295:20|KILL|1",
+  "dnll": 0.1754
+ },
+ {
+  "view": "INJECT",
+  "tech": "Guilt_by_Association",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Guilt_by_Association"
+  ],
+  "why": "insert a real Guilt_by_Association span at a boundary; Guilt_by_Association must appear",
+  "pair": "703821117:22|INJECT|0",
+  "dnll": 0.2286
+ },
+ {
+  "view": "SWAP",
+  "tech": "Doubt",
+  "tech2": "Appeal_to_Fear-Prejudice",
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Red_Herring"
+  ],
+  "why": "replace the only Doubt span by a real Appeal_to_Fear-Prejudice span; Doubt off, Appeal_to_Fear-Prejudice on",
+  "pair": "737457870:10|SWAP|0",
+  "dnll": -0.102
+ },
+ {
+  "view": "INJECT",
+  "tech": "Whataboutism",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Hypocrisy",
+   "Flag_Waving",
+   "Loaded_Language",
+   "Repetition",
+   "Whataboutism"
+  ],
+  "why": "insert a real Whataboutism span at a boundary; Whataboutism must appear",
+  "pair": "698503276:4|INJECT|0",
+  "dnll": 0.1931
+ },
+ {
+  "view": "KILL",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "delete the only Flag_Waving span; Flag_Waving must disappear",
+  "pair": "703821117:51|KILL|0",
+  "dnll": 0.1735
+ },
+ {
+  "view": "INJECT",
+  "tech": "Name_Calling-Labeling",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Name_Calling-Labeling"
+  ],
+  "why": "insert a real Name_Calling-Labeling span at a boundary; Name_Calling-Labeling must appear",
+  "pair": "999001621:13|INJECT|1",
+  "dnll": 0.1977
+ },
+ {
+  "view": "KILL",
+  "tech": "Flag_Waving",
+  "tech2": null,
+  "label": [],
+  "why": "delete the only Flag_Waving span; Flag_Waving must disappear",
+  "pair": "781672902:10|KILL|1",
+  "dnll": 0.2165
+ },
+ {
+  "view": "SWAP_C",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Loaded_Language"
+  ],
+  "why": "replace same-shape non-evidence text by non-evidence text; unchanged",
+  "pair": "761334950:109|SWAP|1",
+  "dnll": 0.1878
+ },
+ {
+  "view": "KILL_C",
+  "tech": "False_Dilemma-No_Choice",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Exaggeration-Minimisation",
+   "False_Dilemma-No_Choice",
+   "Name_Calling-Labeling"
+  ],
+  "why": "delete same-shape non-evidence text; labels unchanged",
+  "pair": "763280007:6|KILL|1",
+  "dnll": 0.1173
+ },
+ {
+  "view": "KILL",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [],
+  "why": "delete the only Loaded_Language span; Loaded_Language must disappear",
+  "pair": "999001226:8|KILL|0",
+  "dnll": 0.0528
+ },
+ {
+  "view": "SWAP_C",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation",
+   "Flag_Waving",
+   "Loaded_Language",
+   "Repetition"
+  ],
+  "why": "replace same-shape non-evidence text by non-evidence text; unchanged",
+  "pair": "774145019:15|SWAP|1",
+  "dnll": 0.1013
+ },
+ {
+  "view": "SWAP",
+  "tech": "Flag_Waving",
+  "tech2": "Appeal_to_Fear-Prejudice",
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Guilt_by_Association",
+   "Loaded_Language"
+  ],
+  "why": "replace the only Flag_Waving span by a real Appeal_to_Fear-Prejudice span; Flag_Waving off, Appeal_to_Fear-Prejudice on",
+  "pair": "727569885:4|SWAP|0",
+  "dnll": 0.2337
+ },
+ {
+  "view": "SWAP",
+  "tech": "Loaded_Language",
+  "tech2": "Slogans",
+  "label": [
+   "Repetition",
+   "Slogans"
+  ],
+  "why": "replace the only Loaded_Language span by a real Slogans span; Loaded_Language off, Slogans on",
+  "pair": "771406408:9|SWAP|1",
+  "dnll": 0.0531
+ },
+ {
+  "view": "SWAP",
+  "tech": "Doubt",
+  "tech2": "Name_Calling-Labeling",
+  "label": [
+   "Loaded_Language",
+   "Name_Calling-Labeling",
+   "Slogans"
+  ],
+  "why": "replace the only Doubt span by a real Name_Calling-Labeling span; Doubt off, Name_Calling-Labeling on",
+  "pair": "999000675:11|SWAP|1",
+  "dnll": 0.0971
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": null,
+  "label": [
+   "Loaded_Language",
+   "Obfuscation-Vagueness-Confusion"
+  ],
+  "why": "insert same-shape non-evidence text at the same boundary; labels unchanged",
+  "pair": "771406408:5|INJECT|0",
+  "dnll": -0.2273
+ },
+ {
+  "view": "SWAP",
+  "tech": "Loaded_Language",
+  "tech2": "Doubt",
+  "label": [
+   "Appeal_to_Authority",
+   "Appeal_to_Popularity",
+   "Doubt",
+   "Name_Calling-Labeling"
+  ],
+  "why": "replace the only Loaded_Language span by a real Doubt span; Loaded_Language off, Doubt on",
+  "pair": "698018235:5|SWAP|1",
+  "dnll": 0.1171
+ },
+ {
+  "view": "KILL",
+  "tech": "Appeal_to_Fear-Prejudice",
+  "tech2": null,
+  "label": [],
+  "why": "delete the only Appeal_to_Fear-Prejudice span; Appeal_to_Fear-Prejudice must disappear",
+  "pair": "699142854:21|KILL|1",
+  "dnll": 0.1289
+ },
+ {
+  "view": "KILL_C",
+  "tech": "Doubt",
+  "tech2": null,
+  "label": [
+   "Doubt"
+  ],
+  "why": "delete same-shape non-evidence text; labels unchanged",
+  "pair": "723844295:9|KILL|1",
+  "dnll": 0.0308
+ },
+ {
+  "view": "KILL",
+  "tech": "Loaded_Language",
+  "tech2": null,
+  "label": [
+   "Name_Calling-Labeling",
+   "Slogans"
+  ],
+  "why": "delete the only Loaded_Language span; Loaded_Language must disappear",
+  "pair": "701225819:13|KILL|1",
+  "dnll": -0.0131
+ },
+ {
+  "view": "SWAP",
+  "tech": "Name_Calling-Labeling",
+  "tech2": "Appeal_to_Fear-Prejudice",
+  "label": [
+   "Appeal_to_Fear-Prejudice"
+  ],
+  "why": "replace the only Name_Calling-Labeling span by a real Appeal_to_Fear-Prejudice span; Name_Calling-Labeling off, Appeal_to_Fear-Prejudice on",
+  "pair": "755393220:19|SWAP|1",
+  "dnll": 0.1297
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "Appeal_to_Authority",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Fear-Prejudice",
+   "Flag_Waving",
+   "Loaded_Language"
+  ],
+  "why": "insert same-shape non-evidence text at the same boundary; labels unchanged",
+  "pair": "762340819:14|INJECT|1",
+  "dnll": 0.1142
+ },
+ {
+  "view": "SWAP_C",
+  "tech": "Exaggeration-Minimisation",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation"
+  ],
+  "why": "replace same-shape non-evidence text by non-evidence text; unchanged",
+  "pair": "703821117:48|SWAP|1",
+  "dnll": 0.1567
+ },
+ {
+  "view": "SWAP",
+  "tech": "Loaded_Language",
+  "tech2": "Conversation_Killer",
+  "label": [
+   "Conversation_Killer"
+  ],
+  "why": "replace the only Loaded_Language span by a real Conversation_Killer span; Loaded_Language off, Conversation_Killer on",
+  "pair": "761334950:109|SWAP|1",
+  "dnll": 0.2155
+ },
+ {
+  "view": "INJECT_C",
+  "tech": "False_Dilemma-No_Choice",
+  "tech2": null,
+  "label": [
+   "Appeal_to_Authority"
+  ],
+  "why": "insert same-shape non-evidence text at the same boundary; labels unchanged",
+  "pair": "705035735:5|INJECT|1",
+  "dnll": 0.1706
+ },
+ {
+  "view": "SWAP",
+  "tech": "Appeal_to_Authority",
+  "tech2": "Causal_Oversimplification",
+  "label": [
+   "Causal_Oversimplification",
+   "Name_Calling-Labeling",
+   "Red_Herring"
+  ],
+  "why": "replace the only Appeal_to_Authority span by a real Causal_Oversimplification span; Appeal_to_Authority off, Causal_Oversimplification on",
+  "pair": "735090638:6|SWAP|1",
+  "dnll": 0.1255
+ },
+ {
+  "view": "KILL",
+  "tech": "Repetition",
+  "tech2": null,
+  "label": [
+   "Exaggeration-Minimisation"
+  ],
+  "why": "delete the only Repetition span; Repetition must disappear",
+  "pair": "763440871:6|KILL|0",
+  "dnll": 0.0578
+ }
+]

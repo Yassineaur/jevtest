@@ -1,0 +1,12 @@
+{
+  "model": "Qwen/Qwen3-4B + sftgrpo\\finalsftgrpo\\checkpoints\\sft_qwen3_4b_r64\\sft_final (merged, bf16, KV cache)",
+  "n": 100,
+  "max_new_tokens": 640,
+  "p50_s": 12.09222360000058,
+  "p95_s": 14.035315600001923,
+  "mean_generated_tokens": 288.15,
+  "hit_max_new_tokens": 0,
+  "throughput_para_per_s": 1.0107936508347335,
+  "batch": 16,
+  "gpu": "NVIDIA GeForce RTX 5090"
+}

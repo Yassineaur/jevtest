@@ -1,0 +1,6 @@
+{"epoch": 0, "train": {"label": 0.197621890396158}, "holdout": {"f1_label": [0.41638225255972694, 0.5]}, "improved": true, "minutes": 0.8928423126538595}
+{"epoch": 1, "train": {"label": 0.12211912421461864}, "holdout": {"f1_label": [0.4930232558139535, 0.25]}, "improved": true, "minutes": 0.8691227515538533}
+{"epoch": 2, "train": {"label": 0.09218302319462773}, "holdout": {"f1_label": [0.47703180212014135, 0.2]}, "improved": false, "minutes": 0.8589041829109192}
+{"epoch": 3, "train": {"label": 0.06750636093758167}, "holdout": {"f1_label": [0.4945652173913043, 0.3]}, "improved": true, "minutes": 0.8690408905347188}
+{"epoch": 4, "train": {"label": 0.05121936497945336}, "holdout": {"f1_label": [0.4751908396946565, 0.3]}, "improved": false, "minutes": 0.8242645661036173}
+{"epoch": 5, "train": {"label": 0.04152571401115478}, "holdout": {"f1_label": [0.47639034627492133, 0.5]}, "improved": false, "minutes": 0.8619800011316935}

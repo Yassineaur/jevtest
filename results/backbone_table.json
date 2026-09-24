@@ -1,0 +1,117 @@
+{
+  "rows": [
+    {
+      "backbone": "microsoft/deberta-v3-base",
+      "lr": "2e-5",
+      "holdout_f1": 0.508182601205857,
+      "dev_f1": 0.40484675694939415,
+      "dev_span_f1": 0.3922928709055877,
+      "top1_hit": 0.582968065122104,
+      "p50_ms": 18.448950000674813,
+      "para_per_s": 1263.8566079044197,
+      "run": "results\\pilot\\T4_s0"
+    },
+    {
+      "backbone": "microsoft/deberta-v3-base",
+      "lr": "4e-5",
+      "holdout_f1": 0.5242718446601942,
+      "dev_f1": 0.39356528245417133,
+      "dev_span_f1": 0.35908141962421714,
+      "top1_hit": 0.5767063243581716,
+      "p50_ms": 18.46645000114222,
+      "para_per_s": 1280.2982582878321,
+      "run": "results\\backbone\\debB_lr4e5"
+    },
+    {
+      "backbone": "answerdotai/ModernBERT-base",
+      "lr": "3e-5",
+      "holdout_f1": 0.4934804413239719,
+      "dev_f1": 0.33693477390956383,
+      "dev_span_f1": 0.3303498779495525,
+      "top1_hit": 0.5479023168440826,
+      "p50_ms": null,
+      "para_per_s": null,
+      "run": "results\\backbone\\mbB_lr3e5"
+    },
+    {
+      "backbone": "answerdotai/ModernBERT-base",
+      "lr": "6e-5",
+      "holdout_f1": 0.49645390070921985,
+      "dev_f1": 0.3482506102522376,
+      "dev_span_f1": 0.3568,
+      "top1_hit": 0.5372573575453976,
+      "p50_ms": null,
+      "para_per_s": null,
+      "run": "results\\backbone\\mbB_lr6e5"
+    },
+    {
+      "backbone": "microsoft/deberta-v3-large",
+      "lr": "1e-5",
+      "holdout_f1": 0.507380073800738,
+      "dev_f1": 0.40515933232169954,
+      "dev_span_f1": 0.3997039230199852,
+      "top1_hit": 0.5904821540388228,
+      "p50_ms": 34.928899998703855,
+      "para_per_s": 694.5770893658445,
+      "run": "results\\backbone\\debL_lr1e5"
+    },
+    {
+      "backbone": "microsoft/deberta-v3-large",
+      "lr": "2e-5",
+      "holdout_f1": 0.5244536940686785,
+      "dev_f1": 0.3716741711011052,
+      "dev_span_f1": 0.36325326590813317,
+      "top1_hit": 0.5391358797745773,
+      "p50_ms": 34.843150000597234,
+      "para_per_s": 704.065697772108,
+      "run": "results\\backbone\\debL_lr2e5"
+    }
+  ],
+  "per_backbone_choice": {
+    "microsoft/deberta-v3-base": {
+      "backbone": "microsoft/deberta-v3-base",
+      "lr": "4e-5",
+      "holdout_f1": 0.5242718446601942,
+      "dev_f1": 0.39356528245417133,
+      "dev_span_f1": 0.35908141962421714,
+      "top1_hit": 0.5767063243581716,
+      "p50_ms": 18.46645000114222,
+      "para_per_s": 1280.2982582878321,
+      "run": "results\\backbone\\debB_lr4e5"
+    },
+    "answerdotai/ModernBERT-base": {
+      "backbone": "answerdotai/ModernBERT-base",
+      "lr": "6e-5",
+      "holdout_f1": 0.49645390070921985,
+      "dev_f1": 0.3482506102522376,
+      "dev_span_f1": 0.3568,
+      "top1_hit": 0.5372573575453976,
+      "p50_ms": null,
+      "para_per_s": null,
+      "run": "results\\backbone\\mbB_lr6e5"
+    },
+    "microsoft/deberta-v3-large": {
+      "backbone": "microsoft/deberta-v3-large",
+      "lr": "2e-5",
+      "holdout_f1": 0.5244536940686785,
+      "dev_f1": 0.3716741711011052,
+      "dev_span_f1": 0.36325326590813317,
+      "top1_hit": 0.5391358797745773,
+      "p50_ms": 34.843150000597234,
+      "para_per_s": 704.065697772108,
+      "run": "results\\backbone\\debL_lr2e5"
+    }
+  },
+  "selected": {
+    "backbone": "microsoft/deberta-v3-base",
+    "lr": "4e-5",
+    "holdout_f1": 0.5242718446601942,
+    "dev_f1": 0.39356528245417133,
+    "dev_span_f1": 0.35908141962421714,
+    "top1_hit": 0.5767063243581716,
+    "p50_ms": 18.46645000114222,
+    "para_per_s": 1280.2982582878321,
+    "run": "results\\backbone\\debB_lr4e5"
+  },
+  "rule": "best holdout F1 per backbone; across backbones the fastest within 0.01 of the best"
+}

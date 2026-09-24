@@ -1,0 +1,112 @@
+{
+  "qwen3_4b_baseline": {
+    "n_paragraphs": 3127,
+    "micro_f1": 0.2068230277185501,
+    "n_cited_spans": 2954,
+    "exact_grounding": 0.8771157752200406,
+    "normalized_grounding": 0.8970886932972241,
+    "ungrounded_rate": 0.10291130670277593,
+    "unparseable_rate": 0.041893188359449954,
+    "median_generated_chars": 3243,
+    "source": "sftgrpo\\finalsftgrpo\\results\\qwen3_4b_baseline\\preds_dev.jsonl"
+  },
+  "sft_qwen3_4b_r64": {
+    "n_paragraphs": 3127,
+    "micro_f1": 0.2972222222222222,
+    "n_cited_spans": 1298,
+    "exact_grounding": 0.975346687211094,
+    "normalized_grounding": 0.9838212634822804,
+    "ungrounded_rate": 0.016178736517719616,
+    "unparseable_rate": 0.0,
+    "median_generated_chars": 1431,
+    "source": "sftgrpo\\finalsftgrpo\\results\\sft_qwen3_4b_r64\\preds_dev.jsonl"
+  },
+  "sft_qwen3_4b_r32": {
+    "n_paragraphs": 3127,
+    "micro_f1": 0.2878328277721604,
+    "n_cited_spans": 1388,
+    "exact_grounding": 0.9827089337175793,
+    "normalized_grounding": 0.989193083573487,
+    "ungrounded_rate": 0.010806916426512991,
+    "unparseable_rate": 0.0,
+    "median_generated_chars": 1455,
+    "source": "sftgrpo\\finalsftgrpo\\results\\sft_qwen3_4b_r32\\preds_dev.jsonl"
+  },
+  "dpo_faith": {
+    "n_paragraphs": 3127,
+    "micro_f1": 0.3017269468882372,
+    "n_cited_spans": 1491,
+    "exact_grounding": 0.9731723675385647,
+    "normalized_grounding": 0.9818913480885312,
+    "ungrounded_rate": 0.01810865191146882,
+    "unparseable_rate": 0.0012791813239526704,
+    "median_generated_chars": 1456,
+    "source": "sftgrpo\\finalsftgrpo\\results\\dpo_faith\\preds_dev.jsonl"
+  },
+  "grpo_rare": {
+    "n_paragraphs": 3127,
+    "micro_f1": 0.30405405405405406,
+    "n_cited_spans": 1376,
+    "exact_grounding": 0.9767441860465116,
+    "normalized_grounding": 0.9825581395348837,
+    "ungrounded_rate": 0.01744186046511631,
+    "unparseable_rate": 0.0,
+    "median_generated_chars": 1404,
+    "source": "sftgrpo\\finalsftgrpo\\results\\grpo_rare\\preds_dev.jsonl"
+  },
+  "sft_llama31_8b": {
+    "n_paragraphs": 3127,
+    "micro_f1": 0.29156193895870736,
+    "n_cited_spans": 1182,
+    "exact_grounding": 0.9788494077834179,
+    "normalized_grounding": 0.9906937394247038,
+    "ungrounded_rate": 0.009306260575296155,
+    "unparseable_rate": 0.0,
+    "median_generated_chars": 1452,
+    "source": "sftgrpo\\finalsftgrpo\\results\\sft_llama31_8b\\preds_dev.jsonl"
+  },
+  "llama31_8b_baseline": {
+    "n_paragraphs": 3127,
+    "micro_f1": 0.11466201820646911,
+    "n_cited_spans": 3732,
+    "exact_grounding": 0.8646838156484459,
+    "normalized_grounding": 0.9107717041800643,
+    "ungrounded_rate": 0.08922829581993574,
+    "unparseable_rate": 0.002878157978893508,
+    "median_generated_chars": 623,
+    "source": "sftgrpo\\finalsftgrpo\\results\\llama31_8b_baseline\\preds_dev.jsonl"
+  },
+  "sft_gemma2_2b": {
+    "n_paragraphs": 3127,
+    "micro_f1": 0.2744615384615385,
+    "n_cited_spans": 1653,
+    "exact_grounding": 0.9667271627344223,
+    "normalized_grounding": 0.9782214156079855,
+    "ungrounded_rate": 0.02177858439201452,
+    "unparseable_rate": 0.0003197953309881676,
+    "median_generated_chars": 1417,
+    "source": "sftgrpo\\finalsftgrpo\\results\\sft_gemma2_2b\\preds_dev.jsonl"
+  },
+  "gemma2_baseline": {
+    "n_paragraphs": 3127,
+    "micro_f1": 0.04958047292143402,
+    "n_cited_spans": 959,
+    "exact_grounding": 0.6715328467153284,
+    "normalized_grounding": 0.7038581856100105,
+    "ungrounded_rate": 0.29614181438998954,
+    "unparseable_rate": 0.012152222577550368,
+    "median_generated_chars": 162,
+    "source": "sftgrpo\\finalsftgrpo\\results\\gemma2_baseline\\preds_dev.jsonl"
+  },
+  "mistral_baseline": {
+    "n_paragraphs": 3127,
+    "micro_f1": 0.06342494714587738,
+    "n_cited_spans": 3442,
+    "exact_grounding": 0.20511330621731552,
+    "normalized_grounding": 0.22486926205694363,
+    "ungrounded_rate": 0.7751307379430563,
+    "unparseable_rate": 0.03613687240166293,
+    "median_generated_chars": 419,
+    "source": "sftgrpo\\finalsftgrpo\\results\\mistral_baseline\\preds_dev.jsonl"
+  }
+}

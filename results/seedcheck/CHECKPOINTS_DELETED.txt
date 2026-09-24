@@ -1,0 +1,4 @@
+results/seedcheck/T0nc_s1/ best.pt deleted after eval
+results/seedcheck/T0nc_s2/ best.pt deleted after eval
+results/seedcheck/T0v2_s1/ best.pt deleted after eval
+results/seedcheck/T0v2_s2/ best.pt deleted after eval

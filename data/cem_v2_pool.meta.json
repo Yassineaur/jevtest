@@ -1,0 +1,76 @@
+{
+  "sha256": "e546ca64f2ae4fc6a4643d61863ffd4cd23e6cb44306d14b56ebfff942054dc2",
+  "tau": 0.3,
+  "max_cue_uses": 5,
+  "lm": "openai-community/gpt2",
+  "seed": 0,
+  "per_record": 2,
+  "pairs": 2900,
+  "views": 5800,
+  "split": "train-fit (article-level, data.split_by_article seed 0)",
+  "report_prefilter": {
+    "KILL": {
+      "pairs": 4266,
+      "kept_pairs": 2398,
+      "edit_pass": 0.7759024847632443,
+      "control_pass": 0.6729957805907173,
+      "median_dNLL_edit": 0.11344480514526367,
+      "median_dNLL_control": 0.18955528736114502,
+      "auc_before": 0.38981230365416186,
+      "auc_after": 0.36582125360235557
+    },
+    "INJECT": {
+      "pairs": 8579,
+      "kept_pairs": 2924,
+      "edit_pass": 0.48117496211679683,
+      "control_pass": 0.4739480125888798,
+      "median_dNLL_edit": 0.31485605239868164,
+      "median_dNLL_control": 0.31882262229919434,
+      "auc_before": 0.49543197734878813,
+      "auc_after": 0.48457719827981455
+    },
+    "SWAP": {
+      "pairs": 2297,
+      "kept_pairs": 601,
+      "edit_pass": 0.5245973008271658,
+      "control_pass": 0.3561166739225076,
+      "median_dNLL_edit": 0.2762942314147949,
+      "median_dNLL_control": 0.4094374179840088,
+      "auc_before": 0.383671116894725,
+      "auc_after": 0.37955044421250217
+    }
+  },
+  "fluency_matched": true,
+  "delta": 0.1,
+  "sha256_unmatched": "9ecd6fdafc489d49f75e0f97d0fe39e15fa3af7aa25a220d228e7f1256f2584c",
+  "report": {
+    "KILL": {
+      "pairs_in": 2398,
+      "pairs_kept": 1334,
+      "auc_after_matching": 0.4503041769969588,
+      "median_dNLL_edit": 0.08410000000000001,
+      "median_dNLL_control": 0.09595000000000001
+    },
+    "INJECT": {
+      "pairs_in": 2924,
+      "pairs_kept": 1458,
+      "auc_after_matching": 0.5010694978370129,
+      "median_dNLL_edit": 0.15034999999999998,
+      "median_dNLL_control": 0.1496
+    },
+    "SWAP": {
+      "pairs_in": 601,
+      "pairs_kept": 287,
+      "auc_after_matching": 0.4665043887870437,
+      "median_dNLL_edit": 0.1405,
+      "median_dNLL_control": 0.1498
+    }
+  },
+  "excluded_inserted_techniques": [
+    "Repetition"
+  ],
+  "excluded_pairs": {
+    "INJECT": 148,
+    "SWAP": 31
+  }
+}

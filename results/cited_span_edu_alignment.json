@@ -1,0 +1,26 @@
+{
+  "T4_s0:argumentative": {
+    "model_cited_edu_aligned": 0.676,
+    "n_cited": 207,
+    "gold_edu_aligned": 0.572,
+    "chance_same_length": 0.301
+  },
+  "T4_s0:lexical": {
+    "model_cited_edu_aligned": 0.043,
+    "n_cited": 628,
+    "gold_edu_aligned": 0.064,
+    "chance_same_length": 0.013
+  },
+  "T0_s0:argumentative": {
+    "model_cited_edu_aligned": 0.0,
+    "n_cited": 0,
+    "gold_edu_aligned": 0.572,
+    "chance_same_length": 0.0
+  },
+  "T0_s0:lexical": {
+    "model_cited_edu_aligned": 0.0,
+    "n_cited": 0,
+    "gold_edu_aligned": 0.064,
+    "chance_same_length": 0.0
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "results\\pilot\\T4_s0\\best.pt": {
+    "p50_ms": 18.448950000674813,
+    "p95_ms": 19.1492299993115,
+    "throughput_para_per_s_bs32": 1263.8566079044197,
+    "n": 100,
+    "gpu_busy_before": {
+      "memory_used_mib": 215,
+      "utilization_pct": 0
+    }
+  },
+  "results\\pilot\\T0_s0\\best.pt": {
+    "p50_ms": 17.07639999949606,
+    "p95_ms": 17.478854997716553,
+    "throughput_para_per_s_bs32": 1330.891590881394,
+    "n": 100,
+    "gpu_busy_before": {
+      "memory_used_mib": 215,
+      "utilization_pct": 0
+    }
+  },
+  "results\\parser\\T4seg_s0\\best.pt": {
+    "p50_ms": 25.34445000037522,
+    "p95_ms": 32.159365001189144,
+    "throughput_para_per_s_bs32": 802.6300581820263,
+    "n": 100,
+    "gpu_busy_before": {
+      "memory_used_mib": 795,
+      "utilization_pct": 2
+    }
+  },
+  "results\\parser\\T4disc_s0\\best.pt": {
+    "p50_ms": 24.85924999928102,
+    "p95_ms": 33.86983500004135,
+    "throughput_para_per_s_bs32": 907.3776151790719,
+    "n": 100,
+    "gpu_busy_before": {
+      "memory_used_mib": 795,
+      "utilization_pct": 2
+    }
+  },
+  "results\\cemv2\\T4v2_s0\\best.pt": {
+    "p50_ms": 18.509999999878346,
+    "p95_ms": 19.05964500074333,
+    "throughput_para_per_s_bs32": 1298.4163216318705,
+    "n": 100,
+    "gpu_busy_before": {
+      "memory_used_mib": 215,
+      "utilization_pct": 0
+    }
+  },
+  "results\\backbone\\debB_lr4e5\\best.pt": {
+    "p50_ms": 18.46645000114222,
+    "p95_ms": 18.919869999263028,
+    "throughput_para_per_s_bs32": 1280.2982582878321,
+    "n": 100,
+    "gpu_busy_before": {
+      "memory_used_mib": 215,
+      "utilization_pct": 0
+    }
+  },
+  "results\\backbone\\debL_lr1e5\\best.pt": {
+    "p50_ms": 34.928899998703855,
+    "p95_ms": 36.667254998974386,
+    "throughput_para_per_s_bs32": 694.5770893658445,
+    "n": 100,
+    "gpu_busy_before": {
+      "memory_used_mib": 215,
+      "utilization_pct": 0
+    }
+  },
+  "results\\backbone\\debL_lr2e5\\best.pt": {
+    "p50_ms": 34.843150000597234,
+    "p95_ms": 35.995199996978045,
+    "throughput_para_per_s_bs32": 704.065697772108,
+    "n": 100,
+    "gpu_busy_before": {
+      "memory_used_mib": 215,
+      "utilization_pct": 0
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+ "SUFF": {
+  "Loaded_Language": [
+   252,
+   0.113
+  ],
+  "Name_Calling-Labeling": [
+   122,
+   0.14
+  ],
+  "Repetition": [
+   49,
+   0.003
+  ],
+  "Doubt": [
+   47,
+   0.012
+  ],
+  "Exaggeration-Minimisation": [
+   31,
+   0.189
+  ],
+  "Appeal_to_Fear-Prejudice": [
+   28,
+   0.005
+  ],
+  "Flag_Waving": [
+   24,
+   0.163
+  ],
+  "False_Dilemma-No_Choice": [
+   12,
+   0.021
+  ]
+ },
+ "KILL": {
+  "Loaded_Language": [
+   251,
+   -0.06
+  ],
+  "Name_Calling-Labeling": [
+   124,
+   -0.047
+  ],
+  "Repetition": [
+   48,
+   -0.006
+  ],
+  "Doubt": [
+   48,
+   -0.01
+  ],
+  "Appeal_to_Fear-Prejudice": [
+   29,
+   0.03
+  ],
+  "Flag_Waving": [
+   28,
+   -0.252
+  ],
+  "Exaggeration-Minimisation": [
+   28,
+   -0.072
+  ],
+  "False_Dilemma-No_Choice": [
+   11,
+   -0.012
+  ]
+ },
+ "INJECT": {
+  "Conversation_Killer": [
+   193,
+   0.027
+  ],
+  "Whataboutism": [
+   190,
+   0.001
+  ],
+  "Red_Herring": [
+   189,
+   0.002
+  ],
+  "Causal_Oversimplification": [
+   182,
+   0.018
+  ],
+  "Flag_Waving": [
+   179,
+   0.323
+  ],
+  "Appeal_to_Popularity": [
+   179,
+   0.0
+  ],
+  "Guilt_by_Association": [
+   178,
+   0.09
+  ],
+  "Obfuscation-Vagueness-Confusion": [
+   174,
+   -0.0
+  ],
+  "Slogans": [
+   171,
+   0.095
+  ],
+  "Appeal_to_Fear-Prejudice": [
+   171,
+   0.048
+  ],
+  "Straw_Man": [
+   165,
+   0.0
+  ],
+  "Appeal_to_Authority": [
+   165,
+   0.018
+  ],
+  "False_Dilemma-No_Choice": [
+   165,
+   0.088
+  ],
+  "Loaded_Language": [
+   163,
+   0.128
+  ],
+  "Name_Calling-Labeling": [
+   161,
+   0.117
+  ],
+  "Exaggeration-Minimisation": [
+   153,
+   0.118
+  ],
+  "Doubt": [
+   148,
+   0.035
+  ],
+  "Appeal_to_Hypocrisy": [
+   141,
+   -0.0
+  ]
+ }
+}

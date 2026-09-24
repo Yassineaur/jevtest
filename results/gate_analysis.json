@@ -1,0 +1,103 @@
+{
+  "source": "results/parser/T4disc_s0/eval/metrics.json",
+  "n_techniques": 19,
+  "spearman": 0.17719298245614035,
+  "p_one_sided": 0.2329883505824709,
+  "rows": [
+    {
+      "technique": "Repetition",
+      "gate_sum": -0.0029,
+      "alignment_excess": 0.1072
+    },
+    {
+      "technique": "Doubt",
+      "gate_sum": -0.0084,
+      "alignment_excess": 0.508
+    },
+    {
+      "technique": "Slogans",
+      "gate_sum": -0.0108,
+      "alignment_excess": 0.3631
+    },
+    {
+      "technique": "Conversation_Killer",
+      "gate_sum": -0.0126,
+      "alignment_excess": 0.4901
+    },
+    {
+      "technique": "Appeal_to_Fear-Prejudice",
+      "gate_sum": -0.0133,
+      "alignment_excess": 0.3698
+    },
+    {
+      "technique": "False_Dilemma-No_Choice",
+      "gate_sum": -0.0136,
+      "alignment_excess": 0.5246
+    },
+    {
+      "technique": "Appeal_to_Popularity",
+      "gate_sum": -0.0149,
+      "alignment_excess": 0.3435
+    },
+    {
+      "technique": "Whataboutism",
+      "gate_sum": -0.0166,
+      "alignment_excess": 0.5
+    },
+    {
+      "technique": "Obfuscation-Vagueness-Confusion",
+      "gate_sum": -0.0171,
+      "alignment_excess": 0.3262
+    },
+    {
+      "technique": "Causal_Oversimplification",
+      "gate_sum": -0.0181,
+      "alignment_excess": 0.535
+    },
+    {
+      "technique": "Appeal_to_Authority",
+      "gate_sum": -0.019,
+      "alignment_excess": 0.507
+    },
+    {
+      "technique": "Guilt_by_Association",
+      "gate_sum": -0.0195,
+      "alignment_excess": 0.4672
+    },
+    {
+      "technique": "Straw_Man",
+      "gate_sum": -0.0207,
+      "alignment_excess": 0.675
+    },
+    {
+      "technique": "Loaded_Language",
+      "gate_sum": -0.022,
+      "alignment_excess": 0.0664
+    },
+    {
+      "technique": "Name_Calling-Labeling",
+      "gate_sum": -0.023,
+      "alignment_excess": 0.0212
+    },
+    {
+      "technique": "Flag_Waving",
+      "gate_sum": -0.0239,
+      "alignment_excess": 0.2329
+    },
+    {
+      "technique": "Appeal_to_Hypocrisy",
+      "gate_sum": -0.0246,
+      "alignment_excess": 0.5176
+    },
+    {
+      "technique": "Exaggeration-Minimisation",
+      "gate_sum": -0.0247,
+      "alignment_excess": 0.1768
+    },
+    {
+      "technique": "Red_Herring",
+      "gate_sum": -0.0331,
+      "alignment_excess": 0.3629
+    }
+  ]
+}

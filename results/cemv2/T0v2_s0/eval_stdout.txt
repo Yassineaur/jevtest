@@ -1,0 +1,138 @@
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s]Loading weights: 100%|##########| 198/198 [00:00<00:00, 6577.42it/s]
+[transformers] [1mDebertaV2Model LOAD REPORT[0m from: microsoft/deberta-v3-base
+Key                                     | Status     |  | 
+----------------------------------------+------------+--+-
+mask_predictions.LayerNorm.bias         | UNEXPECTED |  | 
+lm_predictions.lm_head.bias             | UNEXPECTED |  | 
+lm_predictions.lm_head.LayerNorm.weight | UNEXPECTED |  | 
+lm_predictions.lm_head.dense.weight     | UNEXPECTED |  | 
+lm_predictions.lm_head.LayerNorm.bias   | UNEXPECTED |  | 
+mask_predictions.dense.weight           | UNEXPECTED |  | 
+mask_predictions.LayerNorm.weight       | UNEXPECTED |  | 
+mask_predictions.dense.bias             | UNEXPECTED |  | 
+lm_predictions.lm_head.dense.bias       | UNEXPECTED |  | 
+mask_predictions.classifier.weight      | UNEXPECTED |  | 
+mask_predictions.classifier.bias        | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+{
+  "eval_version": "2026-09-24f",
+  "ckpt": "results\\cemv2\\T0v2_s0\\best.pt",
+  "arm": "label",
+  "cem": true,
+  "backbone": "microsoft/deberta-v3-base",
+  "parser": "none",
+  "seed": 0,
+  "best_epoch": 3,
+  "n_holdout": 948,
+  "n_dev": 3127,
+  "label_mode": {
+    "micro_f1": 0.39726547664261297,
+    "macro_f1": 0.1672628976011197,
+    "threshold": 0.30000000000000004
+  },
+  "label_calibration": {
+    "ece_raw": 0.01688703913193658,
+    "brier_raw": 0.022535841912031174,
+    "ece_temp": 0.008843164525328816,
+    "brier_temp": 0.02193346805870533,
+    "temperature": 1.3492828476735632
+  },
+  "selective": {
+    "aurc": 0.021273076718531892,
+    "acc_at_50": 0.9902039991920824,
+    "acc_at_80": 0.9888070692194404,
+    "acc_full": 0.973288674195883
+  },
+  "faithfulness": {
+    "kill": {
+      "n": 1454,
+      "mean_delta": -0.21365311741828918,
+      "mean_abs_delta": 0.21829168498516083
+    },
+    "kill_ctrl": {
+      "n": 906,
+      "mean_delta": 0.01494399830698967,
+      "mean_abs_delta": 0.055751923471689224
+    },
+    "relocate": {
+      "n": 1454,
+      "mean_delta": 0.023180661723017693,
+      "mean_abs_delta": 0.0703233852982521
+    },
+    "distractor": {
+      "n": 1269,
+      "mean_delta": 0.014686618000268936,
+      "mean_abs_delta": 0.045653291046619415
+    },
+    "inject": {
+      "n": 380,
+      "mean_delta": 0.22640280425548553,
+      "mean_abs_delta": 0.22664214670658112
+    },
+    "inject_ctrl": {
+      "n": 371,
+      "mean_delta": 0.010195293463766575,
+      "mean_abs_delta": 0.01124547328799963
+    }
+  },
+  "faithfulness_v2": {
+    "KILL": {
+      "n": 602,
+      "held_out": false,
+      "mean_edit": -0.25207243687707637,
+      "mean_ctrl": 0.013653526578073089,
+      "stat": -0.2657259468438538,
+      "stat_ci95": [
+        -0.29848726287375416,
+        -0.2364841095099668
+      ]
+    },
+    "INJECT": {
+      "n": 3067,
+      "held_out": false,
+      "mean_edit": 0.12726347277469843,
+      "mean_ctrl": 0.003685716661232475,
+      "stat": 0.1235777655689599,
+      "stat_ci95": [
+        0.11381589367460059,
+        0.1332600135392892
+      ]
+    },
+    "SWAP": {
+      "n": 577,
+      "held_out": false,
+      "mean_edit": -0.17434117331022528,
+      "mean_ctrl": 0.011253488734835356,
+      "stat": -0.18559466031195843,
+      "stat_ci95": [
+        -0.21723805281629116,
+        -0.1532374163778163
+      ],
+      "mean_new_edit_minus_ctrl": 0.09738859792027729
+    },
+    "RELOC": {
+      "n": 574,
+      "held_out": true,
+      "mean_edit": 0.04512595818815331,
+      "mean_ctrl": 0.009405085365853659,
+      "stat": 0.040223792682926834,
+      "stat_ci95": [
+        0.02638642831010453,
+        0.053623264285714276
+      ]
+    },
+    "SUFF": {
+      "n": 598,
+      "held_out": true,
+      "mean_edit": 0.34773708528428093,
+      "mean_ctrl": 0.011535453177257526,
+      "stat": 0.3362016304347826,
+      "stat_ci95": [
+        0.30314099657190635,
+        0.36734092399665547
+      ]
+    }
+  }
+}
