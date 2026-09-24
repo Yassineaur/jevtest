@@ -1,94 +1,104 @@
-# CEM v3 rewrite prompt (v1, 2026-09-24)
+# CEM v3 rewrite prompts (v2, 2026-09-24)
 
-Distilled from the 216 hand-written seed rewrites in `data/cem_v3_seed/` (built by
-`code/build_cem_v3_seed.py`). Status: NOT yet tested on a generator. The pilot compares a
-generator's output with the seed set on the same pairs, in a blind audit (see bottom).
+v1 was written before the self-audit (`notes/cem_v3_selfaudit.md`); v2 adds what the audit
+showed. Still UNTESTED on any generator: the pilot at the bottom decides whether it works.
 
-## How the prompt is used
+## What changed from v1 and why
 
-The script sends one request per (paragraph, family, technique). The paragraph is given as
-numbered units, with the gold technique list. The model returns JSON only:
-`{"edits": {"<unit index>": "<new unit text>", ...}, "why": "<one line>"}`.
-Each edit request is paired with a control request on the SAME units (same model, same
-settings), so any style left by the generator appears in both edit and control.
+| Problem found in the self-audit | Fix in v2 |
+|---|---|
+| 8/74 KILL failed because a SECOND instance of the technique survived (s022, s060, s035) | KILL is two-step: first list every instance with quotes, then rewrite, then re-scan (fields `instances`, `edits`, `recheck`) |
+| Techniques carried by STRUCTURE, not words, were missed: paired questions = dilemma (s004), juxtaposed facts = doubt (s020), 'not X, nor Y... just Z' list = minimisation (s035), idioms = hyperbole ('ate grass', s060) | a "hidden carriers" checklist in the KILL template |
+| Overlapping techniques (one insult = Loaded + Name_Calling) made 16/100 paragraphs impossible | explicit refusal rule with the overlap reason; refusals are logged, never forced |
+| A control drifted into a technique ('As our pastors have preached' = authority, s001) | controls may only add neutral detail types from a fixed list |
+| Injected techniques can bring collateral ones ('partisan hacks' = Name_Calling + Loaded) | INJECT asks for the plainest wording that still carries T; the verifier checks all 19 |
+| Placeholder definitions in v1 | working definitions below, with the confusable pairs spelled out |
+| A 4B model needs examples per technique, not five generic ones | the few-shot block is filled per request with 2 seed examples OF THE SAME technique and family |
+| Self-grading bias | a separate VERIFIER prompt, run by a different model than the generator |
 
-## System prompt
+## Working definitions (paraphrased from the SemEval-2023 Task 3 guidelines, Piskorski et al.
+2023; replace with the official text before the paper)
+
+- Loaded_Language: words or phrases with strong emotional connotation used to influence.
+- Name_Calling-Labeling: a label (insult or praise) attached to a person or group that the
+  audience fears, hates or likes. NEEDS A TARGET. Overlaps Loaded_Language when the label itself is emotive.
+- Repetition: the same word, phrase or idea repeated to persuade.
+- Exaggeration-Minimisation: representing something as much larger/better/worse or much
+  smaller/less important than it is (includes 'nothing but', 'just', dismissive lists).
+- Doubt: questioning the credibility of someone or something (including by insinuation or
+  scare quotes). NEEDS A TARGET.
+- Appeal_to_Fear-Prejudice: promoting or rejecting an idea by exploiting fear or prejudice.
+- Flag_Waving: justifying an idea by appeal to a group's pride or identity (nation, 'the American people').
+- Causal_Oversimplification: assuming a single cause when there are several.
+- False_Dilemma-No_Choice: presenting two options (or one) as the only ones.
+- Slogans: short, striking phrases, often labels or stereotypes, used as a rallying cry.
+- Conversation_Killer: phrases that discourage discussion ('and that's that', 'rightly so').
+- Appeal_to_Authority: a claim is true because an authority/expert says so.
+- Appeal_to_Popularity: a claim is true because 'everyone'/'most people' believe it.
+- Appeal_to_Hypocrisy: attacking the target by charging inconsistency between words and deeds. NEEDS A TARGET.
+- Whataboutism: deflecting a criticism by pointing to the opponent's or someone else's other wrongs.
+- Red_Herring: introducing an irrelevant issue to divert attention from the point.
+- Straw_Man: replacing an opponent's position with a distorted one and attacking that. NEEDS A TARGET.
+- Guilt_by_Association: attacking a target by linking it to a disliked person or group. NEEDS A TARGET.
+- Obfuscation-Vagueness-Confusion: deliberately unclear wording that allows several readings.
+
+Confusable pairs to keep apart: Loaded vs Name_Calling (a label vs an emotive word);
+Whataboutism vs Appeal_to_Hypocrisy vs Red_Herring ('what about their X' vs 'they do not practise
+what they preach' vs 'let us talk about something else'); Doubt vs Loaded ('so-called experts'
+can be both); Conversation_Killer vs Slogans.
+
+## Generator system prompt
 
 You rewrite sentences from news paragraphs to build training data for a persuasion-technique
-detector. The techniques are the 19 of SemEval-2023 Task 3; their definitions follow.
-{DEFINITIONS: one line each, from the SemEval-2023 annotation guidelines}
-
+detector. Use the definitions above. Answer with JSON only, in the schema of the task.
 Rules for every rewrite:
-1. Rewrite whole units only. Return every unit you change, fully rewritten, as a complete
-   grammatical sentence. Never leave a fragment, never merge or split units.
-2. Change only what the task asks. Keep names, facts, quotes' speakers, numbers and every other
-   technique of the paragraph exactly as they are, unless the task says otherwise.
-3. Keep length within about 30% of the original unit.
-4. Keep the register (news, opinion, homily, tweet); do not make the text sound more formal.
-5. If the task cannot be done cleanly (for example the technique shares its words with another
-   technique that must stay), return {"edits": {}, "why": "cannot: <reason>"}.
+1. Rewrite whole numbered units only; each changed unit must be a complete grammatical sentence
+   (same number of units, no merging, no fragments).
+2. Change only what the task asks. Keep names, facts, numbers, quoted speakers, the register,
+   and every other listed technique.
+3. Keep each unit within about 30% of its original length.
+4. If the task cannot be done cleanly, return {"refuse": "<reason>"}. Refusing is correct when
+   the words carrying T also carry another listed technique that must stay.
 
 ## Task templates
 
-KILL (remove technique T):
-  The paragraph contains T. Find EVERY unit where T appears (not only the most obvious one) and
-  rewrite each of them so that T is no longer present anywhere in the paragraph, while every
-  other listed technique stays present. Keep the factual content; replace the persuasive device
-  with a plain statement.
+KILL (remove T; other techniques listed: {OTHERS}):
+Step 1 `instances`: quote EVERY place in the paragraph where T appears. Check the hidden carriers
+too: paired or listed alternatives (dilemma), juxtaposed facts that insinuate (doubt), 'not X,
+nor Y... just Z' lists (minimisation), idioms and metaphors (exaggeration), scare quotes (doubt),
+labels inside quotations (they count).
+Step 2 `edits`: rewrite every unit that contains an instance so T disappears, keeping {OTHERS}.
+Step 3 `recheck`: read the full edited paragraph and list any remaining T; if any, fix or refuse.
+Schema: {"instances": [...], "edits": {"<i>": "..."}, "recheck": "none" | [...], "why": "..."}
 
-KILL_C (control for KILL):
-  Paraphrase exactly these units {UNITS} so that the wording changes but every technique,
-  including T, stays present.
+KILL_C (control): paraphrase exactly units {UNITS}; every technique, including T, stays.
+Schema: {"edits": {"<i>": "..."}}
 
-INJECT (add technique T):
-  The paragraph does not contain T. Rewrite exactly one unit, {UNIT}, so that it clearly uses T,
-  aimed at a person, group or claim that is already in the paragraph. Do not add any other
-  technique. Techniques that need a target (Name_Calling, Straw_Man, Guilt_by_Association,
-  Appeal_to_Hypocrisy, Whataboutism, Red_Herring, Doubt) must attach to something in the text.
+INJECT (add T, which is absent): rewrite exactly unit {UNIT} so it clearly uses T, aimed at a
+person, group or claim already in the paragraph. Use the plainest wording that still carries T,
+so no other technique is added.
+Schema: {"target": "<who/what T is aimed at>", "edits": {"<i>": "..."}, "why": "..."}
 
-INJECT_C (control for INJECT):
-  Rewrite exactly unit {UNIT}, adding a neutral detail of similar length in the same position,
-  so that no technique is added or removed.
+INJECT_C (control): rewrite exactly unit {UNIT}, adding one neutral detail of similar length at
+the same position. Allowed detail types: a date, a place, a job title, a number, a procedural
+fact. Not allowed: sources, attributions, majorities, evaluations.
+Schema: {"edits": {"<i>": "..."}}
 
-## Worked examples (from the seed set)
+Few-shot block (filled per request): 2 examples from `data/cem_v3_seed/seed_views.jsonl` with
+the same family and technique, each shown as original unit -> rewritten unit + `why`.
 
-KILL Loaded_Language (s022; 'smear' AND 'duped' must both go, 'fake news' label stays):
-  U1 "That did not hinder other outlets to add to its smear." ->
-     "That did not stop other outlets from repeating its claims."
-  U2 "...that the Guardian has been duped - not by..." -> "...that the Guardian had been misled - not by..."
-KILL_C: U1 -> "That did not stop other outlets from adding to its smear." ; U2 -> "...had been duped..."
+## Verifier prompt (a DIFFERENT model from the generator)
 
-KILL Flag_Waving (s080; keep the doubt in 'hidden'):
-  "Keep in mind, this is all information that the police and the FBI has hidden from the American people." ->
-  "Keep in mind, this is all information that the police and the FBI have hidden from the public."
+Given the edited paragraph and the definitions, answer for EACH of the 19 techniques: present /
+absent, with the quoted evidence if present. The view is kept only if the verifier's answer
+matches the view's label on the target technique AND no technique other than the target changed
+between the original and the edited paragraph. Disagreements go to the human audit pool.
 
-INJECT Doubt (s019; attaches to the existing source):
-  "A well-placed source has told the Guardian that Manafort went to see Assange around March 2016." ->
-  "A well-placed source — whose account could not be verified and whose motives remain unclear — has told..."
-INJECT_C: "A well-placed source, speaking on condition of anonymity, has told..."
+## Pilot (pre-registered)
 
-INJECT Whataboutism (s033):
-  "...has called Pope Francis’s handling of abuse into question as many Catholics look to him..." ->
-  "...into question — though critics said little about how his predecessors handled the very same cases — as many..."
-INJECT_C: "...into question — especially cases dating from before his election — as many..."
-
-INJECT Guilt_by_Association (s005):
-  "Dina Powell is everything..." -> "Dina Powell, a longtime ally of Huma Abedin, is everything..."
-INJECT_C: "Dina Powell, a former Goldman Sachs executive, is everything..."
-
-## Lessons from writing the seed set (what the prompt must prevent)
-
-- KILL is only valid if EVERY instance goes: in s022 and s028 the first draft removed the
-  marked span but left 'duped' / a quoted 'wicked and filth-ridden', exactly the v2 failure.
-- 16 of 100 paragraphs could not be edited cleanly because several techniques share the same
-  words (for example the same insult is both Loaded_Language and Name_Calling). The generator
-  must be allowed to refuse (rule 5); forcing it produces wrong labels.
-- Injected insults must hit a target in the text; a floating label is not Name_Calling.
-
-## Pilot to choose the generator (pre-registered)
-
-1. Run this prompt with Qwen3-4B (local) and, optionally, one API model on the same 108 pairs.
-2. Mix the generator outputs and the seed rewrites, shuffle, hide the source, audit blind with
-   the same questions as `audit_v3_seed_sheet.csv`.
-3. Choose the generator whose validity is highest; accept it only if every family is >= 0.8
-   valid (same bar as MVP_PLAN) and controls are >= 0.9.
+1. Generator candidates: Qwen3-4B (local) and one stronger model; same prompts, temperature 0.3.
+2. Run on the 103 seed pairs' paragraphs, same families and techniques.
+3. Blind audit of a mixed sample (generator outputs + seed rewrites, source hidden).
+4. Accept a generator only if every family is >= 0.8 valid, controls >= 0.9, refusals < 25%, and
+   the verifier agrees with the human audit on >= 85% of items (so the verifier can be trusted
+   to filter the full pool).
