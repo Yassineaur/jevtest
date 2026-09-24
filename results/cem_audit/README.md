@@ -24,3 +24,19 @@ Families below 0.8 are listed as "drop from training".
 
 The older `audit_sheet.csv` samples CEM v1 (the pilot's augmentation); annotating it is only
 needed to quantify how noisy v1 was.
+
+## AI pre-annotation (2026-09-24) - NOT the human audit
+
+`audit_v2_sheet_claude.csv` is a first pass by Claude, done blind (the key was not opened before
+annotating), at the owner's request, for the owner to check later. Every row carries
+`annotator = claude (AI pre-annotation, not human)` and a `confidence` (high/medium/low) to
+prioritise the review. Scored with `code/cem_audit.py --v2 --score --tag _claude` into
+`audit_v2_scores_claude.json` and `soft_targets_claude.json`; the human outputs
+(`audit_v2_scores.json`, `soft_targets.json`) are untouched. Do not train on or report the
+`_claude` numbers as a human audit. Once corrected, the owner's copy becomes
+`audit_v2_sheet.csv`, and the AI pass can serve as the second annotator for kappa.
+
+Rules used: label_correct judges the whole edited text against the SemEval-2023 definitions
+(so KILL fails if another instance of the technique remains, and SWAP needs both halves);
+fluent = no only when the edit breaks a sentence or leaves a dangling fragment. A pejorative
+label that is not attached to any target was not counted as Name_Calling.

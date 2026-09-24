@@ -128,9 +128,12 @@ def make_v2(n_evid: int, n_ctrl: int, seed: int) -> None:
     print(f"wrote {len(rows)} rows to {OUT / 'audit_v2_sheet.csv'}")
 
 
-def score(prefix: str = "audit", kinds=KINDS) -> None:
+def score(prefix: str = "audit", kinds=KINDS, tag: str = "") -> None:
+    """tag: score a variant sheet `{prefix}_sheet{tag}.csv` (e.g. "_claude", an AI
+    pre-annotation) into `{prefix}_scores{tag}.json` / `soft_targets{tag}.json`, so it never
+    overwrites the human audit's outputs."""
     key = json.loads((OUT / f"{prefix}_key.json").read_text())
-    with (OUT / f"{prefix}_sheet.csv").open(encoding="utf-8-sig") as f:
+    with (OUT / f"{prefix}_sheet{tag}.csv").open(encoding="utf-8-sig") as f:
         rows = list(csv.DictReader(f))
     res = {}
     for kind in kinds:
@@ -140,13 +143,13 @@ def score(prefix: str = "audit", kinds=KINDS) -> None:
         res[kind] = {"n": len(rs), "label_correct": ok / max(1, len(rs)),
                      "label_ci95": wilson(ok, len(rs)), "fluent": fl / max(1, len(rs)),
                      "fluent_ci95": wilson(fl, len(rs))}
-    (OUT / f"{prefix}_scores.json").write_text(json.dumps(res, indent=2))
+    (OUT / f"{prefix}_scores{tag}.json").write_text(json.dumps(res, indent=2))
     if prefix == "audit_v2":
         # soft targets for training (--soft-json): audited validity per EVIDENCE family,
         # only for families that pass the 0.8 bar; controls keep hard targets
         soft = {k: round(v["label_correct"], 3) for k, v in res.items()
                 if not k.endswith("_C") and v["n"] >= 20 and v["label_correct"] >= 0.8}
-        (OUT / "soft_targets.json").write_text(json.dumps(soft, indent=2))
+        (OUT / f"soft_targets{tag}.json").write_text(json.dumps(soft, indent=2))
         dropped = [k for k, v in res.items() if not k.endswith("_C") and v["label_correct"] < 0.8]
         print("soft targets:", soft, "families below 0.8 (drop from training):", dropped)
     print(json.dumps(res, indent=2))
@@ -158,8 +161,9 @@ if __name__ == "__main__":
     ap.add_argument("--seed", type=int, default=7)
     ap.add_argument("--score", action="store_true")
     ap.add_argument("--v2", action="store_true", help="sample / score the frozen CEM v2 pool")
+    ap.add_argument("--tag", default="", help="score a variant sheet, e.g. _claude")
     a = ap.parse_args()
     if a.v2:
-        score("audit_v2", V2_KINDS) if a.score else make_v2(40, 15, a.seed)
+        score("audit_v2", V2_KINDS, a.tag) if a.score else make_v2(40, 15, a.seed)
     else:
-        score() if a.score else make(a.n_per, a.seed)
+        score(tag=a.tag) if a.score else make(a.n_per, a.seed)
