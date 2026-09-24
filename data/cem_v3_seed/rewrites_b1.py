@@ -15,7 +15,7 @@ R = [
 ("s001","KILL_C","Slogans",{0:"We have long taught that homosexuality is an abomination, and how it is a felony in every state in our union (Leviticus 18:22; 20:13; Jude 1:7)."},"catchphrase kept"),
 ("s001","INJECT","Appeal_to_Popularity",{0:"Like the vast majority of Americans, we have taught that homosexuality is an abomination, and how it is a felony in every state in our union (Leviticus 18:22; 20:13; Jude 1:7)."},
  "claim justified by what most people supposedly believe"),
-("s001","INJECT_C","Appeal_to_Popularity",{0:"As our pastors have preached for years, we have taught that homosexuality is an abomination, and how it is a felony in every state in our union (Leviticus 18:22; 20:13; Jude 1:7)."},
+("s001","INJECT_C","Appeal_to_Popularity",{0:"For many years now, we have taught that homosexuality is an abomination, and how it is a felony in every state in our union (Leviticus 18:22; 20:13; Jude 1:7)."},
  "same slot, neutral attribution (no appeal to the majority)"),
 
 ("s002","INJECT","Doubt",{0:"According to the Hungarian Government's website, whose claims have repeatedly proven unreliable, posted about the ultimatum that was given over the weekend."},
@@ -28,8 +28,8 @@ R = [
  "position backed by citing an authority"),
 ("s003","INJECT_C","Appeal_to_Authority",{0:"“We don’t want to send them back on a ship unless someone has had a chance to check whether they face a really bad situation,”"},"neutral paraphrase"),
 
-("s004","KILL","False_Dilemma-No_Choice",{1:"Each of you will have to decide how to respond."},"'either submit or resist' removed; the questions that follow still frame a choice, but no longer an exclusive two-option claim"),
-("s004","KILL_C","False_Dilemma-No_Choice",{1:"Either you submit, or you resist."},"paraphrase, dilemma kept"),
+("s004","KILL","False_Dilemma-No_Choice",{1:"Each of you will have to decide how to respond.",2:"What will you do?” he asked the crowds.",3:"“Think about it.”"},"'either submit or resist' removed; the questions that follow still frame a choice, but no longer an exclusive two-option claim"),
+("s004","KILL_C","False_Dilemma-No_Choice",{1:"Either you submit, or you resist.",2:"Will you submit?” he asked the crowds.",3:"“Will you resist?”"},"paraphrase, dilemma kept"),
 ("s004","INJECT","Name_Calling-Labeling",{2:"Are you going to submit to these tyrants?” he asked the crowds."},"labels the target group as 'tyrants'"),
 ("s004","INJECT_C","Name_Calling-Labeling",{2:"Will you submit?” he asked the crowds."},"neutral paraphrase"),
 
@@ -108,17 +108,12 @@ R = [
 ("s019","INJECT","Doubt",{4:"A well-placed source — whose account could not be verified and whose motives remain unclear — has told the Guardian that Manafort went to see Assange around March 2016."},"casts doubt on the source"),
 ("s019","INJECT_C","Doubt",{4:"A well-placed source, speaking on condition of anonymity, has told the Guardian that Manafort went to see Assange around March 2016."},"same slot, neutral"),
 
-("s020","KILL","Doubt",{0:"“Well, ISIS did claim responsibility for the attack four times.",1:"Local law enforcement investigative services have found no terrorist connection, just a lone gunman,”"},
- "insinuation that the official account does not add up removed from both units"),
-("s020","KILL_C","Doubt",{0:"“Well, they could be–let’s face it, ISIS warned the United States twice before the attack that they would strike Las Vegas, in June and August, and after the attack claimed responsibility four times.",1:"Meanwhile, local law enforcement investigators are telling us there is no terrorist connection–lone gunman, again, something doesn’t add up,”"},"kept"),
 
 ("s021","KILL","Flag_Waving",{2:"Despite Hezbollah’s record of attacks on coalition forces, the U.S.-led coalition has chosen not to do anything about Hezbollah’s presence in Syria, bought and paid for by Iran."},"'American blood on its hands' removed"),
 ("s021","KILL_C","Flag_Waving",{2:"Even though Hezbollah has American blood on its hands, the U.S.-led coalition has chosen to do nothing about Hezbollah’s presence in Syria, bought and paid for by Iran."},"kept"),
 ("s021","INJECT","Causal_Oversimplification",{1:"And because Iran has used Syria as a transit point for sophisticated rockets to Hezbollah, every attack on Israeli population centers can be traced to Tehran alone."},"single-cause claim"),
 ("s021","INJECT_C","Causal_Oversimplification",{1:"And Iran has used Syria as a transit point for shipments of sophisticated rockets to Hezbollah in Lebanon, intended for future use against Israeli population centers."},"neutral paraphrase"),
 
-("s022","KILL","Loaded_Language",{1:"That did not stop other outlets from repeating its claims.",2:"Politico allowed \"a former CIA officer,\" writing under a pen name, to suggest - without any evidence - that the Guardian had been misled - not by its MI5/6 and Ecuadorian spy sources, but by Russian disinformation:"},"'smear' and 'duped' removed; 'fake news' label (Name_Calling) kept"),
-("s022","KILL_C","Loaded_Language",{1:"That did not stop other outlets from adding to its smear.",2:"Politico let \"a former CIA officer,\" writing under a pen name, suggest - without any evidence - that the Guardian had been duped - not by its MI5/6 and Ecuadorian spy sources, but by Russian disinformation:"},"kept"),
 
 ("s023","KILL","False_Dilemma-No_Choice",{5:"The headquarters of my archdiocese and my apostolate have been occupied by radical Islamists."},"'convert or die' removed"),
 ("s023","KILL_C","False_Dilemma-No_Choice",{5:"Radical Islamists who want us to convert or die have occupied the headquarters of my archdiocese and my apostolate."},"kept"),

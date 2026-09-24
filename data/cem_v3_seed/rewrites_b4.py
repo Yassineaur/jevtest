@@ -33,9 +33,6 @@ R = [
 ("s085","INJECT_C","Exaggeration-Minimisation",{0:"Given that Pope Francis has, since that interview took place, attempted to make the Argentine bishops’ interpretation of AL 'magisterial'--an interpretation that allows public adulterers to receive Holy Communion, a point debated among canonists--Cardinal Burke’s reply to my question on January 9th of this year would seem to take on new relevancy."},
  "same slot, neutral"),
 
-("s086","KILL","Appeal_to_Fear-Prejudice",{2:"At this rate, a few platforms will decide what information more than 2 billion people receive.",3:"And this matters for everyone who wants to be free to question the status quo and to seek a wide range of information."},
- "'should terrify everyone' and 'access to the minds' removed; NOTE: U2 is still a concern about concentration, judge whether it still reads as a fear appeal"),
-("s086","KILL_C","Appeal_to_Fear-Prejudice",{2:"At this rate, they will soon have unquestioned access to the minds of more than 2 billion people.",3:"And this ought to terrify everyone who wants to be free to question the status quo and to seek a wide range of information."},"kept"),
 
 ("s088","KILL","Causal_Oversimplification",{1:"Ford’s supporters are invoking the “Me Too” movement in declaring Judge Kavanaugh guilty, pointing to Ms.",2:"Ford’s account, which they call a “credible” charge, although it has not so far been corroborated."},
  "'simply because Ms. Ford is a woman' single-cause claim removed; 'Kavanaugh Derangement Syndrome' kept"),

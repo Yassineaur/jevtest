@@ -16,9 +16,9 @@ R = [
 ("s059","KILL","Loaded_Language",{0:"“You get accused of treasonous activity and treasonous speech because telling the truth is now treated as disloyal,”"},"'empire of lies' removed (same judgement as audit row 76)"),
 ("s059","KILL_C","Loaded_Language",{0:"“You get accused of treasonous activity and treasonous speech because in an empire of lies, truth is treason,”"},"kept"),
 
-("s060","KILL","Exaggeration-Minimisation",{0:"Because North Korea has spent heavily for decades to build nuclear weapons, largely to deter a major US attack, including the use by the US of tactical nuclear weapons."},
+("s060","KILL","Exaggeration-Minimisation",{1:"Pakistan spent heavily for decades to afford nuclear weapons to offset the threat from far more powerful India.",0:"Because North Korea has spent heavily for decades to build nuclear weapons, largely to deter a major US attack, including the use by the US of tactical nuclear weapons."},
  "'for the sole reason' and 'scraped and skimped' toned down; NOTE: if the gold Loaded span is 'scraped and skimped' it is removed too"),
-("s060","KILL_C","Exaggeration-Minimisation",{0:"Because North Korea has scraped and skimped for decades to build nuclear weapons for the sole purpose of deterring a major US attack, including the US use of tactical nuclear weapons."},"kept"),
+("s060","KILL_C","Exaggeration-Minimisation",{1:"For decades Pakistan ‘ate grass’ to afford nuclear weapons that would offset the threat from far more powerful India.",0:"Because North Korea has scraped and skimped for decades to build nuclear weapons for the sole purpose of deterring a major US attack, including the US use of tactical nuclear weapons."},"kept"),
 
 ("s061","KILL","Obfuscation-Vagueness-Confusion",{2:"Officials have not given the attacker’s motive, although witnesses reported that he shouted “Allahu Akbar.”"},"deliberately vague sarcastic line replaced by a plain statement"),
 ("s061","KILL_C","Obfuscation-Vagueness-Confusion",{2:"“Allahu Akbar” usually means “motive unknown.”"},"kept"),
@@ -41,15 +41,10 @@ R = [
 ("s070","KILL","Slogans",{0:"Nation of Islam leader and prominent antisemite Louis Farrakhan led anti-American chants and claimed that “America has never been a democracy” on Sunday during a solidarity trip to Iran, ahead of the re-implementation of US sanctions on the country this week."},"'Death to America' slogan removed"),
 ("s070","KILL_C","Slogans",{0:"Nation of Islam leader and prominent antisemite Louis Farrakhan chanted “Death to America” and said that “America has never been a democracy” on Sunday, during a solidarity trip to Iran ahead of the re-imposition of US sanctions this week."},"kept"),
 
-("s071","KILL","Appeal_to_Hypocrisy",{0:"“We must also investigate and speak openly about the deliberate, ideology-driven murder of British children,"},
- "Grenfell double-standard charge removed; NOTE: U2 ('while the rest of us...') also contrasts treatment, check whether it was annotated as hypocrisy"),
-("s071","KILL_C","Appeal_to_Hypocrisy",{0:"“Why do we discuss, investigate and get angry about an accidental fire at Grenfell, yet are expected to instantly forget — or ‘not look back in anger’ — the deliberate, ideology-driven murder of British children?"},"kept"),
 
 ("s072","KILL","Guilt_by_Association",{3:"Such measures are unusual in Britain."},"comparison with North Korea and Saudi Arabia removed"),
 ("s072","KILL_C","Guilt_by_Association",{3:"Measures like these are common practice in North Korea and Saudi Arabia."},"kept"),
 
-("s073","KILL","Doubt",{1:"Ganesh draws several inferences.",7:"The British counter-jihad movement is thus swept into the same group of violent extremists as Osborne, because Ganesh argues they encouraged him."},"'wild leaps' and scare-quoted 'knows' removed"),
-("s073","KILL_C","Doubt",{1:"Ganesh makes wild leaps and inferences.",7:"The British counter-jihad movement is thereby lumped in with violent extremists like Osborne, because Ganesh “knows” they encouraged him."},"kept"),
 
 ("s074","KILL","Straw_Man",{2:"Allen does not say whether he finds the testimony credible overall."},"misrepresentation 'his way of saying: Don't believe it' removed"),
 ("s074","KILL_C","Straw_Man",{2:"Which is simply Allen’s subtler way of saying: “Don’t believe it.”"},"kept"),
